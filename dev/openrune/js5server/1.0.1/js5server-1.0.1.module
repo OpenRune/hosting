@@ -3,7 +3,7 @@
   "component": {
     "group": "dev.openrune",
     "module": "js5server",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -36,13 +36,13 @@
       ],
       "files": [
         {
-          "name": "js5server-1.0.0.jar",
-          "url": "js5server-1.0.0.jar",
+          "name": "js5server-1.0.1.jar",
+          "url": "js5server-1.0.1.jar",
           "size": 61569,
-          "sha512": "efe18f4628cfa07a814d19d06c4d527f38cd1bf14624827ad44d158adfbd0b345f32f910d09f16778881e97b194e3bae56d997d5444bdf731d54c07515c5789f",
-          "sha256": "d745be07257926a5db071e51af9526ec2fc98cd4d4311fc1b378552e9cb0157d",
-          "sha1": "932e0346390593446ba686a59fa36b14a9ebc62d",
-          "md5": "3854ae7e52cef5462d7607c414650555"
+          "sha512": "52c3d3bddc20a66ccee441fe71a57da637cef87484dcd33d5356d0ccc53de906b558e3fe2ec4befaf78ba00a3092c81104a127177998813207a2a58a1ddd8edc",
+          "sha256": "5e9b9531ecc342a3c547ef2a021f16a4de2fb1825eef673add5ed37a61a594a3",
+          "sha1": "1af20296f47e6316fa39d0badb4caf0efdbadc49",
+          "md5": "4e505c19a95367bfbf74b0a501ce639d"
         }
       ]
     },
@@ -138,13 +138,13 @@
       ],
       "files": [
         {
-          "name": "js5server-1.0.0.jar",
-          "url": "js5server-1.0.0.jar",
+          "name": "js5server-1.0.1.jar",
+          "url": "js5server-1.0.1.jar",
           "size": 61569,
-          "sha512": "efe18f4628cfa07a814d19d06c4d527f38cd1bf14624827ad44d158adfbd0b345f32f910d09f16778881e97b194e3bae56d997d5444bdf731d54c07515c5789f",
-          "sha256": "d745be07257926a5db071e51af9526ec2fc98cd4d4311fc1b378552e9cb0157d",
-          "sha1": "932e0346390593446ba686a59fa36b14a9ebc62d",
-          "md5": "3854ae7e52cef5462d7607c414650555"
+          "sha512": "52c3d3bddc20a66ccee441fe71a57da637cef87484dcd33d5356d0ccc53de906b558e3fe2ec4befaf78ba00a3092c81104a127177998813207a2a58a1ddd8edc",
+          "sha256": "5e9b9531ecc342a3c547ef2a021f16a4de2fb1825eef673add5ed37a61a594a3",
+          "sha1": "1af20296f47e6316fa39d0badb4caf0efdbadc49",
+          "md5": "4e505c19a95367bfbf74b0a501ce639d"
         }
       ]
     }
