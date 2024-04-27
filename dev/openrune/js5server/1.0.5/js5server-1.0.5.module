@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune",
+    "module": "js5server",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "js5server-1.0.5.jar",
+          "url": "js5server-1.0.5.jar",
+          "size": 62219,
+          "sha512": "fceea6c2851a30b5c1001fc1e2a53683071adcb157e19d6f91840744ce98d30804431a1663b4182e5e4707ac4064fdb29273297edba0a1b35e8da35d471ab3ef",
+          "sha256": "687ed8bd3a0d94f53a50764f63998e4391ce21d7411a4daadbb963b35272b8c5",
+          "sha1": "5fa1867d393d8490c0880cd5f2a0cf019ca2f02d",
+          "md5": "d4ec7824d039a57662be7d6e4d090e6b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.12"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-kqueue",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty.incubator",
+          "module": "netty-incubator-transport-native-io_uring",
+          "version": {
+            "requires": "0.0.25.Final"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "org.jctools",
+          "module": "jctools-core",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "com.displee",
+          "module": "rs-cache-library",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "js5server-1.0.5.jar",
+          "url": "js5server-1.0.5.jar",
+          "size": 62219,
+          "sha512": "fceea6c2851a30b5c1001fc1e2a53683071adcb157e19d6f91840744ce98d30804431a1663b4182e5e4707ac4064fdb29273297edba0a1b35e8da35d471ab3ef",
+          "sha256": "687ed8bd3a0d94f53a50764f63998e4391ce21d7411a4daadbb963b35272b8c5",
+          "sha1": "5fa1867d393d8490c0880cd5f2a0cf019ca2f02d",
+          "md5": "d4ec7824d039a57662be7d6e4d090e6b"
+        }
+      ]
+    }
+  ]
+}
