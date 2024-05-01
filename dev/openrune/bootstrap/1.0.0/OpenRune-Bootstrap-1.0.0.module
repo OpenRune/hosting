@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune.bootstrap",
+    "module": "OpenRune-Bootstrap",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "OpenRune-Bootstrap-1.0.0.jar",
+          "url": "OpenRune-Bootstrap-1.0.0.jar",
+          "size": 51857,
+          "sha512": "62aa54494ad96f28ce426a27be29e1bea8ee769b197a476ef8106838e82668ca8cb63c3266d7c3f290347f0587bd3b9dfeea4246d3c1028688eba2f7977d477c",
+          "sha256": "5bef45910fbf093e6d0a070e9ece339b4c48c7803261ab4def88ca2a7543b895",
+          "sha1": "6e0bf1654e841be06964409f565c456f935a3b7d",
+          "md5": "62ffb919c9881016df4149349d6a12d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awssdk",
+          "module": "s3",
+          "version": {
+            "requires": "2.17.207"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "com.beust",
+          "module": "klaxon",
+          "version": {
+            "requires": "5.5"
+          }
+        },
+        {
+          "group": "commons-net",
+          "module": "commons-net",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "1.12.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "1.7.29"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.2"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jsch",
+          "version": {
+            "requires": "0.1.55"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "OpenRune-Bootstrap-1.0.0.jar",
+          "url": "OpenRune-Bootstrap-1.0.0.jar",
+          "size": 51857,
+          "sha512": "62aa54494ad96f28ce426a27be29e1bea8ee769b197a476ef8106838e82668ca8cb63c3266d7c3f290347f0587bd3b9dfeea4246d3c1028688eba2f7977d477c",
+          "sha256": "5bef45910fbf093e6d0a070e9ece339b4c48c7803261ab4def88ca2a7543b895",
+          "sha1": "6e0bf1654e841be06964409f565c456f935a3b7d",
+          "md5": "62ffb919c9881016df4149349d6a12d9"
+        }
+      ]
+    }
+  ]
+}
