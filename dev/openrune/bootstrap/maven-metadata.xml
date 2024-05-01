@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>dev.openrune.bootstrap</groupId>
+  <groupId>dev.openrune</groupId>
   <artifactId>bootstrap</artifactId>
   <versioning>
     <latest>1.0.0</latest>
@@ -8,6 +8,6 @@
     <versions>
       <version>1.0.0</version>
     </versions>
-    <lastUpdated>20240501010616</lastUpdated>
+    <lastUpdated>20240501010943</lastUpdated>
   </versioning>
 </metadata>
