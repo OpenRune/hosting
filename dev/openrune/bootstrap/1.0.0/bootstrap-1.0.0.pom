@@ -7,7 +7,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.openrune.bootstrap</groupId>
-  <artifactId>OpenRune-Bootstrap</artifactId>
+  <artifactId>bootstrap</artifactId>
   <version>1.0.0</version>
   <dependencies>
     <dependency>

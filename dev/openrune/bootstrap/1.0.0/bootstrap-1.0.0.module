@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "dev.openrune.bootstrap",
-    "module": "OpenRune-Bootstrap",
+    "module": "bootstrap",
     "version": "1.0.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "OpenRune-Bootstrap-1.0.0.jar",
-          "url": "OpenRune-Bootstrap-1.0.0.jar",
-          "size": 51857,
-          "sha512": "62aa54494ad96f28ce426a27be29e1bea8ee769b197a476ef8106838e82668ca8cb63c3266d7c3f290347f0587bd3b9dfeea4246d3c1028688eba2f7977d477c",
-          "sha256": "5bef45910fbf093e6d0a070e9ece339b4c48c7803261ab4def88ca2a7543b895",
-          "sha1": "6e0bf1654e841be06964409f565c456f935a3b7d",
-          "md5": "62ffb919c9881016df4149349d6a12d9"
+          "name": "bootstrap-1.0.0.jar",
+          "url": "bootstrap-1.0.0.jar",
+          "size": 51749,
+          "sha512": "aea837d4160ca716dcece552e1ae5670134c41ffd3bdb9b73f7ed80e8d78e3c62b2a1bf2dbddc883522a85812caf4322e19761911c61eb84150f57f106d46dc7",
+          "sha256": "57f35af1b9460b9e7cd996f86bfaa1d47dedbcf831b380dbee1310495b078975",
+          "sha1": "deb92493fdd25ac65f227cfdd96d17a43b3b7dea",
+          "md5": "ad3f0402a0eaf51d6a77dbee2a99b327"
         }
       ]
     },
@@ -122,13 +122,13 @@
       ],
       "files": [
         {
-          "name": "OpenRune-Bootstrap-1.0.0.jar",
-          "url": "OpenRune-Bootstrap-1.0.0.jar",
-          "size": 51857,
-          "sha512": "62aa54494ad96f28ce426a27be29e1bea8ee769b197a476ef8106838e82668ca8cb63c3266d7c3f290347f0587bd3b9dfeea4246d3c1028688eba2f7977d477c",
-          "sha256": "5bef45910fbf093e6d0a070e9ece339b4c48c7803261ab4def88ca2a7543b895",
-          "sha1": "6e0bf1654e841be06964409f565c456f935a3b7d",
-          "md5": "62ffb919c9881016df4149349d6a12d9"
+          "name": "bootstrap-1.0.0.jar",
+          "url": "bootstrap-1.0.0.jar",
+          "size": 51749,
+          "sha512": "aea837d4160ca716dcece552e1ae5670134c41ffd3bdb9b73f7ed80e8d78e3c62b2a1bf2dbddc883522a85812caf4322e19761911c61eb84150f57f106d46dc7",
+          "sha256": "57f35af1b9460b9e7cd996f86bfaa1d47dedbcf831b380dbee1310495b078975",
+          "sha1": "deb92493fdd25ac65f227cfdd96d17a43b3b7dea",
+          "md5": "ad3f0402a0eaf51d6a77dbee2a99b327"
         }
       ]
     }
