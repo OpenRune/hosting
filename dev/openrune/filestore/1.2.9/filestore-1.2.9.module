@@ -29,11 +29,11 @@
         {
           "name": "filestore-1.2.9.jar",
           "url": "filestore-1.2.9.jar",
-          "size": 366213,
-          "sha512": "7fcab768e7c612257df79852ff48abae2dcce20674e5ba77ed826a46dd1ad671bdb3a48c314c23f88c5c9fae15fb3f5749259a52828f5eea948310f7e9183c87",
-          "sha256": "f28528672a4d61d11ca2f791ff0217b6588e50d62c0a976c0b3a75992bd44846",
-          "sha1": "5be162e63043bc0cc8b3d5dfc4854265cf5fd3de",
-          "md5": "0383ba7353f76cdc426844113ac4ff15"
+          "size": 366095,
+          "sha512": "223d6cece8b40a5aefe83760a831ce9e126116af391ad59d0884aa0ea94cfe9949afc58337009681c28ca544aeadcd9fa72963d065cca1b3c541cbd29e13cdb4",
+          "sha256": "2d9f1210377f724aea7d62e640b1a46faeb2028ffbc72c6619aebdd1b60739ce",
+          "sha1": "96e33ec55ab89b038a51ad23f0fdf6eace0ff2d8",
+          "md5": "8bf28a5e114d344cf25a05411266c85e"
         }
       ]
     },
@@ -104,66 +104,17 @@
           "version": {
             "requires": "2.15.1"
           }
-        },
-        {
-          "group": "io.netty",
-          "module": "netty-buffer",
-          "version": {
-            "requires": "5.0.0.Alpha2"
-          }
-        },
-        {
-          "group": "dev.openrune",
-          "module": "js5server",
-          "version": {
-            "requires": "1.0.6"
-          }
-        },
-        {
-          "group": "net.lingala.zip4j",
-          "module": "zip4j",
-          "version": {
-            "requires": "2.11.5"
-          }
-        },
-        {
-          "group": "cc.ekblad",
-          "module": "4koma",
-          "version": {
-            "requires": "1.1.0"
-          }
-        },
-        {
-          "group": "it.unimi.dsi",
-          "module": "fastutil",
-          "version": {
-            "requires": "8.5.13"
-          }
-        },
-        {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-coroutines-core",
-          "version": {
-            "requires": "1.7.3"
-          }
-        },
-        {
-          "group": "com.github.jponge",
-          "module": "lzma-java",
-          "version": {
-            "requires": "1.3"
-          }
         }
       ],
       "files": [
         {
           "name": "filestore-1.2.9.jar",
           "url": "filestore-1.2.9.jar",
-          "size": 366213,
-          "sha512": "7fcab768e7c612257df79852ff48abae2dcce20674e5ba77ed826a46dd1ad671bdb3a48c314c23f88c5c9fae15fb3f5749259a52828f5eea948310f7e9183c87",
-          "sha256": "f28528672a4d61d11ca2f791ff0217b6588e50d62c0a976c0b3a75992bd44846",
-          "sha1": "5be162e63043bc0cc8b3d5dfc4854265cf5fd3de",
-          "md5": "0383ba7353f76cdc426844113ac4ff15"
+          "size": 366095,
+          "sha512": "223d6cece8b40a5aefe83760a831ce9e126116af391ad59d0884aa0ea94cfe9949afc58337009681c28ca544aeadcd9fa72963d065cca1b3c541cbd29e13cdb4",
+          "sha256": "2d9f1210377f724aea7d62e640b1a46faeb2028ffbc72c6619aebdd1b60739ce",
+          "sha1": "96e33ec55ab89b038a51ad23f0fdf6eace0ff2d8",
+          "md5": "8bf28a5e114d344cf25a05411266c85e"
         }
       ]
     }
