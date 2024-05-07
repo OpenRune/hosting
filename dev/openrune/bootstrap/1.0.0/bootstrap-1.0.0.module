@@ -30,10 +30,10 @@
           "name": "bootstrap-1.0.0.jar",
           "url": "bootstrap-1.0.0.jar",
           "size": 51772,
-          "sha512": "0b1fcb1139e92fe5902161ca16edc262a42b2b28b3b53021f0202a131e5f9b5734461c241f9d1315688ea001093ea627b39f3f683fc065cdc767019945457eec",
-          "sha256": "0ab1a76909ed4421eaca279ca19c21f58ea643988a5ac25d8ace730a83b3b819",
-          "sha1": "2bf82658e45273452051655cc3609fd839ff2409",
-          "md5": "6bfd89c8b50b71c95f72447e379a2d41"
+          "sha512": "caef5a363cb8ce4f00e42ad6cfdc1e8fa4cb19dbdd7e467fa7c6f814425a41c9c465e105f674b5fa1cc069a804c4636ffe519ec55e030234d0667f69ebed71af",
+          "sha256": "2b988dccfb5fd4e5711560f78e1f89bbbfa292d5b94639f18b98a1e8639ae29d",
+          "sha1": "edeeb9d54ec85adbc35f606a0ebf0ffcd3c8cde6",
+          "md5": "29e98fc1936911f3edd4e931be7e5827"
         }
       ]
     },
@@ -125,10 +125,10 @@
           "name": "bootstrap-1.0.0.jar",
           "url": "bootstrap-1.0.0.jar",
           "size": 51772,
-          "sha512": "0b1fcb1139e92fe5902161ca16edc262a42b2b28b3b53021f0202a131e5f9b5734461c241f9d1315688ea001093ea627b39f3f683fc065cdc767019945457eec",
-          "sha256": "0ab1a76909ed4421eaca279ca19c21f58ea643988a5ac25d8ace730a83b3b819",
-          "sha1": "2bf82658e45273452051655cc3609fd839ff2409",
-          "md5": "6bfd89c8b50b71c95f72447e379a2d41"
+          "sha512": "caef5a363cb8ce4f00e42ad6cfdc1e8fa4cb19dbdd7e467fa7c6f814425a41c9c465e105f674b5fa1cc069a804c4636ffe519ec55e030234d0667f69ebed71af",
+          "sha256": "2b988dccfb5fd4e5711560f78e1f89bbbfa292d5b94639f18b98a1e8639ae29d",
+          "sha1": "edeeb9d54ec85adbc35f606a0ebf0ffcd3c8cde6",
+          "md5": "29e98fc1936911f3edd4e931be7e5827"
         }
       ]
     }
