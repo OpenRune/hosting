@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune",
+    "module": "bootstrap",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "bootstrap-1.0.jar",
+          "url": "bootstrap-1.0.jar",
+          "size": 87743,
+          "sha512": "29eb8eff485d51d898f6f5e21e13aec96ea9d63114c57ec2babab1b8d082ffb4037fe7bb391b899995dac9f050f680cbd2dc7c5fa2d42abd44c23baf551ce148",
+          "sha256": "f8298a414ad4b083ffb7d6942e6895d111fb0adb9a0f6348386d175770ff1b78",
+          "sha1": "fa2b2406fa859f4b8eed5152d067bae70590d8b3",
+          "md5": "f4f8b481474f640a686d68fb4f474267"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.2"
+          }
+        },
+        {
+          "group": "com.beust",
+          "module": "klaxon",
+          "version": {
+            "requires": "5.5"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.9.0.202403050737-r"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "commons-net",
+          "module": "commons-net",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bootstrap-1.0.jar",
+          "url": "bootstrap-1.0.jar",
+          "size": 87743,
+          "sha512": "29eb8eff485d51d898f6f5e21e13aec96ea9d63114c57ec2babab1b8d082ffb4037fe7bb391b899995dac9f050f680cbd2dc7c5fa2d42abd44c23baf551ce148",
+          "sha256": "f8298a414ad4b083ffb7d6942e6895d111fb0adb9a0f6348386d175770ff1b78",
+          "sha1": "fa2b2406fa859f4b8eed5152d067bae70590d8b3",
+          "md5": "f4f8b481474f640a686d68fb4f474267"
+        }
+      ]
+    }
+  ]
+}
