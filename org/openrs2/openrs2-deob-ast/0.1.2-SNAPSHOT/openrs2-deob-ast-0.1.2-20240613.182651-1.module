@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-deob-ast",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-deob-ast-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-ast-0.1.2-SNAPSHOT.jar",
+          "size": 211309,
+          "sha512": "e569185053ace4b08094e8b233839bb066c49a39edca75e4771c7f9e6505de827e85d6d8ebe9e2520e3c93b605e60eed1de2eb8b871565b5a088dee3d52b43ed",
+          "sha256": "776536016507c18aa004bc42c6d659fb3168e0473b22fa9ea154633609751573",
+          "sha1": "f7a560e428f68939fc8fce754decf49b79357426",
+          "md5": "4871a9b8508bb7e82577cab915cc832f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-inject",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.25.6"
+          }
+        },
+        {
+          "group": "org.jdom",
+          "module": "jdom2",
+          "version": {
+            "requires": "2.0.6.1"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-deob-ast-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-ast-0.1.2-SNAPSHOT.jar",
+          "size": 211309,
+          "sha512": "e569185053ace4b08094e8b233839bb066c49a39edca75e4771c7f9e6505de827e85d6d8ebe9e2520e3c93b605e60eed1de2eb8b871565b5a088dee3d52b43ed",
+          "sha256": "776536016507c18aa004bc42c6d659fb3168e0473b22fa9ea154633609751573",
+          "sha1": "f7a560e428f68939fc8fce754decf49b79357426",
+          "md5": "4871a9b8508bb7e82577cab915cc832f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-deob-ast-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-deob-ast-0.1.2-SNAPSHOT-sources.jar",
+          "size": 28525,
+          "sha512": "4883ac1f2bff2f7de6c5442815ba4ff0d659ee407ffede51d10c4699e2d2a03c08a135ac2d52a8bda8b79170642a92bb8d717a00678d1d3cc9b24f8cd51589cd",
+          "sha256": "03015e897e994e836659f1e68784acc36b92b5b58225f69e7f6f162cb039b9de",
+          "sha1": "2c23531ae7278f11db7a6fc1739156f2608458c8",
+          "md5": "97e81eae3fda2a6ff74b4228ad4a856a"
+        },
+        {
+          "name": "openrs2-deob-ast-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-deob-ast-0.1.2-SNAPSHOT-sources.jar",
+          "size": 28525,
+          "sha512": "4883ac1f2bff2f7de6c5442815ba4ff0d659ee407ffede51d10c4699e2d2a03c08a135ac2d52a8bda8b79170642a92bb8d717a00678d1d3cc9b24f8cd51589cd",
+          "sha256": "03015e897e994e836659f1e68784acc36b92b5b58225f69e7f6f162cb039b9de",
+          "sha1": "2c23531ae7278f11db7a6fc1739156f2608458c8",
+          "md5": "97e81eae3fda2a6ff74b4228ad4a856a"
+        }
+      ]
+    }
+  ]
+}

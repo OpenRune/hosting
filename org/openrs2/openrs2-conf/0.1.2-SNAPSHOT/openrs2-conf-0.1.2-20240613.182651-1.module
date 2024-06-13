@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-conf",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-conf-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-conf-0.1.2-SNAPSHOT.jar",
+          "size": 18964,
+          "sha512": "969beb30aa8abaff5f9e9c5ee352827d63f73be90c643414e4d9743ccc61c88ef99cff27654c3d1493be235f85aa7b0e74515224789e95bed49169eedefa7dec",
+          "sha256": "9cd4c796cb4e30aacc2b2c99ff2dc6ef21112555349f3fa34d5a575eacb5226f",
+          "sha1": "237ab0c296e9ed1934efc2630cd20ba2f91d1142",
+          "md5": "740dd4ab0c6cc22d60bed60007d1e394"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-yaml",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-conf-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-conf-0.1.2-SNAPSHOT.jar",
+          "size": 18964,
+          "sha512": "969beb30aa8abaff5f9e9c5ee352827d63f73be90c643414e4d9743ccc61c88ef99cff27654c3d1493be235f85aa7b0e74515224789e95bed49169eedefa7dec",
+          "sha256": "9cd4c796cb4e30aacc2b2c99ff2dc6ef21112555349f3fa34d5a575eacb5226f",
+          "sha1": "237ab0c296e9ed1934efc2630cd20ba2f91d1142",
+          "md5": "740dd4ab0c6cc22d60bed60007d1e394"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-conf-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-conf-0.1.2-SNAPSHOT-sources.jar",
+          "size": 4886,
+          "sha512": "3ef38b2505f4910513bd57343168245964c49f99e8fff6c9504b308d5865ec1cb858949acb0c8ad726027d9d7cd93be7419d0124bc9c52fef1bfbfdbd1b8f220",
+          "sha256": "050d940ba57e82d6ea2553518d06533846d2043d7c9bf5c35c486c3b6cb6a5d2",
+          "sha1": "81df4aa96c8e653d8eafbcd84c60ea85df3f4062",
+          "md5": "126597df31d22fa330512be64f075a45"
+        },
+        {
+          "name": "openrs2-conf-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-conf-0.1.2-SNAPSHOT-sources.jar",
+          "size": 4886,
+          "sha512": "3ef38b2505f4910513bd57343168245964c49f99e8fff6c9504b308d5865ec1cb858949acb0c8ad726027d9d7cd93be7419d0124bc9c52fef1bfbfdbd1b8f220",
+          "sha256": "050d940ba57e82d6ea2553518d06533846d2043d7c9bf5c35c486c3b6cb6a5d2",
+          "sha1": "81df4aa96c8e653d8eafbcd84c60ea85df3f4062",
+          "md5": "126597df31d22fa330512be64f075a45"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-asm",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-asm-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-asm-0.1.2-SNAPSHOT.jar",
+          "size": 193409,
+          "sha512": "92e031362e8748504b443ae353294317cefc2fc334adf86f593818fbb16e2bf32217ea8df65d49889fbab8ce63b624ec12a46ba71f657d5a721a6d69e85eebb4",
+          "sha256": "13d0d4218c68a89b3073eb0814e006307342f0d8228e1ec248bc044c3dcdea4f",
+          "sha1": "be1da43dcd6586c574a63ac1eaecf496c27603c1",
+          "md5": "3ada34bf091abfcb7a8cb54c155d4f01"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-buffer",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-cache",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-compress",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.dorkbox",
+          "module": "CabParser",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-asm-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-asm-0.1.2-SNAPSHOT.jar",
+          "size": 193409,
+          "sha512": "92e031362e8748504b443ae353294317cefc2fc334adf86f593818fbb16e2bf32217ea8df65d49889fbab8ce63b624ec12a46ba71f657d5a721a6d69e85eebb4",
+          "sha256": "13d0d4218c68a89b3073eb0814e006307342f0d8228e1ec248bc044c3dcdea4f",
+          "sha1": "be1da43dcd6586c574a63ac1eaecf496c27603c1",
+          "md5": "3ada34bf091abfcb7a8cb54c155d4f01"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-asm-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-asm-0.1.2-SNAPSHOT-sources.jar",
+          "size": 46017,
+          "sha512": "a13c3a7690173dace86eabc7aa24cd5053fdbe4d153fb314eaca1503aca5465f999eefe5675ab4233d3cb69a9ae50a51e765865038ac8d2eea3ab1d43244f13f",
+          "sha256": "1e75273d7de2b0962bb15fa187b92fe33402e3f7c8eea540399825f0b0ca25e7",
+          "sha1": "facfae79c9374e3129a852900be1f28faa725f93",
+          "md5": "498c9b3b03f8352438d1a4f6acd4a7c0"
+        },
+        {
+          "name": "openrs2-asm-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-asm-0.1.2-SNAPSHOT-sources.jar",
+          "size": 46017,
+          "sha512": "a13c3a7690173dace86eabc7aa24cd5053fdbe4d153fb314eaca1503aca5465f999eefe5675ab4233d3cb69a9ae50a51e765865038ac8d2eea3ab1d43244f13f",
+          "sha256": "1e75273d7de2b0962bb15fa187b92fe33402e3f7c8eea540399825f0b0ca25e7",
+          "sha1": "facfae79c9374e3129a852900be1f28faa725f93",
+          "md5": "498c9b3b03f8352438d1a4f6acd4a7c0"
+        }
+      ]
+    }
+  ]
+}

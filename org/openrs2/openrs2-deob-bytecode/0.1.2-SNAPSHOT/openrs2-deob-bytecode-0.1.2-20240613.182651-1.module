@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-deob-bytecode",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-deob-bytecode-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-bytecode-0.1.2-SNAPSHOT.jar",
+          "size": 295069,
+          "sha512": "6feb741b8459f0c46cbe1fc001ad5c2176c71b89d4228aae93f88e77b81b0ba54bbe070380c9888649bfb3302d433390ddc80e6fea290bc0902ce00894e7d0c9",
+          "sha256": "e60128de66e0b562ef60acc60652ed521171d330f79907d701ec7944b67a6a09",
+          "sha1": "1959fac3a91097f57e5bdefa663c6a4941adc7c5",
+          "md5": "41c0eff04ddddf7e3c5d3c921d397382"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-annotations",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-inject",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-patcher",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-yaml",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.12"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "org.jgrapht",
+          "module": "jgrapht-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-deob-bytecode-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-bytecode-0.1.2-SNAPSHOT.jar",
+          "size": 295069,
+          "sha512": "6feb741b8459f0c46cbe1fc001ad5c2176c71b89d4228aae93f88e77b81b0ba54bbe070380c9888649bfb3302d433390ddc80e6fea290bc0902ce00894e7d0c9",
+          "sha256": "e60128de66e0b562ef60acc60652ed521171d330f79907d701ec7944b67a6a09",
+          "sha1": "1959fac3a91097f57e5bdefa663c6a4941adc7c5",
+          "md5": "41c0eff04ddddf7e3c5d3c921d397382"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-deob-bytecode-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-deob-bytecode-0.1.2-SNAPSHOT-sources.jar",
+          "size": 66706,
+          "sha512": "e6e187f9b1df8d16efd98dbc15e2e456b31ff723852213c546a2a47cbc554dbbb621e84882f29917d941852c1a44011ef7ad3ac7e2ecf3171f3884b9aa09ea28",
+          "sha256": "9033d4b4f4413ae71016f29a3727876be33e1d6db4a159040f07b7b8d9b6178b",
+          "sha1": "85ddd9ca856328f026651a5eb2b9f8f70d18ff84",
+          "md5": "4fb904e2f2dbc9dab868d05df00ff83d"
+        },
+        {
+          "name": "openrs2-deob-bytecode-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-deob-bytecode-0.1.2-SNAPSHOT-sources.jar",
+          "size": 66706,
+          "sha512": "e6e187f9b1df8d16efd98dbc15e2e456b31ff723852213c546a2a47cbc554dbbb621e84882f29917d941852c1a44011ef7ad3ac7e2ecf3171f3884b9aa09ea28",
+          "sha256": "9033d4b4f4413ae71016f29a3727876be33e1d6db4a159040f07b7b8d9b6178b",
+          "sha1": "85ddd9ca856328f026651a5eb2b9f8f70d18ff84",
+          "md5": "4fb904e2f2dbc9dab868d05df00ff83d"
+        }
+      ]
+    }
+  ]
+}

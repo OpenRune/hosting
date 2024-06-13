@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.openrs2</groupId>
+  <artifactId>openrs2-conf</artifactId>
+  <version>0.1.2-SNAPSHOT</version>
+  <name>OpenRS2 Configuration</name>
+  <description>Provides a parser for OpenRS2's main configuration file.</description>
+  <url>https://www.openrs2.org/</url>
+  <inceptionYear>2019</inceptionYear>
+  <organization>
+    <name>OpenRS2 Authors</name>
+    <url>https://www.openrs2.org/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>ISC License</name>
+      <url>https://opensource.org/licenses/ISC</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://git.openrs2.org/openrs2/openrs2.git</connection>
+    <developerConnection>scm:git:git@git.openrs2.org:openrs2/openrs2.git</developerConnection>
+    <url>https://git.openrs2.org/openrs2/openrs2</url>
+  </scm>
+  <issueManagement>
+    <system>Gitea</system>
+    <url>https://git.openrs2.org/openrs2/openrs2</url>
+  </issueManagement>
+  <ciManagement>
+    <system>Drone</system>
+    <url>https://build.openrs2.org/openrs2/openrs2/</url>
+  </ciManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.openrs2</groupId>
+      <artifactId>openrs2-crypto</artifactId>
+      <version>0.1.2-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>7.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject.extensions</groupId>
+      <artifactId>guice-assistedinject</artifactId>
+      <version>7.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.9.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.9.21</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.michael-bull.kotlin-inline-logger</groupId>
+      <artifactId>kotlin-inline-logger-jvm</artifactId>
+      <version>1.0.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openrs2</groupId>
+      <artifactId>openrs2-yaml</artifactId>
+      <version>0.1.2-SNAPSHOT</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

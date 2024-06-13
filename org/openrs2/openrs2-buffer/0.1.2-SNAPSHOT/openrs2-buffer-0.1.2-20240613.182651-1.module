@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-buffer",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-buffer-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-buffer-0.1.2-SNAPSHOT.jar",
+          "size": 27224,
+          "sha512": "65ea1c034b3abfea51a4c48d74501c2d1fe951ebe482ca8959ae073d239c7fec1b919f1f0bdd68514fe3c99506efbb4e814c83944a9e0d8a100a61359c5485e0",
+          "sha256": "38fd6980e8a437c2509ae022800ab6501c99458e477caf12aa85e0fff2b9933b",
+          "sha1": "a927f422cc4acc2d15e4e6fbed586e44e56f48d3",
+          "md5": "bd1b6c55c7848b26eb750a72eb996f14"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-buffer-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-buffer-0.1.2-SNAPSHOT.jar",
+          "size": 27224,
+          "sha512": "65ea1c034b3abfea51a4c48d74501c2d1fe951ebe482ca8959ae073d239c7fec1b919f1f0bdd68514fe3c99506efbb4e814c83944a9e0d8a100a61359c5485e0",
+          "sha256": "38fd6980e8a437c2509ae022800ab6501c99458e477caf12aa85e0fff2b9933b",
+          "sha1": "a927f422cc4acc2d15e4e6fbed586e44e56f48d3",
+          "md5": "bd1b6c55c7848b26eb750a72eb996f14"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-buffer-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-buffer-0.1.2-SNAPSHOT-sources.jar",
+          "size": 7580,
+          "sha512": "4decec039d48f749000a7bb9c328fd68e0f6c2500962b0390950524266edb058e332dc8f75f63147f79cc7538361e9eb6eb0a12dc8d66e1b8c13208a5e3317cb",
+          "sha256": "860ac2da7bfd9fbbc490edecd939319de5aa33de73ddb9be3cc205e66a4e7c40",
+          "sha1": "5175a5966a27388590bc68963759668a2849b660",
+          "md5": "a99a773b958ec6d6d11f9bf28ff15c18"
+        },
+        {
+          "name": "openrs2-buffer-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-buffer-0.1.2-SNAPSHOT-sources.jar",
+          "size": 7580,
+          "sha512": "4decec039d48f749000a7bb9c328fd68e0f6c2500962b0390950524266edb058e332dc8f75f63147f79cc7538361e9eb6eb0a12dc8d66e1b8c13208a5e3317cb",
+          "sha256": "860ac2da7bfd9fbbc490edecd939319de5aa33de73ddb9be3cc205e66a4e7c40",
+          "sha1": "5175a5966a27388590bc68963759668a2849b660",
+          "md5": "a99a773b958ec6d6d11f9bf28ff15c18"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-deob-annotations",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "openrs2-deob-annotations-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-annotations-0.1.2-SNAPSHOT.jar",
+          "size": 2319,
+          "sha512": "3e234eef9c7732905d23f59fa495b3b0408b433b7896c57b469493c148534f37422b906ba6df72bfdf3c8e6584a54cf289ee2611d209dbf25cd023749a92f79e",
+          "sha256": "aa3d0d2eb633bb31b5d0b402183b6fa77c0272dcbc84515626adf2e438eb64a9",
+          "sha1": "66ad60b4f97d0c570a60b142f53082c2a6c2af70",
+          "md5": "37b2767e04e59f77200335f5d5623214"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-deob-annotations-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-annotations-0.1.2-SNAPSHOT.jar",
+          "size": 2319,
+          "sha512": "3e234eef9c7732905d23f59fa495b3b0408b433b7896c57b469493c148534f37422b906ba6df72bfdf3c8e6584a54cf289ee2611d209dbf25cd023749a92f79e",
+          "sha256": "aa3d0d2eb633bb31b5d0b402183b6fa77c0272dcbc84515626adf2e438eb64a9",
+          "sha1": "66ad60b4f97d0c570a60b142f53082c2a6c2af70",
+          "md5": "37b2767e04e59f77200335f5d5623214"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-deob-annotations-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-deob-annotations-0.1.2-SNAPSHOT-sources.jar",
+          "size": 1968,
+          "sha512": "c153b63cd8d1d5c735bb5c0f2114f11f15d2f942cf8160c9ab54ab15339d33d9b48ad9bf7105994fabd3f450bc11c397f5ee029c7a47eca645a5e5e638750235",
+          "sha256": "836aee861d0f4a98667479a96ec410ec22c760107575a2389a719073d779203d",
+          "sha1": "32c49906003d2943fcaaeb9a9245498ce4536393",
+          "md5": "7539fa7048af995e719d9f1c61dfeb04"
+        }
+      ]
+    }
+  ]
+}

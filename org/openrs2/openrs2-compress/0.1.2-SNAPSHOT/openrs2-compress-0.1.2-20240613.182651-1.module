@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-compress",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.25.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-compress-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-compress-0.1.2-SNAPSHOT.jar",
+          "size": 20892,
+          "sha512": "321ea336ec41489b7ce23a006b2d8f7eac7a3f1c3e04541834b6de09fdf591ff6d2efe1084ddc1bd64072862f8ccad36fc187ad29d33107a128715c7a6f9d88a",
+          "sha256": "7f485f9b8e60b72f26260ad89fe519d8e2da16967023dc376a07f0d81629ae6b",
+          "sha1": "29447f117f8c0a84196739f558b85354c665abfb",
+          "md5": "b1647f8ca61ceedc33bcf942911a92b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.jnr",
+          "module": "jnr-ffi",
+          "version": {
+            "requires": "2.2.15"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.25.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-compress-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-compress-0.1.2-SNAPSHOT.jar",
+          "size": 20892,
+          "sha512": "321ea336ec41489b7ce23a006b2d8f7eac7a3f1c3e04541834b6de09fdf591ff6d2efe1084ddc1bd64072862f8ccad36fc187ad29d33107a128715c7a6f9d88a",
+          "sha256": "7f485f9b8e60b72f26260ad89fe519d8e2da16967023dc376a07f0d81629ae6b",
+          "sha1": "29447f117f8c0a84196739f558b85354c665abfb",
+          "md5": "b1647f8ca61ceedc33bcf942911a92b6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-compress-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-compress-0.1.2-SNAPSHOT-sources.jar",
+          "size": 6798,
+          "sha512": "efa794681ed0fd8bc8565a7bbb5158dbd29641f88d3bb2abeb4426c86602cd0a53293b2e4cbda5937b1acd31a29b8288be28284fc68c5a100ce1ee21c53c9b67",
+          "sha256": "559adb72c2d83ed2a89985aab19eb45d44aa9c9591a4fb48414b4c52f36dfa5e",
+          "sha1": "07ccbbe9fc84e1bdfcce57f46eb71ca8208c7b0e",
+          "md5": "3305a54a7ecb64fd67da575c3c9df460"
+        },
+        {
+          "name": "openrs2-compress-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-compress-0.1.2-SNAPSHOT-sources.jar",
+          "size": 6798,
+          "sha512": "efa794681ed0fd8bc8565a7bbb5158dbd29641f88d3bb2abeb4426c86602cd0a53293b2e4cbda5937b1acd31a29b8288be28284fc68c5a100ce1ee21c53c9b67",
+          "sha256": "559adb72c2d83ed2a89985aab19eb45d44aa9c9591a4fb48414b4c52f36dfa5e",
+          "sha1": "07ccbbe9fc84e1bdfcce57f46eb71ca8208c7b0e",
+          "md5": "3305a54a7ecb64fd67da575c3c9df460"
+        }
+      ]
+    }
+  ]
+}

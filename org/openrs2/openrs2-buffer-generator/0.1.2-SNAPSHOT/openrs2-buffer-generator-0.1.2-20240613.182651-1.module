@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-buffer-generator",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-buffer-generator-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-buffer-generator-0.1.2-SNAPSHOT.jar",
+          "size": 19939,
+          "sha512": "bd41e9f12fc232694f15d639bccdfd4ec3d87872a4682731f98683686cc9e6600f2cb7edc725e4134653c4f5156bb67a27677d383c927c2da4b88697eb88808c",
+          "sha256": "4222b4e227a9099b2f6b95c2e697043274476b826c83f82e28f68bc161f3b6c3",
+          "sha1": "3aa514ff365286931a68d42f502a1b0615a75c5d",
+          "md5": "967bf6c3f0e248307910b9778c4f48a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.15.1"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-buffer-generator-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-buffer-generator-0.1.2-SNAPSHOT.jar",
+          "size": 19939,
+          "sha512": "bd41e9f12fc232694f15d639bccdfd4ec3d87872a4682731f98683686cc9e6600f2cb7edc725e4134653c4f5156bb67a27677d383c927c2da4b88697eb88808c",
+          "sha256": "4222b4e227a9099b2f6b95c2e697043274476b826c83f82e28f68bc161f3b6c3",
+          "sha1": "3aa514ff365286931a68d42f502a1b0615a75c5d",
+          "md5": "967bf6c3f0e248307910b9778c4f48a2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-buffer-generator-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-buffer-generator-0.1.2-SNAPSHOT-sources.jar",
+          "size": 5734,
+          "sha512": "2e93db3a4ebbc12b6ec93828521f4b9a778ae96bdc871b32b76b756cf615c7fcf0d1769119f637498ce0654e9657cbdbaeda28d9c7d98afc8e7807bca2ed0748",
+          "sha256": "df8f7df58579884abd678a5dcfd34ff1334e56a01cd3c384fb13dd146495adbf",
+          "sha1": "17723f8189a5ea9b8704fb981acc80ee05b92c22",
+          "md5": "a996a035b5606875f11bf906d8565bb2"
+        },
+        {
+          "name": "openrs2-buffer-generator-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-buffer-generator-0.1.2-SNAPSHOT-sources.jar",
+          "size": 5734,
+          "sha512": "2e93db3a4ebbc12b6ec93828521f4b9a778ae96bdc871b32b76b756cf615c7fcf0d1769119f637498ce0654e9657cbdbaeda28d9c7d98afc8e7807bca2ed0748",
+          "sha256": "df8f7df58579884abd678a5dcfd34ff1334e56a01cd3c384fb13dd146495adbf",
+          "sha1": "17723f8189a5ea9b8704fb981acc80ee05b92c22",
+          "md5": "a996a035b5606875f11bf906d8565bb2"
+        }
+      ]
+    }
+  ]
+}

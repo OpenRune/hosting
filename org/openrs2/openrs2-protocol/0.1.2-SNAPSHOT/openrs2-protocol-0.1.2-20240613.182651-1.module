@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-protocol",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-protocol-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-protocol-0.1.2-SNAPSHOT.jar",
+          "size": 227932,
+          "sha512": "67bc10ad3223a5238c3d4e7adafcc9498ca45319234c44f3623b6414973d91940749abfadb3152c7c41f7f29815aeb515bfd73feb8bff979884f6f13dbf4c273",
+          "sha256": "08793e77f70dd40830349004276bc3758d02b4b6e857890645c1fc748915e5a3",
+          "sha1": "b1807952b40f3d89a80453c2c0aca4ac9e126426",
+          "md5": "b638f7955758510aa075b46d527dedc5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-buffer",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-protocol-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-protocol-0.1.2-SNAPSHOT.jar",
+          "size": 227932,
+          "sha512": "67bc10ad3223a5238c3d4e7adafcc9498ca45319234c44f3623b6414973d91940749abfadb3152c7c41f7f29815aeb515bfd73feb8bff979884f6f13dbf4c273",
+          "sha256": "08793e77f70dd40830349004276bc3758d02b4b6e857890645c1fc748915e5a3",
+          "sha1": "b1807952b40f3d89a80453c2c0aca4ac9e126426",
+          "md5": "b638f7955758510aa075b46d527dedc5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-protocol-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-protocol-0.1.2-SNAPSHOT-sources.jar",
+          "size": 54953,
+          "sha512": "4349413972a3bf44d8b2e09f34bc1c656b132dbe93c67ee238fe20f5a0f4c0c03068ea3595d16f8cd45507f0104d8f7d1f112f5174229a3c1a079422692f0a66",
+          "sha256": "6a3f656a38e8136c43cee8cb47b147f6a0f617edcaaa270bec9d54eeda10109f",
+          "sha1": "78cc9fc41c571eb6ad8f443424edbb8764357c4b",
+          "md5": "57bcf9881f5f5b966bc80960ce5fe79c"
+        },
+        {
+          "name": "openrs2-protocol-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-protocol-0.1.2-SNAPSHOT-sources.jar",
+          "size": 54953,
+          "sha512": "4349413972a3bf44d8b2e09f34bc1c656b132dbe93c67ee238fe20f5a0f4c0c03068ea3595d16f8cd45507f0104d8f7d1f112f5174229a3c1a079422692f0a66",
+          "sha256": "6a3f656a38e8136c43cee8cb47b147f6a0f617edcaaa270bec9d54eeda10109f",
+          "sha1": "78cc9fc41c571eb6ad8f443424edbb8764357c4b",
+          "md5": "57bcf9881f5f5b966bc80960ce5fe79c"
+        }
+      ]
+    }
+  ]
+}

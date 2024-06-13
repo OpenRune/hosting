@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-cache",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.25.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.12"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-cache-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-cache-0.1.2-SNAPSHOT.jar",
+          "size": 180180,
+          "sha512": "c6f2a27c792248e8925b42f7ca6ae28cf391e2e733176972b402c2c64875d7bb3414c4e2c21cd154a3688682148b5b0d5983ffb1595053fc8d991763478d4cb7",
+          "sha256": "e4dae9deacf281eeee1f561a1041d944f9eec50a0e8752ef7687bc8b2ad04701",
+          "sha1": "075ec34d69cb725f2eaa9395beec2f1a08ce8e90",
+          "md5": "3c05c2efbdfbdc5aff958464a8e24e45"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-buffer",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-compress",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.44.1.0"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.25.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.12"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-cache-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-cache-0.1.2-SNAPSHOT.jar",
+          "size": 180180,
+          "sha512": "c6f2a27c792248e8925b42f7ca6ae28cf391e2e733176972b402c2c64875d7bb3414c4e2c21cd154a3688682148b5b0d5983ffb1595053fc8d991763478d4cb7",
+          "sha256": "e4dae9deacf281eeee1f561a1041d944f9eec50a0e8752ef7687bc8b2ad04701",
+          "sha1": "075ec34d69cb725f2eaa9395beec2f1a08ce8e90",
+          "md5": "3c05c2efbdfbdc5aff958464a8e24e45"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-cache-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-cache-0.1.2-SNAPSHOT-sources.jar",
+          "size": 46180,
+          "sha512": "4a0a5a7f6767a75e3681ee441e6c6237a3d36ecee5a29db27de2fd03626f34516003fb5a48d8a2b8f605fcdd83230ff517b2e20654a7eced78159301a8788c4c",
+          "sha256": "06926488c50d5825fa475c386b7f053c6bf404bb0845b1c75ffb763eab8e6079",
+          "sha1": "57818d4dcd824c15332b480338591311fe54c8de",
+          "md5": "818ecc8a9e49bb67e40cf5fcdce5cada"
+        },
+        {
+          "name": "openrs2-cache-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-cache-0.1.2-SNAPSHOT-sources.jar",
+          "size": 46180,
+          "sha512": "4a0a5a7f6767a75e3681ee441e6c6237a3d36ecee5a29db27de2fd03626f34516003fb5a48d8a2b8f605fcdd83230ff517b2e20654a7eced78159301a8788c4c",
+          "sha256": "06926488c50d5825fa475c386b7f053c6bf404bb0845b1c75ffb763eab8e6079",
+          "sha1": "57818d4dcd824c15332b480338591311fe54c8de",
+          "md5": "818ecc8a9e49bb67e40cf5fcdce5cada"
+        }
+      ]
+    }
+  ]
+}

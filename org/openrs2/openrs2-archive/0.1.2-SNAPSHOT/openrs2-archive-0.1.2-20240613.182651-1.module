@@ -1,0 +1,468 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-archive",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-archive-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-archive-0.1.2-SNAPSHOT.jar",
+          "size": 614576,
+          "sha512": "f31329dccc275f26f106b6ef30b16118f530e176ef564f1e8fc5ef6589de3b24b5f0ae164c41b20614058c013a826955fe3c6db11474bef5fab814a991076927",
+          "sha256": "efac8fa482f0e5a496bd4b817af3e1d8031c46f0f55c7fb33d23484a7af27abc",
+          "sha1": "5df2e1576ff9fc4bc32ca651ad8629988d858043",
+          "md5": "ba4b19baf9a6057f2f9e37ca51a15fc3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-asm",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-buffer",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-cache-550",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-cli",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-compress",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-db",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-http",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-inject",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-json",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-net",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-protocol",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-yaml",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.webjars",
+          "module": "bootstrap",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "org.webjars.npm",
+          "module": "bootstrap-table",
+          "version": {
+            "requires": "1.22.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jackson",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-thymeleaf",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-webjars",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.1.2.RELEASE"
+          }
+        },
+        {
+          "group": "org.thymeleaf.extras",
+          "module": "thymeleaf-extras-java8time",
+          "version": {
+            "requires": "3.0.4.RELEASE"
+          }
+        },
+        {
+          "group": "com.jakewharton.byteunits",
+          "module": "byteunits",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "com.dorkbox",
+          "module": "CabParser",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "9.22.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "org.jdom",
+          "module": "jdom2",
+          "version": {
+            "requires": "2.0.6.1"
+          }
+        },
+        {
+          "group": "net.fornwall",
+          "module": "jelf",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.webjars",
+          "module": "jquery",
+          "version": {
+            "requires": "3.7.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.17.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "com.kichik.pecoff4j",
+          "module": "pecoff4j",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.0"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-archive-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-archive-0.1.2-SNAPSHOT.jar",
+          "size": 614576,
+          "sha512": "f31329dccc275f26f106b6ef30b16118f530e176ef564f1e8fc5ef6589de3b24b5f0ae164c41b20614058c013a826955fe3c6db11474bef5fab814a991076927",
+          "sha256": "efac8fa482f0e5a496bd4b817af3e1d8031c46f0f55c7fb33d23484a7af27abc",
+          "sha1": "5df2e1576ff9fc4bc32ca651ad8629988d858043",
+          "md5": "ba4b19baf9a6057f2f9e37ca51a15fc3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-archive-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-archive-0.1.2-SNAPSHOT-sources.jar",
+          "size": 124359,
+          "sha512": "f1053ca2152719abebbf12284e787804bfae20419f0b7f1c5a34757136f91c99de98e15bbc91bf954551d289eb3ee756886312bb09e083965c69534bcb25e305",
+          "sha256": "13dea139b5f3e88b44ec8fbd27ad605cdba3edfbe34f910850353b3a731abe3c",
+          "sha1": "76a8da6b4b7e0d4e2023a5897c396487d465cada",
+          "md5": "2f87d54c1bf00e930d87623974a9eb86"
+        },
+        {
+          "name": "openrs2-archive-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-archive-0.1.2-SNAPSHOT-sources.jar",
+          "size": 124359,
+          "sha512": "f1053ca2152719abebbf12284e787804bfae20419f0b7f1c5a34757136f91c99de98e15bbc91bf954551d289eb3ee756886312bb09e083965c69534bcb25e305",
+          "sha256": "13dea139b5f3e88b44ec8fbd27ad605cdba3edfbe34f910850353b3a731abe3c",
+          "sha1": "76a8da6b4b7e0d4e2023a5897c396487d465cada",
+          "md5": "2f87d54c1bf00e930d87623974a9eb86"
+        }
+      ]
+    }
+  ]
+}

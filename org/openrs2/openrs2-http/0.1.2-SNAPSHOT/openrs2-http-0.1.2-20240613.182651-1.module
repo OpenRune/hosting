@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-http",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-http-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-http-0.1.2-SNAPSHOT.jar",
+          "size": 13691,
+          "sha512": "950abc5bba5e5f25ccd0f478ded52ab88595822e9b412de71a657a023e15477be612238e755a2dfd635f0630091181449d7c25ab6792450ccbcc1665dbcf9d7f",
+          "sha256": "da88baea65c155151377adca44bb4f056d753419b45a7c44e39e8c2e58eda224",
+          "sha1": "7bd992ac16845ff64f06cab8a480dc30c65d7524",
+          "md5": "b301e753aa308025243464b43d7d3166"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-http-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-http-0.1.2-SNAPSHOT.jar",
+          "size": 13691,
+          "sha512": "950abc5bba5e5f25ccd0f478ded52ab88595822e9b412de71a657a023e15477be612238e755a2dfd635f0630091181449d7c25ab6792450ccbcc1665dbcf9d7f",
+          "sha256": "da88baea65c155151377adca44bb4f056d753419b45a7c44e39e8c2e58eda224",
+          "sha1": "7bd992ac16845ff64f06cab8a480dc30c65d7524",
+          "md5": "b301e753aa308025243464b43d7d3166"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-http-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-http-0.1.2-SNAPSHOT-sources.jar",
+          "size": 3556,
+          "sha512": "b39ac38cacdc81c0ad4ec35a90594925ec6da0038f157737455f41d30a076e311ad9c96c2022938aa6cc409a75d8d50aa1fbab5cdc8fb413dbed328adcfe240f",
+          "sha256": "dcb3b744057ce6096162e160189558afa08bf05754f4404067372fa0964109ce",
+          "sha1": "0fc427722f201f56e0ca1a82b987102a5fc176a4",
+          "md5": "6f36572ce6ee4535082c790c579cbb9b"
+        },
+        {
+          "name": "openrs2-http-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-http-0.1.2-SNAPSHOT-sources.jar",
+          "size": 3556,
+          "sha512": "b39ac38cacdc81c0ad4ec35a90594925ec6da0038f157737455f41d30a076e311ad9c96c2022938aa6cc409a75d8d50aa1fbab5cdc8fb413dbed328adcfe240f",
+          "sha256": "dcb3b744057ce6096162e160189558afa08bf05754f4404067372fa0964109ce",
+          "sha1": "0fc427722f201f56e0ca1a82b987102a5fc176a4",
+          "md5": "6f36572ce6ee4535082c790c579cbb9b"
+        }
+      ]
+    }
+  ]
+}

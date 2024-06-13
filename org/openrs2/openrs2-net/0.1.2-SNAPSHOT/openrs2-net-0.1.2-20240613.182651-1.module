@@ -1,0 +1,263 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-net",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-net-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-net-0.1.2-SNAPSHOT.jar",
+          "size": 6667,
+          "sha512": "d0e033d1ecd910cb447ee053accec71b9384fbdf3d48e71cf989e21aeaabbf9fcf690fc06842d0df642d3d8dcb0e4fbb77261b13bfaef7672ffe08df171f82ac",
+          "sha256": "489d6696b9dd92dde6a241893b503cfe535a835cd1cbd3a6e4816b94bfa7273f",
+          "sha1": "5770a30262820ae48d34facc34f6809b2689f1fa",
+          "md5": "d22a2d45b3b9b3a0144669c125cc3917"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-buffer",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.netty.incubator",
+          "module": "netty-incubator-transport-native-io_uring",
+          "version": {
+            "requires": "0.0.24.Final"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-incubator-transport-native-io_uring",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-aarch_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty.incubator",
+          "module": "netty-incubator-transport-native-io_uring",
+          "version": {
+            "requires": "0.0.24.Final"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-incubator-transport-native-io_uring",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-x86_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "version": {
+            "requires": "4.1.101.Final"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-transport-native-epoll",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-aarch_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "version": {
+            "requires": "4.1.101.Final"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-transport-native-epoll",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-x86_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-kqueue",
+          "version": {
+            "requires": "4.1.101.Final"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-transport-native-kqueue",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "osx-x86_64"
+            }
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-net-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-net-0.1.2-SNAPSHOT.jar",
+          "size": 6667,
+          "sha512": "d0e033d1ecd910cb447ee053accec71b9384fbdf3d48e71cf989e21aeaabbf9fcf690fc06842d0df642d3d8dcb0e4fbb77261b13bfaef7672ffe08df171f82ac",
+          "sha256": "489d6696b9dd92dde6a241893b503cfe535a835cd1cbd3a6e4816b94bfa7273f",
+          "sha1": "5770a30262820ae48d34facc34f6809b2689f1fa",
+          "md5": "d22a2d45b3b9b3a0144669c125cc3917"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-net-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-net-0.1.2-SNAPSHOT-sources.jar",
+          "size": 2179,
+          "sha512": "f23f98d44f9a3b895f2db05db5a165ce367aa6e3275c8ae2040e0623e08cba266a1b63cfb9a543d4958393cde65d9d74a461324db68792997f7ffb235397e750",
+          "sha256": "fe8844bb7c9420bc23a5c652e8b6c1421a48f53817026edb0790a346e40261e3",
+          "sha1": "07a4118dd70dc2106e88942695867eaa75c3aa43",
+          "md5": "65c1e1a31a2f198afabefdabc045d889"
+        },
+        {
+          "name": "openrs2-net-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-net-0.1.2-SNAPSHOT-sources.jar",
+          "size": 2179,
+          "sha512": "f23f98d44f9a3b895f2db05db5a165ce367aa6e3275c8ae2040e0623e08cba266a1b63cfb9a543d4958393cde65d9d74a461324db68792997f7ffb235397e750",
+          "sha256": "fe8844bb7c9420bc23a5c652e8b6c1421a48f53817026edb0790a346e40261e3",
+          "sha1": "07a4118dd70dc2106e88942695867eaa75c3aa43",
+          "md5": "65c1e1a31a2f198afabefdabc045d889"
+        }
+      ]
+    }
+  ]
+}

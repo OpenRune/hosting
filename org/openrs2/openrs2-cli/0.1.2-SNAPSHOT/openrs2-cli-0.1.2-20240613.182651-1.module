@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-cli",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-cli-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-cli-0.1.2-SNAPSHOT.jar",
+          "size": 5906,
+          "sha512": "01d967c16d164b1158558ff8e1b1c27b7ad97d294424cd6ed397ae848d25a22fe3304eab5f9b25d25b0165f623f3615144029a975caa320dac23b6b33fe54584",
+          "sha256": "3f7c38dbf2ec0e1c3f2fa3e2e0dc76a2385e9740ac18d12f0e9a5dde4c8b06de",
+          "sha1": "155b851a0da7ff64707f2a72fd33b6c5b855b406",
+          "md5": "0ad6555e99a683befc35548273224d53"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-cli-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-cli-0.1.2-SNAPSHOT.jar",
+          "size": 5906,
+          "sha512": "01d967c16d164b1158558ff8e1b1c27b7ad97d294424cd6ed397ae848d25a22fe3304eab5f9b25d25b0165f623f3615144029a975caa320dac23b6b33fe54584",
+          "sha256": "3f7c38dbf2ec0e1c3f2fa3e2e0dc76a2385e9740ac18d12f0e9a5dde4c8b06de",
+          "sha1": "155b851a0da7ff64707f2a72fd33b6c5b855b406",
+          "md5": "0ad6555e99a683befc35548273224d53"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-cli-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-cli-0.1.2-SNAPSHOT-sources.jar",
+          "size": 990,
+          "sha512": "62f557ed89f55b2e1a28c48bc138b2db0b17fa437e48a3f77f0fc1845826ed361e85617a33bbded5e32e8a93fb395f7e8e2d3a2047596a1f9583c7f400583cf2",
+          "sha256": "3952bf7eb5cc9d094f6915b76f1c94578026deecc10fcec9fbd0e4aac6314c49",
+          "sha1": "d203e352d9cbb3ab4e2d2c64eb39a9939389ebf8",
+          "md5": "add35e404a1588336c88a167a12bfc3f"
+        },
+        {
+          "name": "openrs2-cli-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-cli-0.1.2-SNAPSHOT-sources.jar",
+          "size": 990,
+          "sha512": "62f557ed89f55b2e1a28c48bc138b2db0b17fa437e48a3f77f0fc1845826ed361e85617a33bbded5e32e8a93fb395f7e8e2d3a2047596a1f9583c7f400583cf2",
+          "sha256": "3952bf7eb5cc9d094f6915b76f1c94578026deecc10fcec9fbd0e4aac6314c49",
+          "sha1": "d203e352d9cbb3ab4e2d2c64eb39a9939389ebf8",
+          "md5": "add35e404a1588336c88a167a12bfc3f"
+        }
+      ]
+    }
+  ]
+}

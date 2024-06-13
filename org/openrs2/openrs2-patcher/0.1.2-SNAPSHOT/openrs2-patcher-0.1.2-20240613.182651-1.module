@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-patcher",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-asm",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-patcher-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-patcher-0.1.2-SNAPSHOT.jar",
+          "size": 96401,
+          "sha512": "def22d7d1b25cac3bc4ab4ec3db1473db0162b1f7df0af42a4e08b0c0674a568c9eada459168a29f71c1fc1d03b59d304917531d087835543cd418940864adf9",
+          "sha256": "c384bc9dfd45a71ed1ba76481adc06e3aa80debaaed12bf14a32328717ef05ae",
+          "sha1": "1352bbbafa95a3342f4b3c1fe993a90789663eb7",
+          "md5": "eb9433ef7d1a9a263a10b0372fcfb7b8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-conf",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-inject",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-natives-all",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-asm",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-patcher-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-patcher-0.1.2-SNAPSHOT.jar",
+          "size": 96401,
+          "sha512": "def22d7d1b25cac3bc4ab4ec3db1473db0162b1f7df0af42a4e08b0c0674a568c9eada459168a29f71c1fc1d03b59d304917531d087835543cd418940864adf9",
+          "sha256": "c384bc9dfd45a71ed1ba76481adc06e3aa80debaaed12bf14a32328717ef05ae",
+          "sha1": "1352bbbafa95a3342f4b3c1fe993a90789663eb7",
+          "md5": "eb9433ef7d1a9a263a10b0372fcfb7b8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-patcher-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-patcher-0.1.2-SNAPSHOT-sources.jar",
+          "size": 24160,
+          "sha512": "b3ada85e6d1738d05341308730bbc524c18296a8d6bbc3c05946d69661fd925dacfbff6985c496068f0430abcdf074d92818d4b2d61b838030bf643f27ec0b8d",
+          "sha256": "1a45ad8323f069ca462ce350c9bd9e38b720457ac5ddbc4b000ec6264fb93c59",
+          "sha1": "298e484eb9ae9a36034492fce21c79894ec6b8d6",
+          "md5": "4617235f0c42d9a06a9d7c8229cf97ac"
+        },
+        {
+          "name": "openrs2-patcher-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-patcher-0.1.2-SNAPSHOT-sources.jar",
+          "size": 24160,
+          "sha512": "b3ada85e6d1738d05341308730bbc524c18296a8d6bbc3c05946d69661fd925dacfbff6985c496068f0430abcdf074d92818d4b2d61b838030bf643f27ec0b8d",
+          "sha256": "1a45ad8323f069ca462ce350c9bd9e38b720457ac5ddbc4b000ec6264fb93c59",
+          "sha1": "298e484eb9ae9a36034492fce21c79894ec6b8d6",
+          "md5": "4617235f0c42d9a06a9d7c8229cf97ac"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.openrs2</groupId>
+  <artifactId>openrs2</artifactId>
+  <version>0.1.2-SNAPSHOT</version>
+  <packaging>zip</packaging>
+  <name>OpenRS2</name>
+  <description>OpenRS2 is an open-source multiplayer game server and suite of
+associated tools. It is compatible with build 550 of the
+RuneScape client, which was released in mid-2009.</description>
+  <url>https://www.openrs2.org/</url>
+  <inceptionYear>2019</inceptionYear>
+  <organization>
+    <name>OpenRS2 Authors</name>
+    <url>https://www.openrs2.org/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>ISC License</name>
+      <url>https://opensource.org/licenses/ISC</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://git.openrs2.org/openrs2/openrs2.git</connection>
+    <developerConnection>scm:git:git@git.openrs2.org:openrs2/openrs2.git</developerConnection>
+    <url>https://git.openrs2.org/openrs2/openrs2</url>
+  </scm>
+  <issueManagement>
+    <system>Gitea</system>
+    <url>https://git.openrs2.org/openrs2/openrs2</url>
+  </issueManagement>
+  <ciManagement>
+    <system>Drone</system>
+    <url>https://build.openrs2.org/openrs2/openrs2/</url>
+  </ciManagement>
+</project>

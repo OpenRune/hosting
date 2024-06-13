@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-crc32",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-crc32-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-crc32-0.1.2-SNAPSHOT.jar",
+          "size": 3429,
+          "sha512": "9ae67a262ae8f4bfc33fa276ebd6b0da1eb0a77ec273e8623641c75fe3e6280daddfc14a1c3cf3611e94390482d525a38bc7864cdc25cc4978f9a14515c702a5",
+          "sha256": "2300d487e3887de839e3fbdce3c8624ebd485569da39a5c230824a872ae9f376",
+          "sha1": "01e027bbd7f78445759dfab053a79957728f4f04",
+          "md5": "1bf6732c03d01de3dffe6d7e80935d1e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-crc32-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-crc32-0.1.2-SNAPSHOT.jar",
+          "size": 3429,
+          "sha512": "9ae67a262ae8f4bfc33fa276ebd6b0da1eb0a77ec273e8623641c75fe3e6280daddfc14a1c3cf3611e94390482d525a38bc7864cdc25cc4978f9a14515c702a5",
+          "sha256": "2300d487e3887de839e3fbdce3c8624ebd485569da39a5c230824a872ae9f376",
+          "sha1": "01e027bbd7f78445759dfab053a79957728f4f04",
+          "md5": "1bf6732c03d01de3dffe6d7e80935d1e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-crc32-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-crc32-0.1.2-SNAPSHOT-sources.jar",
+          "size": 1085,
+          "sha512": "5ada7f33c054aece3e52b6d352ae9fe7be7e47eab2c8c33b305aeae06d5934d3e223d25833c35c0c6049262021cb546c68ba77f91d09598c7cd6b9f950db84a0",
+          "sha256": "7dbe44fd4ceacc597376fadff20920f58f78bec4699470319dff8b07cee6c933",
+          "sha1": "bdef4385eb65abc1150b8f7ac510cf915bd77404",
+          "md5": "3a02ed113b6e6e3268e90871a735d3a9"
+        },
+        {
+          "name": "openrs2-crc32-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-crc32-0.1.2-SNAPSHOT-sources.jar",
+          "size": 1085,
+          "sha512": "5ada7f33c054aece3e52b6d352ae9fe7be7e47eab2c8c33b305aeae06d5934d3e223d25833c35c0c6049262021cb546c68ba77f91d09598c7cd6b9f950db84a0",
+          "sha256": "7dbe44fd4ceacc597376fadff20920f58f78bec4699470319dff8b07cee6c933",
+          "sha1": "bdef4385eb65abc1150b8f7ac510cf915bd77404",
+          "md5": "3a02ed113b6e6e3268e90871a735d3a9"
+        }
+      ]
+    }
+  ]
+}

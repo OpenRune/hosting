@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-deob-processor",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-deob-processor-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-processor-0.1.2-SNAPSHOT.jar",
+          "size": 10192,
+          "sha512": "a0af2f78b83365f9d6414d90953b5be691c70802dbf1628577426085089c9da46c465b581982e704dc6bfbe2225e6d930e13afc4c23024469a4172750fd6cd99",
+          "sha256": "3f7b36d6e5678cb76f97049ceb7fcee919ece14b849e05f10c69415fea9232ac",
+          "sha1": "ce6114b2894cc4158cb18f9cd775035fdd82004e",
+          "md5": "41bebb8d402d072a89efd5275def3363"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-annotations",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-inject",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-yaml",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-deob-processor-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-deob-processor-0.1.2-SNAPSHOT.jar",
+          "size": 10192,
+          "sha512": "a0af2f78b83365f9d6414d90953b5be691c70802dbf1628577426085089c9da46c465b581982e704dc6bfbe2225e6d930e13afc4c23024469a4172750fd6cd99",
+          "sha256": "3f7b36d6e5678cb76f97049ceb7fcee919ece14b849e05f10c69415fea9232ac",
+          "sha1": "ce6114b2894cc4158cb18f9cd775035fdd82004e",
+          "md5": "41bebb8d402d072a89efd5275def3363"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-deob-processor-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-deob-processor-0.1.2-SNAPSHOT-sources.jar",
+          "size": 3587,
+          "sha512": "93051e44d48b9dfe774cdf3cb2e9004daac900af0222c879051892c467ea1a3ea845e7d3883f62112108e9fef6c9a2eff7d95533e0d60de7318784da2f35b9e4",
+          "sha256": "df4121a22264c7b49dcc828a230c42905383a53237fe289edef708dd0725fcf2",
+          "sha1": "aa91d803c2854daad130b72f8821ae2080ead821",
+          "md5": "45a66556934b55b50e547ab854e4c291"
+        },
+        {
+          "name": "openrs2-deob-processor-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-deob-processor-0.1.2-SNAPSHOT-sources.jar",
+          "size": 3587,
+          "sha512": "93051e44d48b9dfe774cdf3cb2e9004daac900af0222c879051892c467ea1a3ea845e7d3883f62112108e9fef6c9a2eff7d95533e0d60de7318784da2f35b9e4",
+          "sha256": "df4121a22264c7b49dcc828a230c42905383a53237fe289edef708dd0725fcf2",
+          "sha1": "aa91d803c2854daad130b72f8821ae2080ead821",
+          "md5": "45a66556934b55b50e547ab854e4c291"
+        }
+      ]
+    }
+  ]
+}

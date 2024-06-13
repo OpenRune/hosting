@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-crypto",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-crypto-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-crypto-0.1.2-SNAPSHOT.jar",
+          "size": 41157,
+          "sha512": "045aa4ba6d0bdcb50f1806a156e6bf426322aa9cb719716cabdc08ece8c7b6697747cde5975bcfba47070d45e5c281dd2a2a441cc03d97008ae87166c5b59e68",
+          "sha256": "1442882c32ac1c3b21666e859fb4e5225ffffeb27be6634f9750ad544c2145b3",
+          "sha1": "f54af7672af34fadcf12ad9b611d1548c1fc6e0e",
+          "md5": "fb3a4ce92bb11639e49a71b1c3ea55d6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-crypto-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-crypto-0.1.2-SNAPSHOT.jar",
+          "size": 41157,
+          "sha512": "045aa4ba6d0bdcb50f1806a156e6bf426322aa9cb719716cabdc08ece8c7b6697747cde5975bcfba47070d45e5c281dd2a2a441cc03d97008ae87166c5b59e68",
+          "sha256": "1442882c32ac1c3b21666e859fb4e5225ffffeb27be6634f9750ad544c2145b3",
+          "sha1": "f54af7672af34fadcf12ad9b611d1548c1fc6e0e",
+          "md5": "fb3a4ce92bb11639e49a71b1c3ea55d6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-crypto-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-crypto-0.1.2-SNAPSHOT-sources.jar",
+          "size": 12240,
+          "sha512": "5ae8b0af8e9857fc8666aa3b97fa116b3be1bb48ea3d86077da9bf2b38092a8ca35bbd1af4ef448539687a77be8f6afa23d029a91e7cbb9e6de0f3841dcd7a81",
+          "sha256": "5e806866321444bca3cf610cea176f15dc3fe175e0ebf213e58f071e03111457",
+          "sha1": "582dbd88d26a1264119e69aa32cf0627d068f492",
+          "md5": "495ddcf511e1c9192e857f226701f839"
+        },
+        {
+          "name": "openrs2-crypto-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-crypto-0.1.2-SNAPSHOT-sources.jar",
+          "size": 12240,
+          "sha512": "5ae8b0af8e9857fc8666aa3b97fa116b3be1bb48ea3d86077da9bf2b38092a8ca35bbd1af4ef448539687a77be8f6afa23d029a91e7cbb9e6de0f3841dcd7a81",
+          "sha256": "5e806866321444bca3cf610cea176f15dc3fe175e0ebf213e58f071e03111457",
+          "sha1": "582dbd88d26a1264119e69aa32cf0627d068f492",
+          "md5": "495ddcf511e1c9192e857f226701f839"
+        }
+      ]
+    }
+  ]
+}

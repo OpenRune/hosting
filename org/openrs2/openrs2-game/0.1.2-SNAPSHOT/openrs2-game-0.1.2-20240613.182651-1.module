@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-game",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-game-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-game-0.1.2-SNAPSHOT.jar",
+          "size": 73413,
+          "sha512": "7bca880b53736748a0b3ea93ec6f5e622fd040c610745c625df137b67ca0fffb4c53777f0d0b7171c8da56c1b2ae9dc43702dbe4d7eace757e4f5b5fc98e6a3d",
+          "sha256": "3a4c18a3f832e7ab3084472cfea82331e41b21a819d787e675a1b85d9fd4513f",
+          "sha1": "4b2f2085bff046468a7722582c6e8dd42b5ca525",
+          "md5": "12aee1f6a02ad83829fa333c89528220"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-buffer",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-cache-550",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-conf",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-inject",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-net",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-protocol",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http",
+          "version": {
+            "requires": "4.1.101.Final"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-result",
+          "module": "kotlin-result",
+          "version": {
+            "requires": "1.1.18"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-result",
+          "module": "kotlin-result-coroutines",
+          "version": {
+            "requires": "1.1.18"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-game-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-game-0.1.2-SNAPSHOT.jar",
+          "size": 73413,
+          "sha512": "7bca880b53736748a0b3ea93ec6f5e622fd040c610745c625df137b67ca0fffb4c53777f0d0b7171c8da56c1b2ae9dc43702dbe4d7eace757e4f5b5fc98e6a3d",
+          "sha256": "3a4c18a3f832e7ab3084472cfea82331e41b21a819d787e675a1b85d9fd4513f",
+          "sha1": "4b2f2085bff046468a7722582c6e8dd42b5ca525",
+          "md5": "12aee1f6a02ad83829fa333c89528220"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-game-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-game-0.1.2-SNAPSHOT-sources.jar",
+          "size": 19760,
+          "sha512": "3c055abd82c108a54b07ea02e7cfacd53717b70a82526075ed01b53fa3c455ce3f4a314617dab68deb74e4a49777da1fc1154626e4456306b17c1ec661cf188f",
+          "sha256": "152a66fe135a0432cdac3ae5fbd843b711270ddb101540142ad7e6ec631a2eca",
+          "sha1": "7f38c24c76380d3650ea9040b87a470caf8f2f85",
+          "md5": "454114adeabcf588b63183adab9820e9"
+        },
+        {
+          "name": "openrs2-game-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-game-0.1.2-SNAPSHOT-sources.jar",
+          "size": 19760,
+          "sha512": "3c055abd82c108a54b07ea02e7cfacd53717b70a82526075ed01b53fa3c455ce3f4a314617dab68deb74e4a49777da1fc1154626e4456306b17c1ec661cf188f",
+          "sha256": "152a66fe135a0432cdac3ae5fbd843b711270ddb101540142ad7e6ec631a2eca",
+          "sha1": "7f38c24c76380d3650ea9040b87a470caf8f2f85",
+          "md5": "454114adeabcf588b63183adab9820e9"
+        }
+      ]
+    }
+  ]
+}

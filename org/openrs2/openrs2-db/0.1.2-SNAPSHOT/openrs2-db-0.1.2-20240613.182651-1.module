@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-db",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-db-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-db-0.1.2-SNAPSHOT.jar",
+          "size": 14310,
+          "sha512": "afbddd57740593413052c696dc365c00f55293ade7d930c8c1a70a36b94dc4bd820f00a20595fdc9f0ffbe18454a203bda30db795ceea3197a2b1f9a9bf1d7f8",
+          "sha256": "2e7ecd89af452eadf68ccdd6d55116ee0d1c8cc89c0a7593c8a6782a085cc851",
+          "sha1": "b977e58a1b6da446afcf2b8ce2417f890e438a56",
+          "md5": "885f84f462c98d7541a0983d2b15fabe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-db-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-db-0.1.2-SNAPSHOT.jar",
+          "size": 14310,
+          "sha512": "afbddd57740593413052c696dc365c00f55293ade7d930c8c1a70a36b94dc4bd820f00a20595fdc9f0ffbe18454a203bda30db795ceea3197a2b1f9a9bf1d7f8",
+          "sha256": "2e7ecd89af452eadf68ccdd6d55116ee0d1c8cc89c0a7593c8a6782a085cc851",
+          "sha1": "b977e58a1b6da446afcf2b8ce2417f890e438a56",
+          "md5": "885f84f462c98d7541a0983d2b15fabe"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-db-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-db-0.1.2-SNAPSHOT-sources.jar",
+          "size": 7642,
+          "sha512": "e89de9345ed831635f43bc7e846b25b5d5b9ef9f6e7f453df5452505ae8bc8a000e2caba2108e21edc159d1578e1e93a75904b5481ed9114ecf5af5cf45558bb",
+          "sha256": "28cc75d1bd42b5c833ed174b4017fd2d7fc6477a3096f185178fa4a85fbe7624",
+          "sha1": "eb888d67f1daf8b54a52c352fd492c59b48e1a32",
+          "md5": "d120a2b05551f6668b55ccd7b79e5a39"
+        },
+        {
+          "name": "openrs2-db-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-db-0.1.2-SNAPSHOT-sources.jar",
+          "size": 7642,
+          "sha512": "e89de9345ed831635f43bc7e846b25b5d5b9ef9f6e7f453df5452505ae8bc8a000e2caba2108e21edc159d1578e1e93a75904b5481ed9114ecf5af5cf45558bb",
+          "sha256": "28cc75d1bd42b5c833ed174b4017fd2d7fc6477a3096f185178fa4a85fbe7624",
+          "sha1": "eb888d67f1daf8b54a52c352fd492c59b48e1a32",
+          "md5": "d120a2b05551f6668b55ccd7b79e5a39"
+        }
+      ]
+    }
+  ]
+}

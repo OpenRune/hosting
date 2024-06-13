@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-decompiler",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-decompiler-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-decompiler-0.1.2-SNAPSHOT.jar",
+          "size": 15349,
+          "sha512": "27800b20956a27522d9d3be39ce0a6cf0f0e110f80172542f684f8e2e6d3bd16e989f8e365d640fae115c764d76d11c69f7fddc5c9920438adb1d8481759ed04",
+          "sha256": "f55917e6e4444aa2f45b8186e6f5c675b773e40625b7183e9bfa4ecf060e1516",
+          "sha1": "dd85c95eb519310088528b49d0f95f0e48521fe6",
+          "md5": "a22f2bcccb609f0c61c701fd69eb1560"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "fernflower",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-deob-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.google.inject.extensions",
+          "module": "guice-assistedinject",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-decompiler-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-decompiler-0.1.2-SNAPSHOT.jar",
+          "size": 15349,
+          "sha512": "27800b20956a27522d9d3be39ce0a6cf0f0e110f80172542f684f8e2e6d3bd16e989f8e365d640fae115c764d76d11c69f7fddc5c9920438adb1d8481759ed04",
+          "sha256": "f55917e6e4444aa2f45b8186e6f5c675b773e40625b7183e9bfa4ecf060e1516",
+          "sha1": "dd85c95eb519310088528b49d0f95f0e48521fe6",
+          "md5": "a22f2bcccb609f0c61c701fd69eb1560"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-decompiler-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-decompiler-0.1.2-SNAPSHOT-sources.jar",
+          "size": 3182,
+          "sha512": "0a32bcb9c9cee87680b19eaa8c67edd46d4ddb9ab70579bed017d333c8f1980a42303c78b5f6db6880d1eeff8bea24c14edcd14e7f631e4b838c266e06606979",
+          "sha256": "5d4de1672572165cad3cf5599510fb6015a2c22fff53687339fd99a41038062f",
+          "sha1": "febcd6222e1a7e648eca4e43ae0b21d7b87013a4",
+          "md5": "7e2a898b85a62b47a37bb82b77692e9b"
+        },
+        {
+          "name": "openrs2-decompiler-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-decompiler-0.1.2-SNAPSHOT-sources.jar",
+          "size": 3182,
+          "sha512": "0a32bcb9c9cee87680b19eaa8c67edd46d4ddb9ab70579bed017d333c8f1980a42303c78b5f6db6880d1eeff8bea24c14edcd14e7f631e4b838c266e06606979",
+          "sha256": "5d4de1672572165cad3cf5599510fb6015a2c22fff53687339fd99a41038062f",
+          "sha1": "febcd6222e1a7e648eca4e43ae0b21d7b87013a4",
+          "md5": "7e2a898b85a62b47a37bb82b77692e9b"
+        }
+      ]
+    }
+  ]
+}

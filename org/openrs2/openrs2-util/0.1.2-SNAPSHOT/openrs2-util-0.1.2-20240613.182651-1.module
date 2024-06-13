@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-util",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-util-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-util-0.1.2-SNAPSHOT.jar",
+          "size": 40724,
+          "sha512": "a35923d3ff89ef18704474e84630f56dc5aef0c24fd63e010375924cfcd78e3b61f388bc98296ac6cff1b4540cf2956428d97fed880c093d36eb0dc2326392cb",
+          "sha256": "0accaf6199b073f932e24b83c1bb7adbe75d8657541d3f619f1c18cb030b88e6",
+          "sha1": "c3aadab44da6a954607a1c6de5188b54d2e450cb",
+          "md5": "7edbbda02739daa8941ecb58e2c2d2ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-util-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-util-0.1.2-SNAPSHOT.jar",
+          "size": 40724,
+          "sha512": "a35923d3ff89ef18704474e84630f56dc5aef0c24fd63e010375924cfcd78e3b61f388bc98296ac6cff1b4540cf2956428d97fed880c093d36eb0dc2326392cb",
+          "sha256": "0accaf6199b073f932e24b83c1bb7adbe75d8657541d3f619f1c18cb030b88e6",
+          "sha1": "c3aadab44da6a954607a1c6de5188b54d2e450cb",
+          "md5": "7edbbda02739daa8941ecb58e2c2d2ce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-util-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-util-0.1.2-SNAPSHOT-sources.jar",
+          "size": 9705,
+          "sha512": "03b3b616e2578f18083d7c00ec161422e8a6099e42d6d00c2f8b97be40cccaddaec11a2d321cb8c8e156e8d7bf9c83501dda1a35644e6a66675f6501ea886cea",
+          "sha256": "ade65be832732ce3cb281c462a66f7933f3c0ccdcfc78eefe9c356c2ecfd6ac5",
+          "sha1": "f39e74d9721abcc25e25a75c9630a2f60a15d144",
+          "md5": "d45bae1298bbe86317b0135f657a8cb1"
+        },
+        {
+          "name": "openrs2-util-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-util-0.1.2-SNAPSHOT-sources.jar",
+          "size": 9705,
+          "sha512": "03b3b616e2578f18083d7c00ec161422e8a6099e42d6d00c2f8b97be40cccaddaec11a2d321cb8c8e156e8d7bf9c83501dda1a35644e6a66675f6501ea886cea",
+          "sha256": "ade65be832732ce3cb281c462a66f7933f3c0ccdcfc78eefe9c356c2ecfd6ac5",
+          "sha1": "f39e74d9721abcc25e25a75c9630a2f60a15d144",
+          "md5": "d45bae1298bbe86317b0135f657a8cb1"
+        }
+      ]
+    }
+  ]
+}

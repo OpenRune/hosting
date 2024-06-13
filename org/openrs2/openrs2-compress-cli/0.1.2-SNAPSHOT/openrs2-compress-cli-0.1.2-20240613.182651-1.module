@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-compress-cli",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-compress-cli-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-compress-cli-0.1.2-SNAPSHOT.jar",
+          "size": 41628,
+          "sha512": "2161fad13ecb17f69894fda3b3d3e43b7004e73d00752a0cdad3bf9f7d892724a2ee828813d2ae3f6dd389f5e98f7b63edb7fd93da7404d4f26a248ba0992dff",
+          "sha256": "c24eb2ff4fd9b4f384eab66ca23830b05522df4ea3fbe14a98991dcf37921b39",
+          "sha1": "3dcf703e5562811bdac4d2a666afc967b52cf8be",
+          "md5": "40914a5034793c1489f555560af88787"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-asm",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-compress",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-log",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-util",
+          "version": {
+            "requires": "0.1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrs2-compress-cli-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-compress-cli-0.1.2-SNAPSHOT.jar",
+          "size": 41628,
+          "sha512": "2161fad13ecb17f69894fda3b3d3e43b7004e73d00752a0cdad3bf9f7d892724a2ee828813d2ae3f6dd389f5e98f7b63edb7fd93da7404d4f26a248ba0992dff",
+          "sha256": "c24eb2ff4fd9b4f384eab66ca23830b05522df4ea3fbe14a98991dcf37921b39",
+          "sha1": "3dcf703e5562811bdac4d2a666afc967b52cf8be",
+          "md5": "40914a5034793c1489f555560af88787"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-compress-cli-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-compress-cli-0.1.2-SNAPSHOT-sources.jar",
+          "size": 9583,
+          "sha512": "715ad453b4062e40eeda007fa1bf748f373aa28d31e202a61c8ab8bdf4f32df68808391d62869526ac7212ff0202b2158f57845b47e9fa41d39b1d126d1a1e73",
+          "sha256": "aa0a0d0036fad1c10711e4ad8928f9e6f1d1bb0a86bf732a64bd43f4792dad7f",
+          "sha1": "6d9b37f2878072dd7e532974c31776efb85e8e3b",
+          "md5": "6062e1a01247dc52382e4ee00f5e03a1"
+        },
+        {
+          "name": "openrs2-compress-cli-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-compress-cli-0.1.2-SNAPSHOT-sources.jar",
+          "size": 9583,
+          "sha512": "715ad453b4062e40eeda007fa1bf748f373aa28d31e202a61c8ab8bdf4f32df68808391d62869526ac7212ff0202b2158f57845b47e9fa41d39b1d126d1a1e73",
+          "sha256": "aa0a0d0036fad1c10711e4ad8928f9e6f1d1bb0a86bf732a64bd43f4792dad7f",
+          "sha1": "6d9b37f2878072dd7e532974c31776efb85e8e3b",
+          "md5": "6062e1a01247dc52382e4ee00f5e03a1"
+        }
+      ]
+    }
+  ]
+}

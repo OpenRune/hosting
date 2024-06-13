@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openrs2",
+    "module": "openrs2-xtea-plugin",
+    "version": "0.1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "openrs2-xtea-plugin-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-xtea-plugin-0.1.2-SNAPSHOT.jar",
+          "size": 4027,
+          "sha512": "90d80057f099c040a15c8de9bfabba0c4f3dd3f24932c94b458d0b5f5d8aca958ce3c204c8a551bba1f29da1e4c5b615809829714e8238ab63d72c3da2a5c389",
+          "sha256": "660413f289389c09a68cb70e1e96629692b48fc4c82539b588244a1f18e4b117",
+          "sha1": "62609d235bf6a3f54034b1613748d623a554bb89",
+          "md5": "3ab1a54505a84e538f8e37c59baa2aaa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-xtea-plugin-0.1.2-SNAPSHOT.jar",
+          "url": "openrs2-xtea-plugin-0.1.2-SNAPSHOT.jar",
+          "size": 4027,
+          "sha512": "90d80057f099c040a15c8de9bfabba0c4f3dd3f24932c94b458d0b5f5d8aca958ce3c204c8a551bba1f29da1e4c5b615809829714e8238ab63d72c3da2a5c389",
+          "sha256": "660413f289389c09a68cb70e1e96629692b48fc4c82539b588244a1f18e4b117",
+          "sha1": "62609d235bf6a3f54034b1613748d623a554bb89",
+          "md5": "3ab1a54505a84e538f8e37c59baa2aaa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrs2-xtea-plugin-0.1.2-SNAPSHOT-sources.jar",
+          "url": "openrs2-xtea-plugin-0.1.2-SNAPSHOT-sources.jar",
+          "size": 1967,
+          "sha512": "ab15c4d3f040ece84c7d7e5071f977f84353b0365603838e79bd7769721263000d42b481ed926433f1f9862d4cbae2342198c433ff4ff7ab83b7ad83b59f9176",
+          "sha256": "a2177e6ff5392901e4b70c26007d1993b97400fc15deabab893da43582cffae2",
+          "sha1": "b3a1742d5a28c0b709d08fbb7f820eedd64dea14",
+          "md5": "7d8c6d465a0f126b3009dae34012e686"
+        }
+      ]
+    }
+  ]
+}
