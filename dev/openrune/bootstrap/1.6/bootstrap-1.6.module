@@ -3,7 +3,7 @@
   "component": {
     "group": "dev.openrune",
     "module": "bootstrap",
-    "version": "1.5",
+    "version": "1.6",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "bootstrap-1.5.jar",
-          "url": "bootstrap-1.5.jar",
-          "size": 79897,
-          "sha512": "751cb1362d90a517ba8e03cd1c93ce04a4fd500d3302678fd965dfb3cebdb45a7c14b752fe5d5f65f596b4ee21d99e224f82ce18bce3e338ef6d9d812ca6574f",
-          "sha256": "c256e03e11e8bb96c0464de5a5af0760feaf9cb46c23e90dc4291151a569107f",
-          "sha1": "3359bdb41f5f936a2fd0c47694fb6cebf428a47a",
-          "md5": "b246cc49e6e634fa7c49765a1dbac1f7"
+          "name": "bootstrap-1.6.jar",
+          "url": "bootstrap-1.6.jar",
+          "size": 79103,
+          "sha512": "5084b0609c212fbccf6293228f4cea066a3069adb78d070069da146eec334862e3bc9ad456d5407b0a963a8163d81e179cb3acdd5bbf1118eba329c2b96abf3c",
+          "sha256": "62dbe4d9f6c20995743263e8cd1ce4aed9a3c9522ba0cd104b668f54c17a7e63",
+          "sha1": "451a96e4513dc5cc6cbe5655c7a6387e4e0b828a",
+          "md5": "ed1f80998eb664464f567886f1444323"
         }
       ]
     },
@@ -150,13 +150,13 @@
       ],
       "files": [
         {
-          "name": "bootstrap-1.5.jar",
-          "url": "bootstrap-1.5.jar",
-          "size": 79897,
-          "sha512": "751cb1362d90a517ba8e03cd1c93ce04a4fd500d3302678fd965dfb3cebdb45a7c14b752fe5d5f65f596b4ee21d99e224f82ce18bce3e338ef6d9d812ca6574f",
-          "sha256": "c256e03e11e8bb96c0464de5a5af0760feaf9cb46c23e90dc4291151a569107f",
-          "sha1": "3359bdb41f5f936a2fd0c47694fb6cebf428a47a",
-          "md5": "b246cc49e6e634fa7c49765a1dbac1f7"
+          "name": "bootstrap-1.6.jar",
+          "url": "bootstrap-1.6.jar",
+          "size": 79103,
+          "sha512": "5084b0609c212fbccf6293228f4cea066a3069adb78d070069da146eec334862e3bc9ad456d5407b0a963a8163d81e179cb3acdd5bbf1118eba329c2b96abf3c",
+          "sha256": "62dbe4d9f6c20995743263e8cd1ce4aed9a3c9522ba0cd104b668f54c17a7e63",
+          "sha1": "451a96e4513dc5cc6cbe5655c7a6387e4e0b828a",
+          "md5": "ed1f80998eb664464f567886f1444323"
         }
       ]
     }
