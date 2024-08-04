@@ -29,11 +29,11 @@
         {
           "name": "filestore-tools-1.3.6.jar",
           "url": "filestore-tools-1.3.6.jar",
-          "size": 127320,
-          "sha512": "f4b1c5ef764dd0bb1ff476d1aa71447bd2d6173cae1cef3854c89d50a319f7147ad885e81d0cdf620336e3e32775a3ae4c75d98e86da84d37cd9851968616d4a",
-          "sha256": "e0a71177e8a096d6fd539fd2c94651dbf1a183f7b6313631895b764833861cf2",
-          "sha1": "c8d8d959061eae55e0d51f5a2d5b7ae025ac3cc1",
-          "md5": "dbee2ca2bce1b761548aabb231f3a915"
+          "size": 126884,
+          "sha512": "e0c92b74becb0befa0cc359ce16fb47b23643f46d75a90692b0575c8358b6d8b24de2275dcc39792bb9eae946d32a75f89678e26544c45895947d7bafd09e27f",
+          "sha256": "191d809e0be8e0be1ef01355c9eaa999bfc47b07a8833127ad3773a88148a460",
+          "sha1": "f29a1b219b7f7ecc0ab8311eb61b433bc45ef16a",
+          "md5": "9a93a6fd7633f334b1a71104bf185b0a"
         }
       ]
     },
@@ -145,11 +145,11 @@
         {
           "name": "filestore-tools-1.3.6.jar",
           "url": "filestore-tools-1.3.6.jar",
-          "size": 127320,
-          "sha512": "f4b1c5ef764dd0bb1ff476d1aa71447bd2d6173cae1cef3854c89d50a319f7147ad885e81d0cdf620336e3e32775a3ae4c75d98e86da84d37cd9851968616d4a",
-          "sha256": "e0a71177e8a096d6fd539fd2c94651dbf1a183f7b6313631895b764833861cf2",
-          "sha1": "c8d8d959061eae55e0d51f5a2d5b7ae025ac3cc1",
-          "md5": "dbee2ca2bce1b761548aabb231f3a915"
+          "size": 126884,
+          "sha512": "e0c92b74becb0befa0cc359ce16fb47b23643f46d75a90692b0575c8358b6d8b24de2275dcc39792bb9eae946d32a75f89678e26544c45895947d7bafd09e27f",
+          "sha256": "191d809e0be8e0be1ef01355c9eaa999bfc47b07a8833127ad3773a88148a460",
+          "sha1": "f29a1b219b7f7ecc0ab8311eb61b433bc45ef16a",
+          "md5": "9a93a6fd7633f334b1a71104bf185b0a"
         }
       ]
     }
