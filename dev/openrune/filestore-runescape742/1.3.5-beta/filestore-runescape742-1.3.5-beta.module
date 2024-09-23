@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune",
+    "module": "filestore-runescape742",
+    "version": "1.3.5-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filestore-runescape742-1.3.5-beta.jar",
+          "url": "filestore-runescape742-1.3.5-beta.jar",
+          "size": 17924,
+          "sha512": "6b8bd6186f1b66d0b35ec11094c0e2b91cdaa847cc7ea71f7d1fd0c6ebdd61ac3a7cf84c58d7fe1268ea2664abcd08d97d3c8e2e8080d1d30658e4cf00641f77",
+          "sha256": "ae36d6835acdcee84dc1fce1782f27e5f19a561d82ccf3914caa336e5f415273",
+          "sha1": "c3dcd59a7bb5013f8cc231c32afeef9ed76a4f8d",
+          "md5": "aca41a60fcce3f5a8e45824d3628d721"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "dev.openrune",
+          "module": "filestore",
+          "version": {
+            "requires": "1.3.5-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-runescape742-1.3.5-beta.jar",
+          "url": "filestore-runescape742-1.3.5-beta.jar",
+          "size": 17924,
+          "sha512": "6b8bd6186f1b66d0b35ec11094c0e2b91cdaa847cc7ea71f7d1fd0c6ebdd61ac3a7cf84c58d7fe1268ea2664abcd08d97d3c8e2e8080d1d30658e4cf00641f77",
+          "sha256": "ae36d6835acdcee84dc1fce1782f27e5f19a561d82ccf3914caa336e5f415273",
+          "sha1": "c3dcd59a7bb5013f8cc231c32afeef9ed76a4f8d",
+          "md5": "aca41a60fcce3f5a8e45824d3628d721"
+        }
+      ]
+    }
+  ]
+}
