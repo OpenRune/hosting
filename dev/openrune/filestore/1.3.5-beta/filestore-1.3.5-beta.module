@@ -29,11 +29,11 @@
         {
           "name": "filestore-1.3.5-beta.jar",
           "url": "filestore-1.3.5-beta.jar",
-          "size": 219030,
-          "sha512": "fce36f2b9075a15341341276a28ffb65344f3943a68cac07d3163b5ca1ffbf7efb38a198e0d918de1d74a087ab74ff4fa6e32a5afd40c2b698ec2b32ec068b34",
-          "sha256": "2018ae6153c8a6aa45bd93fe5f728adf5fa5ddcf3ae69334b4319889fee6a2ab",
-          "sha1": "05d1150f2a42c2a9b0512a9fdd28cfb0ce02862e",
-          "md5": "2e1c6853eb6f091e1544bc44d1b4c7eb"
+          "size": 218974,
+          "sha512": "28c985647aec0827c8671eba6963e58cd31e0fc6f6d9592f1105b33993d31cc1e0193326521c04d5e367682c20e300b3f672a17ede37ac253b7ad06ec60b776b",
+          "sha256": "adae536594c44da8525ba23510376f001efd4b6825b2c503aeb1f7b6f74551bd",
+          "sha1": "2d73e1fd4575f7a7f87407d2a0caed3951e99fff",
+          "md5": "20a035c6f3991a669020e8cc496e3303"
         }
       ]
     },
@@ -96,11 +96,11 @@
         {
           "name": "filestore-1.3.5-beta.jar",
           "url": "filestore-1.3.5-beta.jar",
-          "size": 219030,
-          "sha512": "fce36f2b9075a15341341276a28ffb65344f3943a68cac07d3163b5ca1ffbf7efb38a198e0d918de1d74a087ab74ff4fa6e32a5afd40c2b698ec2b32ec068b34",
-          "sha256": "2018ae6153c8a6aa45bd93fe5f728adf5fa5ddcf3ae69334b4319889fee6a2ab",
-          "sha1": "05d1150f2a42c2a9b0512a9fdd28cfb0ce02862e",
-          "md5": "2e1c6853eb6f091e1544bc44d1b4c7eb"
+          "size": 218974,
+          "sha512": "28c985647aec0827c8671eba6963e58cd31e0fc6f6d9592f1105b33993d31cc1e0193326521c04d5e367682c20e300b3f672a17ede37ac253b7ad06ec60b776b",
+          "sha256": "adae536594c44da8525ba23510376f001efd4b6825b2c503aeb1f7b6f74551bd",
+          "sha1": "2d73e1fd4575f7a7f87407d2a0caed3951e99fff",
+          "md5": "20a035c6f3991a669020e8cc496e3303"
         }
       ]
     }
