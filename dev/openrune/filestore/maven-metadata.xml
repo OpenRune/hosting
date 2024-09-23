@@ -3,11 +3,12 @@
   <groupId>dev.openrune</groupId>
   <artifactId>filestore</artifactId>
   <versioning>
-    <latest>1.3.5-beta</latest>
-    <release>1.3.5-beta</release>
+    <latest>1.3.6-beta</latest>
+    <release>1.3.6-beta</release>
     <versions>
       <version>1.3.5-beta</version>
+      <version>1.3.6-beta</version>
     </versions>
-    <lastUpdated>20240923203317</lastUpdated>
+    <lastUpdated>20240923203542</lastUpdated>
   </versioning>
 </metadata>
