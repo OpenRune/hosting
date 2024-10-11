@@ -29,11 +29,11 @@
         {
           "name": "filestore-1.3.6.4.jar",
           "url": "filestore-1.3.6.4.jar",
-          "size": 594848,
-          "sha512": "c5920ed0aecf97c571765e71bf02b33e2e8391fe703d58447528731de01bffbf203027215ba579bd526c94ec5539f480c7155c5227db9c25a1e447191833f2c7",
-          "sha256": "8d06777baeb49b64fe2c4bf87831f38307d0a8d4a2a51ba9c3ca4584fb83efd8",
-          "sha1": "639806dfb46f9a9f9b548ce830089a86388ce791",
-          "md5": "f9c052a3b494a398788d294fc51b7807"
+          "size": 594819,
+          "sha512": "c98f1416fae553ee3a898e099dc7959cb9a0e3afda1c0ab588c9c6558b753f38e307193c92ef52bdc811ddfea3923e065976f7f94f8618883dbd812d7a6fef6c",
+          "sha256": "96a2efc958f1c0e9b7c9a6bc354438e3f213c0deca6e21ed5657370e73563466",
+          "sha1": "50096c6efb5b5ae9e88373c0c3c0f856018f5a46",
+          "md5": "490fcc523f48e4574520b1aa7ca89c0d"
         }
       ]
     },
@@ -152,11 +152,11 @@
         {
           "name": "filestore-1.3.6.4.jar",
           "url": "filestore-1.3.6.4.jar",
-          "size": 594848,
-          "sha512": "c5920ed0aecf97c571765e71bf02b33e2e8391fe703d58447528731de01bffbf203027215ba579bd526c94ec5539f480c7155c5227db9c25a1e447191833f2c7",
-          "sha256": "8d06777baeb49b64fe2c4bf87831f38307d0a8d4a2a51ba9c3ca4584fb83efd8",
-          "sha1": "639806dfb46f9a9f9b548ce830089a86388ce791",
-          "md5": "f9c052a3b494a398788d294fc51b7807"
+          "size": 594819,
+          "sha512": "c98f1416fae553ee3a898e099dc7959cb9a0e3afda1c0ab588c9c6558b753f38e307193c92ef52bdc811ddfea3923e065976f7f94f8618883dbd812d7a6fef6c",
+          "sha256": "96a2efc958f1c0e9b7c9a6bc354438e3f213c0deca6e21ed5657370e73563466",
+          "sha1": "50096c6efb5b5ae9e88373c0c3c0f856018f5a46",
+          "md5": "490fcc523f48e4574520b1aa7ca89c0d"
         }
       ]
     }
