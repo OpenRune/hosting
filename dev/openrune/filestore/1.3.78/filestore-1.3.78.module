@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune",
+    "module": "filestore",
+    "version": "1.3.78",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filestore-1.3.78.jar",
+          "url": "filestore-1.3.78.jar",
+          "size": 616312,
+          "sha512": "19c9ddeb9ff10e2ed2dba33ad46e383528be9e506f7624c630ea624439bbada3b1094d4204fd92a63bda56f76085855c854678ec77134f285326883ab28d7627",
+          "sha256": "c25fceae842a45fd865124c9f9f93416ed8d184ba78a5bc1f8cc5ee133aef093",
+          "sha1": "3ff6a76be60843ba04c8584d96aa7cfb5bd3a779",
+          "md5": "9e79017bc86309ceca7fbcec76aab225"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.github.jponge",
+          "module": "lzma-java",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.10.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.akuleshov7",
+          "module": "ktoml-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.akuleshov7",
+          "module": "ktoml-file",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.0-Beta1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-1.3.78.jar",
+          "url": "filestore-1.3.78.jar",
+          "size": 616312,
+          "sha512": "19c9ddeb9ff10e2ed2dba33ad46e383528be9e506f7624c630ea624439bbada3b1094d4204fd92a63bda56f76085855c854678ec77134f285326883ab28d7627",
+          "sha256": "c25fceae842a45fd865124c9f9f93416ed8d184ba78a5bc1f8cc5ee133aef093",
+          "sha1": "3ff6a76be60843ba04c8584d96aa7cfb5bd3a779",
+          "md5": "9e79017bc86309ceca7fbcec76aab225"
+        }
+      ]
+    }
+  ]
+}
