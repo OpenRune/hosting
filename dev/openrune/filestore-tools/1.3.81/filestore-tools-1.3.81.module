@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune",
+    "module": "filestore-tools",
+    "version": "1.3.81",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filestore-tools-1.3.81.jar",
+          "url": "filestore-tools-1.3.81.jar",
+          "size": 129299,
+          "sha512": "d8fed92354941c03cb68536479175a5fcf96c53955f5fc2393be9e2861cba5ddf4d0a2bb4fb1d63b1e3fbdab8b47d404ddc14f56d94d7d04e788061460311a79",
+          "sha256": "78e73b16411d0a2da761010e7580b42b6977047e77572f0216778b5f53e7cf3d",
+          "sha1": "6d2f1f6e28b7be22874047f7066f026020353963",
+          "md5": "47bce3690a3d6756c3b3bb7607b0beb3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "dev.openrune",
+          "module": "filestore",
+          "version": {
+            "requires": "1.3.81"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.openrune",
+          "module": "js5server",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "2.11.5"
+          }
+        },
+        {
+          "group": "cc.ekblad",
+          "module": "4koma",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "com.displee",
+          "module": "rs-cache-library",
+          "version": {
+            "requires": "7.1.5"
+          }
+        },
+        {
+          "group": "com.akuleshov7",
+          "module": "ktoml-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.akuleshov7",
+          "module": "ktoml-file",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-tools-1.3.81.jar",
+          "url": "filestore-tools-1.3.81.jar",
+          "size": 129299,
+          "sha512": "d8fed92354941c03cb68536479175a5fcf96c53955f5fc2393be9e2861cba5ddf4d0a2bb4fb1d63b1e3fbdab8b47d404ddc14f56d94d7d04e788061460311a79",
+          "sha256": "78e73b16411d0a2da761010e7580b42b6977047e77572f0216778b5f53e7cf3d",
+          "sha1": "6d2f1f6e28b7be22874047f7066f026020353963",
+          "md5": "47bce3690a3d6756c3b3bb7607b0beb3"
+        }
+      ]
+    }
+  ]
+}
