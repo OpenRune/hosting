@@ -29,11 +29,11 @@
         {
           "name": "filestore-1.3.88.jar",
           "url": "filestore-1.3.88.jar",
-          "size": 353793,
-          "sha512": "ac0a54beece992685c5e682a3bc6ef81f16f0b9c49e4124e2a8247eb669a54d9e0a6cd6560edeb1000f79d7d9692ec658c75080b19d2cb7515cf8d4d42849d90",
-          "sha256": "bd427415202209a6ec331319f0404e27b6f94ecdb78a872ec3fa691d018447a9",
-          "sha1": "ac9426b18c6536821f6aa4e6ca098f3f9c6cc7fe",
-          "md5": "2eabe7c51576fddc02311b89bf754ac0"
+          "size": 353712,
+          "sha512": "2a6ad8d397f4aaa2e546656e494ceffcf4c0d6ff4401ade5b2f2d53f27ed7de12fd56329c9751f6b8b8d298594eab06d250d187028577215d11b3371fb187494",
+          "sha256": "4c6f9d12d653643836f6bc2bff62b3cf0693ab608a641806bdbce94a8eb5bf91",
+          "sha1": "d001e450384fbc5c80b65a1831e0d5e100981bf5",
+          "md5": "d14039945d2ada57f899494e7c6480e1"
         }
       ]
     },
@@ -117,11 +117,11 @@
         {
           "name": "filestore-1.3.88.jar",
           "url": "filestore-1.3.88.jar",
-          "size": 353793,
-          "sha512": "ac0a54beece992685c5e682a3bc6ef81f16f0b9c49e4124e2a8247eb669a54d9e0a6cd6560edeb1000f79d7d9692ec658c75080b19d2cb7515cf8d4d42849d90",
-          "sha256": "bd427415202209a6ec331319f0404e27b6f94ecdb78a872ec3fa691d018447a9",
-          "sha1": "ac9426b18c6536821f6aa4e6ca098f3f9c6cc7fe",
-          "md5": "2eabe7c51576fddc02311b89bf754ac0"
+          "size": 353712,
+          "sha512": "2a6ad8d397f4aaa2e546656e494ceffcf4c0d6ff4401ade5b2f2d53f27ed7de12fd56329c9751f6b8b8d298594eab06d250d187028577215d11b3371fb187494",
+          "sha256": "4c6f9d12d653643836f6bc2bff62b3cf0693ab608a641806bdbce94a8eb5bf91",
+          "sha1": "d001e450384fbc5c80b65a1831e0d5e100981bf5",
+          "md5": "d14039945d2ada57f899494e7c6480e1"
         }
       ]
     }

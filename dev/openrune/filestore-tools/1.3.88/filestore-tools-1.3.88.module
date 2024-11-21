@@ -30,10 +30,10 @@
           "name": "filestore-tools-1.3.88.jar",
           "url": "filestore-tools-1.3.88.jar",
           "size": 127402,
-          "sha512": "015205b9295434b31cd57d092b12ec54ca2b235ca34a9967422a1ab3bbc953e9775a4774061cd4484916f1466584376c20cb8acd00c1bdec249a2c8e90f4509c",
-          "sha256": "1499509168973df8ffbb30dab75a4228c253041ee0c6d759453d8f761f4fa506",
-          "sha1": "720c817d0187276ad5d6f4d16685df60842cf78f",
-          "md5": "c47e57f86e8aaf7bd855baf7378f07fb"
+          "sha512": "169ceaf7f29bb508cc449b18197f23393740bfb93d92e94a95cbf9ecf5ac1dd57e9a45c3ef6a5ad9d2fb06eacca9912037936798aee3761548ca471380e0ac92",
+          "sha256": "29127426a83e2ba322825e58ee946bf452413e944b433fb7a32c70d828589545",
+          "sha1": "1b0bbf18ddea681882586919bca61119b00f80b1",
+          "md5": "dc3430f605b84a9b9e386ab7fe918686"
         }
       ]
     },
@@ -160,10 +160,10 @@
           "name": "filestore-tools-1.3.88.jar",
           "url": "filestore-tools-1.3.88.jar",
           "size": 127402,
-          "sha512": "015205b9295434b31cd57d092b12ec54ca2b235ca34a9967422a1ab3bbc953e9775a4774061cd4484916f1466584376c20cb8acd00c1bdec249a2c8e90f4509c",
-          "sha256": "1499509168973df8ffbb30dab75a4228c253041ee0c6d759453d8f761f4fa506",
-          "sha1": "720c817d0187276ad5d6f4d16685df60842cf78f",
-          "md5": "c47e57f86e8aaf7bd855baf7378f07fb"
+          "sha512": "169ceaf7f29bb508cc449b18197f23393740bfb93d92e94a95cbf9ecf5ac1dd57e9a45c3ef6a5ad9d2fb06eacca9912037936798aee3761548ca471380e0ac92",
+          "sha256": "29127426a83e2ba322825e58ee946bf452413e944b433fb7a32c70d828589545",
+          "sha1": "1b0bbf18ddea681882586919bca61119b00f80b1",
+          "md5": "dc3430f605b84a9b9e386ab7fe918686"
         }
       ]
     }
