@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "definition",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "definition-2.0.0.jar",
+          "url": "definition-2.0.0.jar",
+          "size": 306710,
+          "sha512": "0ce1cc78a4c9af0f465edd21bd5a393a54ae79c5374bf4700c393a3bf9f1ba7330dbb66967b36d6961974fcc338f1eeeb23eb8c8defa37694173e52343330973",
+          "sha256": "ce13bd632bc2b6b699f5d9a75eb10ae88d69659b2f567f96f66b592dec39d6e5",
+          "sha1": "e19b27fec5413d98c2364fb6452810fb755c2846",
+          "md5": "e76b7f93931832636cc09d347938501b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.0-Beta1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "definition-2.0.0.jar",
+          "url": "definition-2.0.0.jar",
+          "size": 306710,
+          "sha512": "0ce1cc78a4c9af0f465edd21bd5a393a54ae79c5374bf4700c393a3bf9f1ba7330dbb66967b36d6961974fcc338f1eeeb23eb8c8defa37694173e52343330973",
+          "sha256": "ce13bd632bc2b6b699f5d9a75eb10ae88d69659b2f567f96f66b592dec39d6e5",
+          "sha1": "e19b27fec5413d98c2364fb6452810fb755c2846",
+          "md5": "e76b7f93931832636cc09d347938501b"
+        }
+      ]
+    }
+  ]
+}
