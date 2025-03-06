@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune",
+    "module": "js5server",
+    "version": "1.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "js5server-1.0.8.jar",
+          "url": "js5server-1.0.8.jar",
+          "size": 63618,
+          "sha512": "8138b4c25674f8d42f885af37f7639648c8581dd8de89570050faf08dbb6fa990b3ea19fb572c5288423086f185338a69b3af4ab160b81d641b0ab01987da13e",
+          "sha256": "e19078f33b5551831c2a8d71a8c3bf20ef851fb8f9e521bbc62b0a1f15e17413",
+          "sha1": "2e52391bb130fc6d6252eea1d6dd4b82bafe149e",
+          "md5": "6653f1a2eef475858d2359d34a34ebe3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.12"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-kqueue",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "io.netty.incubator",
+          "module": "netty-incubator-transport-native-io_uring",
+          "version": {
+            "requires": "0.0.25.Final"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "org.jctools",
+          "module": "jctools-core",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "com.displee",
+          "module": "rs-cache-library",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "js5server-1.0.8.jar",
+          "url": "js5server-1.0.8.jar",
+          "size": 63618,
+          "sha512": "8138b4c25674f8d42f885af37f7639648c8581dd8de89570050faf08dbb6fa990b3ea19fb572c5288423086f185338a69b3af4ab160b81d641b0ab01987da13e",
+          "sha256": "e19078f33b5551831c2a8d71a8c3bf20ef851fb8f9e521bbc62b0a1f15e17413",
+          "sha1": "2e52391bb130fc6d6252eea1d6dd4b82bafe149e",
+          "md5": "6653f1a2eef475858d2359d34a34ebe3"
+        }
+      ]
+    }
+  ]
+}
