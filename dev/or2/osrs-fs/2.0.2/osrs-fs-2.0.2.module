@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "osrs-fs",
+    "version": "2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "osrs-fs-2.0.2.jar",
+          "url": "osrs-fs-2.0.2.jar",
+          "size": 22442,
+          "sha512": "2d9a7eb72619a81ec7b792353100e8cfe63ac30ffb340cf63a5af29ded40a1c0798834c7baebf97fdf668f0e9a17903b66cfb7f6f017184fe661c67f39ecb448",
+          "sha256": "64bf1c61fea71b5b2704f6102efae4b27076e109db55bcdebbc3526a5eceb483",
+          "sha1": "24516f14c275c6f3d37cea9124f90c948081dc95",
+          "md5": "b4550a57422c692d57bf1d49a95a4534"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-fs-2.0.2.jar",
+          "url": "osrs-fs-2.0.2.jar",
+          "size": 22442,
+          "sha512": "2d9a7eb72619a81ec7b792353100e8cfe63ac30ffb340cf63a5af29ded40a1c0798834c7baebf97fdf668f0e9a17903b66cfb7f6f017184fe661c67f39ecb448",
+          "sha256": "64bf1c61fea71b5b2704f6102efae4b27076e109db55bcdebbc3526a5eceb483",
+          "sha1": "24516f14c275c6f3d37cea9124f90c948081dc95",
+          "md5": "b4550a57422c692d57bf1d49a95a4534"
+        }
+      ]
+    }
+  ]
+}
