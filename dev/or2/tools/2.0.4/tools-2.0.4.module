@@ -29,11 +29,11 @@
         {
           "name": "tools-2.0.4.jar",
           "url": "tools-2.0.4.jar",
-          "size": 154331,
-          "sha512": "23e554c588833a596fee81ae530f0bb3e9bb08a64de77766bd6776286c5e691ad48aa3cb58110bb02a98795de50375803357be5a0cf45667dd1a61d3fc8dc570",
-          "sha256": "c69a2ec57ce70ce44ddfff4c04802a3795188e8db22bf38a18fb479fd394b15e",
-          "sha1": "26b20d5299c5a31e5016bd744ad9505923db8ae2",
-          "md5": "21b3d22ebd82bef4b74d91a1fd12302d"
+          "size": 154483,
+          "sha512": "348ab8005ca00133f07566b2e8bf94d8e0023bc4a085eeeb0d63ba7342781873d1936dcb175eb8a4f8ed03ed1655b65725297709d6d97abb38534e01b25ea7b8",
+          "sha256": "24816f751b499f9e86919e20f75833789ee64993d6079c201f9b5bdaf87f502c",
+          "sha1": "0507a8c72fe98698d664e0aed8fb67f2f913b43d",
+          "md5": "c979a3c2257dc53e77f8fee9778308f8"
         }
       ]
     },
@@ -123,7 +123,7 @@
           "group": "dev.openrune",
           "module": "js5server",
           "version": {
-            "requires": "1.0.6"
+            "requires": "1.0.9"
           }
         },
         {
@@ -187,11 +187,11 @@
         {
           "name": "tools-2.0.4.jar",
           "url": "tools-2.0.4.jar",
-          "size": 154331,
-          "sha512": "23e554c588833a596fee81ae530f0bb3e9bb08a64de77766bd6776286c5e691ad48aa3cb58110bb02a98795de50375803357be5a0cf45667dd1a61d3fc8dc570",
-          "sha256": "c69a2ec57ce70ce44ddfff4c04802a3795188e8db22bf38a18fb479fd394b15e",
-          "sha1": "26b20d5299c5a31e5016bd744ad9505923db8ae2",
-          "md5": "21b3d22ebd82bef4b74d91a1fd12302d"
+          "size": 154483,
+          "sha512": "348ab8005ca00133f07566b2e8bf94d8e0023bc4a085eeeb0d63ba7342781873d1936dcb175eb8a4f8ed03ed1655b65725297709d6d97abb38534e01b25ea7b8",
+          "sha256": "24816f751b499f9e86919e20f75833789ee64993d6079c201f9b5bdaf87f502c",
+          "sha1": "0507a8c72fe98698d664e0aed8fb67f2f913b43d",
+          "md5": "c979a3c2257dc53e77f8fee9778308f8"
         }
       ]
     }

@@ -94,7 +94,7 @@
     <dependency>
       <groupId>dev.openrune</groupId>
       <artifactId>js5server</artifactId>
-      <version>1.0.6</version>
+      <version>1.0.9</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
