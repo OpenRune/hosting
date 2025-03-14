@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.or2</groupId>
+  <artifactId>filesystem</artifactId>
+  <versioning>
+    <latest>2.0.3-snapshot</latest>
+    <versions>
+      <version>2.0.3-snapshot</version>
+    </versions>
+    <lastUpdated>20250314010404</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>dev.or2</groupId>
+  <artifactId>osrs</artifactId>
+  <version>2.0.3-snapshot</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20250314.010404</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20250314010404</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.0.3-snapshot</value>
+        <updated>20250314010404</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.0.3-snapshot</value>
+        <updated>20250314010404</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.3-snapshot</value>
+        <updated>20250314010404</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

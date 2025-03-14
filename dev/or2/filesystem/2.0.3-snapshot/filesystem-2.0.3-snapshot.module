@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "filesystem",
+    "version": "2.0.3-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filesystem-2.0.3-snapshot.jar",
+          "url": "filesystem-2.0.3-snapshot.jar",
+          "size": 74762,
+          "sha512": "7ebd832bff9ea01f0862e8f776b07e11677f953383373b8a44cdf96c74dbf51e3c30be189205ae642476801358acd640fbf2d9a7757b23eb4be9553495dc5f3b",
+          "sha256": "6fc937cce3f79c96509093b4441169b76b6742f24cc9eb93173eae83c2d8ff61",
+          "sha1": "06a64d16a612d0245be61b57554bdd5eaf5f0f38",
+          "md5": "fec5bf0ae72aea13bae2d64573ae3769"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filesystem-2.0.3-snapshot.jar",
+          "url": "filesystem-2.0.3-snapshot.jar",
+          "size": 74762,
+          "sha512": "7ebd832bff9ea01f0862e8f776b07e11677f953383373b8a44cdf96c74dbf51e3c30be189205ae642476801358acd640fbf2d9a7757b23eb4be9553495dc5f3b",
+          "sha256": "6fc937cce3f79c96509093b4441169b76b6742f24cc9eb93173eae83c2d8ff61",
+          "sha1": "06a64d16a612d0245be61b57554bdd5eaf5f0f38",
+          "md5": "fec5bf0ae72aea13bae2d64573ae3769"
+        }
+      ]
+    }
+  ]
+}
