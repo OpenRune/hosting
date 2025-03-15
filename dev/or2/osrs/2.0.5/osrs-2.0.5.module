@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "osrs",
+    "version": "2.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "osrs-2.0.5.jar",
+          "url": "osrs-2.0.5.jar",
+          "size": 73434,
+          "sha512": "093c6223996f34dd1a86c85614d400fbae150fb310391e5016c64de13dcb8c49a4fa702a5538f7dab90de81e9c9cc0e25078017c183b4033415b2dfa2e54d234",
+          "sha256": "ab14faa0b8a6b291b4ee4e3ba9e11efad16560692e5242fe72ca183882e5f20c",
+          "sha1": "ebb1bc3c7c8b05361033da85cc91b8de7e475dc6",
+          "md5": "c1b9ef3488921ae4204af715cbe2fa40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-2.0.5.jar",
+          "url": "osrs-2.0.5.jar",
+          "size": 73434,
+          "sha512": "093c6223996f34dd1a86c85614d400fbae150fb310391e5016c64de13dcb8c49a4fa702a5538f7dab90de81e9c9cc0e25078017c183b4033415b2dfa2e54d234",
+          "sha256": "ab14faa0b8a6b291b4ee4e3ba9e11efad16560692e5242fe72ca183882e5f20c",
+          "sha1": "ebb1bc3c7c8b05361033da85cc91b8de7e475dc6",
+          "md5": "c1b9ef3488921ae4204af715cbe2fa40"
+        }
+      ]
+    }
+  ]
+}
