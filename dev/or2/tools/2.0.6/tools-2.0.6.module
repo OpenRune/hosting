@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "tools",
+    "version": "2.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "tools-2.0.6.jar",
+          "url": "tools-2.0.6.jar",
+          "size": 168610,
+          "sha512": "4d4f012e4f281e246f5a3c7ab88c34f4a5093e9640f586bfc1aeb4b52664407fc009131b86272bbca9e2ebadb21f0d94329a223b21389e5d06d0786cc73a67bb",
+          "sha256": "44a1fe9fc9953aa2b67a54fc5a241c9a70e0d0d334d207fa7d9629571f3897ce",
+          "sha1": "805fed1385bcbc19fd4e58b320a4cdf6649426f4",
+          "md5": "7bc6cd5c5feec4a0b6213e2c923d3d13"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs-fs",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "2.11.5"
+          }
+        },
+        {
+          "group": "cc.ekblad",
+          "module": "4koma",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "displee",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "com.akuleshov7",
+          "module": "ktoml-core",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.akuleshov7",
+          "module": "ktoml-file",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-2.0.6.jar",
+          "url": "tools-2.0.6.jar",
+          "size": 168610,
+          "sha512": "4d4f012e4f281e246f5a3c7ab88c34f4a5093e9640f586bfc1aeb4b52664407fc009131b86272bbca9e2ebadb21f0d94329a223b21389e5d06d0786cc73a67bb",
+          "sha256": "44a1fe9fc9953aa2b67a54fc5a241c9a70e0d0d334d207fa7d9629571f3897ce",
+          "sha1": "805fed1385bcbc19fd4e58b320a4cdf6649426f4",
+          "md5": "7bc6cd5c5feec4a0b6213e2c923d3d13"
+        }
+      ]
+    }
+  ]
+}
