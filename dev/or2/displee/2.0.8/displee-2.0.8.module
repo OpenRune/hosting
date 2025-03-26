@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "displee",
+    "version": "2.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "displee-2.0.8.jar",
+          "url": "displee-2.0.8.jar",
+          "size": 111432,
+          "sha512": "706ba6fc5a72523661a2becddf7aaa14477764a687c7c7bcc947b40629d040f8c934254d0ae65f803b3f9ffe86b9438dc10e808416b90be79cd3f516a8954d75",
+          "sha256": "c97e40edb20941bf2af6039f1a1c921fff184134afa731b39449c6060f1ce73e",
+          "sha1": "a63d93ed6490eff2ca72d2bbe13d8c342da4c4b1",
+          "md5": "7afcb4cd3bb12660191da5bf8053b134"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "com.github.jponge",
+          "module": "lzma-java",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.14"
+          }
+        },
+        {
+          "group": "com.displee",
+          "module": "disio",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "displee-2.0.8.jar",
+          "url": "displee-2.0.8.jar",
+          "size": 111432,
+          "sha512": "706ba6fc5a72523661a2becddf7aaa14477764a687c7c7bcc947b40629d040f8c934254d0ae65f803b3f9ffe86b9438dc10e808416b90be79cd3f516a8954d75",
+          "sha256": "c97e40edb20941bf2af6039f1a1c921fff184134afa731b39449c6060f1ce73e",
+          "sha1": "a63d93ed6490eff2ca72d2bbe13d8c342da4c4b1",
+          "md5": "7afcb4cd3bb12660191da5bf8053b134"
+        }
+      ]
+    }
+  ]
+}
