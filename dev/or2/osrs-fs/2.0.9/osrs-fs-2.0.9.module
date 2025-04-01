@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "osrs-fs",
+    "version": "2.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "osrs-fs-2.0.9.jar",
+          "url": "osrs-fs-2.0.9.jar",
+          "size": 23585,
+          "sha512": "f8dccf03c3dbcc4f43883b1798ae2f228ddf9c4c52f3a95715159ae93f66a789425fcdee77efc57a483f8355ca617ce97135b66c37a6402ac24c6e4f9bc62303",
+          "sha256": "576daa019a2bf8f8842613253d2e9e2b14e4d31069e1a460cdf103460eeaf6de",
+          "sha1": "50cba544760686b6a412f3d10d9847a2a2fa4a6b",
+          "md5": "1efa87f0792e89abf0b7e45222a51195"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-fs-2.0.9.jar",
+          "url": "osrs-fs-2.0.9.jar",
+          "size": 23585,
+          "sha512": "f8dccf03c3dbcc4f43883b1798ae2f228ddf9c4c52f3a95715159ae93f66a789425fcdee77efc57a483f8355ca617ce97135b66c37a6402ac24c6e4f9bc62303",
+          "sha256": "576daa019a2bf8f8842613253d2e9e2b14e4d31069e1a460cdf103460eeaf6de",
+          "sha1": "50cba544760686b6a412f3d10d9847a2a2fa4a6b",
+          "md5": "1efa87f0792e89abf0b7e45222a51195"
+        }
+      ]
+    }
+  ]
+}
