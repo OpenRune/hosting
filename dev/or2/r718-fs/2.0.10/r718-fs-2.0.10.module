@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "r718-fs",
+    "version": "2.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "r718-fs-2.0.10.jar",
+          "url": "r718-fs-2.0.10.jar",
+          "size": 7586,
+          "sha512": "2d94544125042fd76857227fc3e227052798cbc8762fd46e5b889bb76a6182d36e53e11d10ad6950c91b2ecf88b1d849b8217e4d15112de042b9e9e69feaf0d7",
+          "sha256": "9e357bc331326b839b6d6db7943e0e68fae2a7d0d3f3ea529cb34de7b5a0d999",
+          "sha1": "3c75196e804e56ec320b037002e7632e9ef705fc",
+          "md5": "4a37f34089edb7d3c014035905c1da81"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "r718",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "r718-fs-2.0.10.jar",
+          "url": "r718-fs-2.0.10.jar",
+          "size": 7586,
+          "sha512": "2d94544125042fd76857227fc3e227052798cbc8762fd46e5b889bb76a6182d36e53e11d10ad6950c91b2ecf88b1d849b8217e4d15112de042b9e9e69feaf0d7",
+          "sha256": "9e357bc331326b839b6d6db7943e0e68fae2a7d0d3f3ea529cb34de7b5a0d999",
+          "sha1": "3c75196e804e56ec320b037002e7632e9ef705fc",
+          "md5": "4a37f34089edb7d3c014035905c1da81"
+        }
+      ]
+    }
+  ]
+}
