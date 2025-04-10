@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "r718",
+    "version": "2.0.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "r718-2.0.11.jar",
+          "url": "r718-2.0.11.jar",
+          "size": 13988,
+          "sha512": "aed80c3bb46fe6f0f0280f7b3ef30134f6980bc1688bbaf28ef29bad85f29162b90f9a501c5d674a0735a09a14fbd6d1923184ce021b6f4ac55040f4fed67e94",
+          "sha256": "25c44ff0f4f1f377baee80beb90fd3dd68f22f0ef4ef3b0a7d1a8b506e317e89",
+          "sha1": "237eebea4269817e6f497acfda891f109a8b0fe2",
+          "md5": "25c7095d91e42a4f6860135684a8b2a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "r718-2.0.11.jar",
+          "url": "r718-2.0.11.jar",
+          "size": 13988,
+          "sha512": "aed80c3bb46fe6f0f0280f7b3ef30134f6980bc1688bbaf28ef29bad85f29162b90f9a501c5d674a0735a09a14fbd6d1923184ce021b6f4ac55040f4fed67e94",
+          "sha256": "25c44ff0f4f1f377baee80beb90fd3dd68f22f0ef4ef3b0a7d1a8b506e317e89",
+          "sha1": "237eebea4269817e6f497acfda891f109a8b0fe2",
+          "md5": "25c7095d91e42a4f6860135684a8b2a9"
+        }
+      ]
+    }
+  ]
+}
