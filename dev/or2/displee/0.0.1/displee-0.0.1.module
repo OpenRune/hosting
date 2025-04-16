@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "displee",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "displee-0.0.1.jar",
+          "url": "displee-0.0.1.jar",
+          "size": 145280,
+          "sha512": "092683b82d1a3cf1d4f708dd80583968a37a3e9450c2ebf2fd97d203bec87c2bc3a9b9a89ee9dec56b62fda56a1dbfb60c5554a010c9cafb38f0fa11e33fee45",
+          "sha256": "9cf6686eff591ed336468e429305ff5413aa720aa5c77d5cfced7ca4aad2930a",
+          "sha1": "f0b2b87ce2be2d36c444898d8ba7cddd613a96d1",
+          "md5": "8f1a0a06edde40d1fe7c5d5b6921480c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.0-jre"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.10"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "displee-0.0.1.jar",
+          "url": "displee-0.0.1.jar",
+          "size": 145280,
+          "sha512": "092683b82d1a3cf1d4f708dd80583968a37a3e9450c2ebf2fd97d203bec87c2bc3a9b9a89ee9dec56b62fda56a1dbfb60c5554a010c9cafb38f0fa11e33fee45",
+          "sha256": "9cf6686eff591ed336468e429305ff5413aa720aa5c77d5cfced7ca4aad2930a",
+          "sha1": "f0b2b87ce2be2d36c444898d8ba7cddd613a96d1",
+          "md5": "8f1a0a06edde40d1fe7c5d5b6921480c"
+        }
+      ]
+    }
+  ]
+}
