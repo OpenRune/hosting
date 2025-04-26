@@ -3,38 +3,32 @@
   <groupId>dev.or2</groupId>
   <artifactId>clientscript-compiler</artifactId>
   <versioning>
-    <lastUpdated>20250425213215</lastUpdated>
+    <lastUpdated>20250426114623</lastUpdated>
     <snapshot>
-      <timestamp>20250425.213215</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20250426.114623</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.1-20250425.213215-3</value>
-        <updated>20250425213215</updated>
+        <value>1.0.1-20250426.114623-6</value>
+        <updated>20250426114623</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.1-20250425.213215-3</value>
-        <updated>20250425213215</updated>
+        <extension>pom</extension>
+        <value>1.0.1-20250426.114623-6</value>
+        <updated>20250426114623</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.1-20250425.213215-3</value>
-        <updated>20250425213215</updated>
+        <value>1.0.1-20250426.114623-6</value>
+        <updated>20250426114623</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.0.1-20250425.213215-3</value>
-        <updated>20250425213215</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.1-20250425.213215-3</value>
-        <updated>20250425213215</updated>
+        <extension>module</extension>
+        <value>1.0.1-20250426.114623-6</value>
+        <updated>20250426114623</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

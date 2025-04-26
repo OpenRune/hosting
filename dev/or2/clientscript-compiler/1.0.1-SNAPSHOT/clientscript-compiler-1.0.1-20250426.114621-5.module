@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "clientscript-compiler",
+    "version": "1.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "runescript-compiler",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.ibm.icu",
+              "module": "icu4j"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientscript-compiler-1.0.1-SNAPSHOT.jar",
+          "url": "clientscript-compiler-1.0.1-SNAPSHOT.jar",
+          "size": 1475637,
+          "sha512": "ab6dca052ede50aa3c181b2543ad8665339314fb9b8143ee2496c2944943c299676a2455ce7a285838f7a568bd677af6ec5ce831f518bee6130308d711900767",
+          "sha256": "bfe24311f8ff1767dd30a7c2e749fdb8990c9ade4995ffe77510556f60424243",
+          "sha1": "89557a069b8a4cfb32c0161f9dc021feef4ca62a",
+          "md5": "2042f05a77d97950fabb1f7ca57afc12"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.0-jre"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.116.Final"
+          }
+        },
+        {
+          "group": "cc.ekblad",
+          "module": "4koma",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "5.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.11"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "runescript-compiler",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.ibm.icu",
+              "module": "icu4j"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientscript-compiler-1.0.1-SNAPSHOT.jar",
+          "url": "clientscript-compiler-1.0.1-SNAPSHOT.jar",
+          "size": 1475637,
+          "sha512": "ab6dca052ede50aa3c181b2543ad8665339314fb9b8143ee2496c2944943c299676a2455ce7a285838f7a568bd677af6ec5ce831f518bee6130308d711900767",
+          "sha256": "bfe24311f8ff1767dd30a7c2e749fdb8990c9ade4995ffe77510556f60424243",
+          "sha1": "89557a069b8a4cfb32c0161f9dc021feef4ca62a",
+          "md5": "2042f05a77d97950fabb1f7ca57afc12"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "clientscript-compiler-1.0.1-SNAPSHOT-sources.jar",
+          "url": "clientscript-compiler-1.0.1-SNAPSHOT-sources.jar",
+          "size": 1393815,
+          "sha512": "4e63dd3552a4f4170dcdac29a2f63d8a06138e661b720ad27f77912463836324a39a414d6659602501430a232bda5a05c6153b5f835942314bd03e9c82ee9055",
+          "sha256": "48e343d28d5e35d555837a5de5ab8ab923ee69e89301b82cad3849df903500ec",
+          "sha1": "5d29913d05f364388da97ea8b0bd3adf25044d9c",
+          "md5": "2aa381c8660315c7bdd5749fb3be5b26"
+        },
+        {
+          "name": "clientscript-compiler-1.0.1-SNAPSHOT-sources.jar",
+          "url": "clientscript-compiler-1.0.1-SNAPSHOT-sources.jar",
+          "size": 1393815,
+          "sha512": "4e63dd3552a4f4170dcdac29a2f63d8a06138e661b720ad27f77912463836324a39a414d6659602501430a232bda5a05c6153b5f835942314bd03e9c82ee9055",
+          "sha256": "48e343d28d5e35d555837a5de5ab8ab923ee69e89301b82cad3849df903500ec",
+          "sha1": "5d29913d05f364388da97ea8b0bd3adf25044d9c",
+          "md5": "2aa381c8660315c7bdd5749fb3be5b26"
+        }
+      ]
+    }
+  ]
+}
