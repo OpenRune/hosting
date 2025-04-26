@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>dev.or2</groupId>
+  <artifactId>runescript-runtime</artifactId>
+  <versioning>
+    <lastUpdated>20250425213215</lastUpdated>
+    <snapshot>
+      <timestamp>20250425.213215</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.1-20250425.213215-3</value>
+        <updated>20250425213215</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20250425.213215-3</value>
+        <updated>20250425213215</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.1-20250425.213215-3</value>
+        <updated>20250425213215</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20250425.213215-3</value>
+        <updated>20250425213215</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.1-SNAPSHOT</version>
+</metadata>
