@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.filby",
+    "module": "runescript-runtime",
+    "version": "0.0.1-openrune",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runescript-runtime-0.0.1-openrune.jar",
+          "url": "runescript-runtime-0.0.1-openrune.jar",
+          "size": 41007,
+          "sha512": "3e0fe992fb60c8e025b2dcf2817693216db8ef89506e95e781896a04f0fc7b8aede76ee5860422f916517f89adbfeea3275cdf8c2ff2a2155373eec181d15172",
+          "sha256": "26b98db905b06d75259577bc70c11c9d40a596f418dbe675660e6b4461be4be7",
+          "sha1": "7aeabd3d84d7a27b8cf2826b60b38927e4dffca3",
+          "md5": "66cd0efc6b4c6abeea7129130d92f77e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.0-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "me.filby",
+          "module": "runescript-compiler",
+          "version": {
+            "requires": "0.0.1-openrune"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runescript-runtime-0.0.1-openrune.jar",
+          "url": "runescript-runtime-0.0.1-openrune.jar",
+          "size": 41007,
+          "sha512": "3e0fe992fb60c8e025b2dcf2817693216db8ef89506e95e781896a04f0fc7b8aede76ee5860422f916517f89adbfeea3275cdf8c2ff2a2155373eec181d15172",
+          "sha256": "26b98db905b06d75259577bc70c11c9d40a596f418dbe675660e6b4461be4be7",
+          "sha1": "7aeabd3d84d7a27b8cf2826b60b38927e4dffca3",
+          "md5": "66cd0efc6b4c6abeea7129130d92f77e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "runescript-runtime-0.0.1-openrune-sources.jar",
+          "url": "runescript-runtime-0.0.1-openrune-sources.jar",
+          "size": 13755,
+          "sha512": "7e09496eb30d56db60e5a013c13ae534335f8012dd90de748fd0f33c744f2ec86ab0f309a47f924cc34ba153d7fd6e4d2f2d7b0656c61ad2f2402305968e8799",
+          "sha256": "41337bf6154be171fc7ef151f0627ccbb65e8971ba496f3ec54338146c177f17",
+          "sha1": "d1cd90c91deec11e105ede821c268ba8ab02889c",
+          "md5": "a36fdb9e15a33cb9ad3eecc2b3eeceeb"
+        },
+        {
+          "name": "runescript-runtime-0.0.1-openrune-sources.jar",
+          "url": "runescript-runtime-0.0.1-openrune-sources.jar",
+          "size": 13755,
+          "sha512": "7e09496eb30d56db60e5a013c13ae534335f8012dd90de748fd0f33c744f2ec86ab0f309a47f924cc34ba153d7fd6e4d2f2d7b0656c61ad2f2402305968e8799",
+          "sha256": "41337bf6154be171fc7ef151f0627ccbb65e8971ba496f3ec54338146c177f17",
+          "sha1": "d1cd90c91deec11e105ede821c268ba8ab02889c",
+          "md5": "a36fdb9e15a33cb9ad3eecc2b3eeceeb"
+        }
+      ]
+    }
+  ]
+}

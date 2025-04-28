@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.filby",
+    "module": "clientscript-compiler",
+    "version": "0.0.1-openrune",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.filby",
+          "module": "runescript-compiler",
+          "version": {
+            "requires": "0.0.1-openrune"
+          },
+          "excludes": [
+            {
+              "group": "com.ibm.icu",
+              "module": "icu4j"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientscript-compiler-0.0.1-openrune.jar",
+          "url": "clientscript-compiler-0.0.1-openrune.jar",
+          "size": 1482865,
+          "sha512": "ade8c65f34dacdd1e959077af118b9e11a3399318eebbf9beb354e92d911b2fda3647dea2fa691d726f485c206188299d8c2efce19485202765a0cdb030fe3cf",
+          "sha256": "810e555da88cf5399703ee59a24df50c3b4132dca8b6b10f28955831eb4e6608",
+          "sha1": "5314c3469fd1b80630d5c5f529ff4c57a3692892",
+          "md5": "775012bd1c74c3c7a2c7ce9fa73e70e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.0-jre"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.116.Final"
+          }
+        },
+        {
+          "group": "cc.ekblad",
+          "module": "4koma",
+          "version": {
+            "requires": "1.2.0-openrune"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.11"
+          }
+        },
+        {
+          "group": "me.filby",
+          "module": "runescript-compiler",
+          "version": {
+            "requires": "0.0.1-openrune"
+          },
+          "excludes": [
+            {
+              "group": "com.ibm.icu",
+              "module": "icu4j"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientscript-compiler-0.0.1-openrune.jar",
+          "url": "clientscript-compiler-0.0.1-openrune.jar",
+          "size": 1482865,
+          "sha512": "ade8c65f34dacdd1e959077af118b9e11a3399318eebbf9beb354e92d911b2fda3647dea2fa691d726f485c206188299d8c2efce19485202765a0cdb030fe3cf",
+          "sha256": "810e555da88cf5399703ee59a24df50c3b4132dca8b6b10f28955831eb4e6608",
+          "sha1": "5314c3469fd1b80630d5c5f529ff4c57a3692892",
+          "md5": "775012bd1c74c3c7a2c7ce9fa73e70e0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "clientscript-compiler-0.0.1-openrune-sources.jar",
+          "url": "clientscript-compiler-0.0.1-openrune-sources.jar",
+          "size": 1391461,
+          "sha512": "b542ff2588679c36199197871cd8c9df2e3c88128ec8585a784c5e4939c66bf7b0e9076de64dd7cc48bb0f3633022ab0d3b8d07981b9c23baff960bf8f0a255d",
+          "sha256": "30c207ba23f9abd765a981edd0e7c6b26c03e7b8aa2b439d903b1491a5c15439",
+          "sha1": "eed3312109adfe50e9441e9814b686759c6cd116",
+          "md5": "c69cbd9264f9a021cf94e74332edacf4"
+        },
+        {
+          "name": "clientscript-compiler-0.0.1-openrune-sources.jar",
+          "url": "clientscript-compiler-0.0.1-openrune-sources.jar",
+          "size": 1391461,
+          "sha512": "b542ff2588679c36199197871cd8c9df2e3c88128ec8585a784c5e4939c66bf7b0e9076de64dd7cc48bb0f3633022ab0d3b8d07981b9c23baff960bf8f0a255d",
+          "sha256": "30c207ba23f9abd765a981edd0e7c6b26c03e7b8aa2b439d903b1491a5c15439",
+          "sha1": "eed3312109adfe50e9441e9814b686759c6cd116",
+          "md5": "c69cbd9264f9a021cf94e74332edacf4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>me.filby</groupId>
+  <artifactId>runescript-compiler</artifactId>
+  <versioning>
+    <latest>0.0.1-openrune</latest>
+    <release>0.0.1-openrune</release>
+    <versions>
+      <version>0.0.1-openrune</version>
+    </versions>
+    <lastUpdated>20250428171707</lastUpdated>
+  </versioning>
+</metadata>
