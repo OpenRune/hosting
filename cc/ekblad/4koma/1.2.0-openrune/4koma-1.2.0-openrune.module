@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cc.ekblad",
+    "module": "4koma",
+    "version": "1.2.0-openrune",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "4koma-1.2.0-openrune.jar",
+          "url": "4koma-1.2.0-openrune.jar",
+          "size": 436983,
+          "sha512": "8be81ea54fb0c365f75beb5d6f37389b3fc3607f6f01234eb7b6ed262addece77acfa9163594858208a299c7e80279691df4524ba674d2f6e4f9da595f0f2628",
+          "sha256": "cbe37b75ef6cc6df62a5eb099836f9c32554f812504c24dbf00d1d68d02fa099",
+          "sha1": "fcb68f4c09af22fbc2e48ec88937a8a5bc610e42",
+          "md5": "509e33b39294c2aa59a545a2c71c86d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "cc.ekblad.konbini",
+          "module": "konbini",
+          "version": {
+            "requires": "0.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "4koma-1.2.0-openrune.jar",
+          "url": "4koma-1.2.0-openrune.jar",
+          "size": 436983,
+          "sha512": "8be81ea54fb0c365f75beb5d6f37389b3fc3607f6f01234eb7b6ed262addece77acfa9163594858208a299c7e80279691df4524ba674d2f6e4f9da595f0f2628",
+          "sha256": "cbe37b75ef6cc6df62a5eb099836f9c32554f812504c24dbf00d1d68d02fa099",
+          "sha1": "fcb68f4c09af22fbc2e48ec88937a8a5bc610e42",
+          "md5": "509e33b39294c2aa59a545a2c71c86d7"
+        }
+      ]
+    }
+  ]
+}
