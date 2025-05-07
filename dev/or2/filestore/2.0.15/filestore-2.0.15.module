@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "filestore",
+    "version": "2.0.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filestore-2.0.15.jar",
+          "url": "filestore-2.0.15.jar",
+          "size": 23822,
+          "sha512": "e7e0e3961e540b6811d923884625d043e5c03ab665d75f2c16afea45ec07af6c25893a4b01beaf25d330a495c712db7a052627b35c51b738982957cbc4b6b8da",
+          "sha256": "6046f460c19a3519307094d956bc118583866a638c14669ce8813b60c16aedf9",
+          "sha1": "9f5b9350e2453782058c4d586240e24cdf2b3813",
+          "md5": "ca0c58c6a9933f914d5b891cb943c9bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.15"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.0.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-2.0.15.jar",
+          "url": "filestore-2.0.15.jar",
+          "size": 23822,
+          "sha512": "e7e0e3961e540b6811d923884625d043e5c03ab665d75f2c16afea45ec07af6c25893a4b01beaf25d330a495c712db7a052627b35c51b738982957cbc4b6b8da",
+          "sha256": "6046f460c19a3519307094d956bc118583866a638c14669ce8813b60c16aedf9",
+          "sha1": "9f5b9350e2453782058c4d586240e24cdf2b3813",
+          "md5": "ca0c58c6a9933f914d5b891cb943c9bb"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "osrs",
+    "version": "2.0.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "osrs-2.0.15.jar",
+          "url": "osrs-2.0.15.jar",
+          "size": 84039,
+          "sha512": "419e6045bca7950927eb53401ef209ef6f56c627ee5df1a6645f40ec7298f1509738103bbb47400b8a12e2a8e822596b51ea41e0fbeb2388b05617dbcd18aa1e",
+          "sha256": "751402c5a5dadf376a792fb95b8c67d6064e774709270809ba3b435a7d4b3556",
+          "sha1": "b28a07b42362c624843e3e37ec3986e9a51b577b",
+          "md5": "2974d5cea6243bd89cdefd5f9b6f3d1b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.1.0-alpha1"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.0.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-2.0.15.jar",
+          "url": "osrs-2.0.15.jar",
+          "size": 84039,
+          "sha512": "419e6045bca7950927eb53401ef209ef6f56c627ee5df1a6645f40ec7298f1509738103bbb47400b8a12e2a8e822596b51ea41e0fbeb2388b05617dbcd18aa1e",
+          "sha256": "751402c5a5dadf376a792fb95b8c67d6064e774709270809ba3b435a7d4b3556",
+          "sha1": "b28a07b42362c624843e3e37ec3986e9a51b577b",
+          "md5": "2974d5cea6243bd89cdefd5f9b6f3d1b"
+        }
+      ]
+    }
+  ]
+}
