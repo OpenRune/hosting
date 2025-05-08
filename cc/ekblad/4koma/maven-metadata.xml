@@ -3,11 +3,12 @@
   <groupId>cc.ekblad</groupId>
   <artifactId>4koma</artifactId>
   <versioning>
-    <latest>1.2.0-openrune</latest>
-    <release>1.2.0-openrune</release>
+    <latest>1.2.2-openrune</latest>
+    <release>1.2.2-openrune</release>
     <versions>
       <version>1.2.0-openrune</version>
+      <version>1.2.2-openrune</version>
     </versions>
-    <lastUpdated>20250428154126</lastUpdated>
+    <lastUpdated>20250508192901</lastUpdated>
   </versioning>
 </metadata>
