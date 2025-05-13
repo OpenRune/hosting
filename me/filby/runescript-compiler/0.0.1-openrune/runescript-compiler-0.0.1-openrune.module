@@ -46,10 +46,10 @@
           "name": "runescript-compiler-0.0.1-openrune.jar",
           "url": "runescript-compiler-0.0.1-openrune.jar",
           "size": 275478,
-          "sha512": "9b2281138831b7aba521a80fe5cf9dea79467c9db39295af9293ee53963ed6d50b0977279ea85260ad91364594781518b5663a14a7f85dbb8900aaba434fd235",
-          "sha256": "e2dca4a1e8c423fb61826413e87055c90bd34bdd4b3b3458dc019a4735cb36a7",
-          "sha1": "b7ded0f715bd93910a32bed151349b2d4f5ade22",
-          "md5": "9b914591ecf7f9b10c6558578d638f90"
+          "sha512": "d6ba96f7f40c585fb39d11581630c317687ac070de0141abaf7a4a72273ffd1995a95ce27881d2cca2a18c90533f7f0545db4d3bb41283a284453523938c1f2c",
+          "sha256": "d9b07a01f27b587a9595ab9267b23edb901febb40774078667991705ed4065ea",
+          "sha1": "9a9abba0abdab0465efac1a4111c88bd28fc4712",
+          "md5": "9201238d94df5f8fcb64f215916a93f2"
         }
       ]
     },
@@ -106,10 +106,10 @@
           "name": "runescript-compiler-0.0.1-openrune.jar",
           "url": "runescript-compiler-0.0.1-openrune.jar",
           "size": 275478,
-          "sha512": "9b2281138831b7aba521a80fe5cf9dea79467c9db39295af9293ee53963ed6d50b0977279ea85260ad91364594781518b5663a14a7f85dbb8900aaba434fd235",
-          "sha256": "e2dca4a1e8c423fb61826413e87055c90bd34bdd4b3b3458dc019a4735cb36a7",
-          "sha1": "b7ded0f715bd93910a32bed151349b2d4f5ade22",
-          "md5": "9b914591ecf7f9b10c6558578d638f90"
+          "sha512": "d6ba96f7f40c585fb39d11581630c317687ac070de0141abaf7a4a72273ffd1995a95ce27881d2cca2a18c90533f7f0545db4d3bb41283a284453523938c1f2c",
+          "sha256": "d9b07a01f27b587a9595ab9267b23edb901febb40774078667991705ed4065ea",
+          "sha1": "9a9abba0abdab0465efac1a4111c88bd28fc4712",
+          "md5": "9201238d94df5f8fcb64f215916a93f2"
         }
       ]
     },
@@ -126,19 +126,19 @@
           "name": "runescript-compiler-0.0.1-openrune-sources.jar",
           "url": "runescript-compiler-0.0.1-openrune-sources.jar",
           "size": 60788,
-          "sha512": "7a870b9a27bf6edc8e42471dc8f6b26362a8bd91bd1b7fc397b653c8da84523cd96a5487b0a4166f117376fb85fe021003fdf6bccc816d8521028c8ac30139a9",
-          "sha256": "55da3e11bf45842e56a4ccafdd0f43d240e834b8219159a09d1826fa72e405c4",
-          "sha1": "66884a41e68734b51faa57349c11918eb0cca486",
-          "md5": "6cfc1063889461660852557525f83f8c"
+          "sha512": "69926f9ae9840c3f509bf60a176a1e8aa69674a79647b85aca549c4a997ae6e696184cf1540318be319c6ce98b8f590d3c0ed726f2128ef21b93c8ddc1eeaa79",
+          "sha256": "d54c4b412714e55a67f7c65f8335b82cb69e55581522f7c9ad9a8bcbe21a6c73",
+          "sha1": "f0ac6c2b50e06ceceeedfa46214df3bffd454db6",
+          "md5": "f8738d419adc4e20d9978ea9963891bf"
         },
         {
           "name": "runescript-compiler-0.0.1-openrune-sources.jar",
           "url": "runescript-compiler-0.0.1-openrune-sources.jar",
           "size": 60788,
-          "sha512": "7a870b9a27bf6edc8e42471dc8f6b26362a8bd91bd1b7fc397b653c8da84523cd96a5487b0a4166f117376fb85fe021003fdf6bccc816d8521028c8ac30139a9",
-          "sha256": "55da3e11bf45842e56a4ccafdd0f43d240e834b8219159a09d1826fa72e405c4",
-          "sha1": "66884a41e68734b51faa57349c11918eb0cca486",
-          "md5": "6cfc1063889461660852557525f83f8c"
+          "sha512": "69926f9ae9840c3f509bf60a176a1e8aa69674a79647b85aca549c4a997ae6e696184cf1540318be319c6ce98b8f590d3c0ed726f2128ef21b93c8ddc1eeaa79",
+          "sha256": "d54c4b412714e55a67f7c65f8335b82cb69e55581522f7c9ad9a8bcbe21a6c73",
+          "sha1": "f0ac6c2b50e06ceceeedfa46214df3bffd454db6",
+          "md5": "f8738d419adc4e20d9978ea9963891bf"
         }
       ]
     }
