@@ -1,0 +1,317 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.openrune",
+    "module": "js5server",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "net.rsprot",
+          "module": "protocol",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "compression",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "crypto",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-229-common",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-229-model",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "js5server-2.0.jar",
+          "url": "js5server-2.0.jar",
+          "size": 223842,
+          "sha512": "1a231a99c4a7a2fd3b55b7cfc06eb8a798442beea5457dc4d2aa30b221eeb402f558ac29b76bef9e3af9a0b659cef5c1ae54d33d80b49fb5625372224370ccf3",
+          "sha256": "9be1b804704db50614cd635ecff33de484baa768ad52dc196cc33fc16749d774",
+          "sha1": "b79a5c48c5cb808a837b52f309080d97e4861aad",
+          "md5": "ce8d8b5b445bc36ca41cb2a075bb96a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.107.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport"
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler"
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll"
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-kqueue"
+        },
+        {
+          "group": "io.netty.incubator",
+          "module": "netty-incubator-transport-native-io_uring",
+          "version": {
+            "requires": "0.0.25.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-resolver-dns-native-macos"
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-transport-native-epoll",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-aarch_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-transport-native-epoll",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-x86_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-transport-native-epoll",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-riscv64"
+            }
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-kqueue",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-transport-native-kqueue",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "osx-x86_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty.incubator",
+          "module": "netty-incubator-transport-native-io_uring",
+          "version": {
+            "requires": "0.0.25.Final"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-incubator-transport-native-io_uring",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-aarch_64"
+            }
+          }
+        },
+        {
+          "group": "io.netty.incubator",
+          "module": "netty-incubator-transport-native-io_uring",
+          "version": {
+            "requires": "0.0.25.Final"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "netty-incubator-transport-native-io_uring",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux-x86_64"
+            }
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-229-internal",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-229-desktop",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-229-shared",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "buffer",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "net.rsprot",
+          "module": "protocol",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "compression",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "crypto",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-229-common",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-229-model",
+          "version": {
+            "requires": "1.0.0-ALPHA-20250328"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "js5server-2.0.jar",
+          "url": "js5server-2.0.jar",
+          "size": 223842,
+          "sha512": "1a231a99c4a7a2fd3b55b7cfc06eb8a798442beea5457dc4d2aa30b221eeb402f558ac29b76bef9e3af9a0b659cef5c1ae54d33d80b49fb5625372224370ccf3",
+          "sha256": "9be1b804704db50614cd635ecff33de484baa768ad52dc196cc33fc16749d774",
+          "sha1": "b79a5c48c5cb808a837b52f309080d97e4861aad",
+          "md5": "ce8d8b5b445bc36ca41cb2a075bb96a9"
+        }
+      ]
+    }
+  ]
+}
