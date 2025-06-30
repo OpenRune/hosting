@@ -38,11 +38,11 @@
         {
           "name": "filestore-server-osrs-0.4.jar",
           "url": "filestore-server-osrs-0.4.jar",
-          "size": 261,
-          "sha512": "b4baef26267c8c260d4d955c5f980d42cea2d4aba6579fe7dbd9f51364cfa3844d3ced5e2360f8335faabbadef5245fea164ba1583579cda4b802155b68c613d",
-          "sha256": "33183bf8b3a4f60da6c2ef5f8677576ab43297593af518a6a45fd9efa62dc487",
-          "sha1": "abf68e4d8b11d12d750bc21909e9e9584c9a426d",
-          "md5": "524fa62500460be1bd24f2e72badc9e1"
+          "size": 150120,
+          "sha512": "8bac39fd94304bd10df146c6fe6af97b7218198a015f9e424477b0f579a82705603b9c2075d8855a5e3c2a642ca8254cbfff3190623b6568568dd8f1eae32e68",
+          "sha256": "ec82cd6f240d8806557a5f07640a8240adb1792c299efc16c1feddbc8ed3ac7c",
+          "sha1": "51d444c0206d8a51bff681acc2ffbbb3cd0473c1",
+          "md5": "afa777c8e5c4782ba39d58e23e70060d"
         }
       ]
     },
@@ -87,6 +87,27 @@
           }
         },
         {
+          "group": "dev.or2",
+          "module": "filestore-server",
+          "version": {
+            "requires": "0.4"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
@@ -98,11 +119,11 @@
         {
           "name": "filestore-server-osrs-0.4.jar",
           "url": "filestore-server-osrs-0.4.jar",
-          "size": 261,
-          "sha512": "b4baef26267c8c260d4d955c5f980d42cea2d4aba6579fe7dbd9f51364cfa3844d3ced5e2360f8335faabbadef5245fea164ba1583579cda4b802155b68c613d",
-          "sha256": "33183bf8b3a4f60da6c2ef5f8677576ab43297593af518a6a45fd9efa62dc487",
-          "sha1": "abf68e4d8b11d12d750bc21909e9e9584c9a426d",
-          "md5": "524fa62500460be1bd24f2e72badc9e1"
+          "size": 150120,
+          "sha512": "8bac39fd94304bd10df146c6fe6af97b7218198a015f9e424477b0f579a82705603b9c2075d8855a5e3c2a642ca8254cbfff3190623b6568568dd8f1eae32e68",
+          "sha256": "ec82cd6f240d8806557a5f07640a8240adb1792c299efc16c1feddbc8ed3ac7c",
+          "sha1": "51d444c0206d8a51bff681acc2ffbbb3cd0473c1",
+          "md5": "afa777c8e5c4782ba39d58e23e70060d"
         }
       ]
     }

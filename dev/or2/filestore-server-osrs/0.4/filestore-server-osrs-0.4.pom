@@ -61,5 +61,23 @@
       <version>7.0.3</version>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>dev.or2</groupId>
+      <artifactId>filestore-server</artifactId>
+      <version>0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.michael-bull.kotlin-inline-logger</groupId>
+      <artifactId>kotlin-inline-logger-jvm</artifactId>
+      <version>1.0.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>

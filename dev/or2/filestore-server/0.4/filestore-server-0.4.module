@@ -38,11 +38,11 @@
         {
           "name": "filestore-server-0.4.jar",
           "url": "filestore-server-0.4.jar",
-          "size": 894524,
-          "sha512": "34ea80f4486b339505989b8f4c24e039922af1377350580631834e715622e160a1e15839b05ea606ae9093ef3dd3e47af2c740311258e637f958d7f21b183ec5",
-          "sha256": "7424d6d2bff375469d7b673490e149637ed95a7212f80e4c9e3f0724daa171b9",
-          "sha1": "0a1d865de05f9dcc85a4daf1c789292303fbbc90",
-          "md5": "e4a6602dbad09ef162ba167fabd07787"
+          "size": 893280,
+          "sha512": "0ba2192baf9a27db1cedd3e1c5ef41fe434003e4ac9bcdc06bb06c5a2188f24357cbaaa4f5eb9ed4bde8a43d33467de4e24c7882f448a4f8b0a2fb97bd8acd49",
+          "sha256": "2e9b8c398b9a838e63eb8b73f2cca00ae841a90dc26c0a939258af98e5f821bb",
+          "sha1": "91ac8e5f5f9a207f4752cc6daa9abcf068911753",
+          "md5": "6e862c7cc27c05d376754eff14b705fc"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "filestore-server-0.4.jar",
           "url": "filestore-server-0.4.jar",
-          "size": 894524,
-          "sha512": "34ea80f4486b339505989b8f4c24e039922af1377350580631834e715622e160a1e15839b05ea606ae9093ef3dd3e47af2c740311258e637f958d7f21b183ec5",
-          "sha256": "7424d6d2bff375469d7b673490e149637ed95a7212f80e4c9e3f0724daa171b9",
-          "sha1": "0a1d865de05f9dcc85a4daf1c789292303fbbc90",
-          "md5": "e4a6602dbad09ef162ba167fabd07787"
+          "size": 893280,
+          "sha512": "0ba2192baf9a27db1cedd3e1c5ef41fe434003e4ac9bcdc06bb06c5a2188f24357cbaaa4f5eb9ed4bde8a43d33467de4e24c7882f448a4f8b0a2fb97bd8acd49",
+          "sha256": "2e9b8c398b9a838e63eb8b73f2cca00ae841a90dc26c0a939258af98e5f821bb",
+          "sha1": "91ac8e5f5f9a207f4752cc6daa9abcf068911753",
+          "md5": "6e862c7cc27c05d376754eff14b705fc"
         }
       ]
     }
