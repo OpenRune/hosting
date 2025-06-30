@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "wiki",
+    "version": "0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "filestore-server",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wiki-0.3.jar",
+          "url": "wiki-0.3.jar",
+          "size": 160596,
+          "sha512": "da233be85f6ac072872c6dfe016ada22bbb3afc26132a8d7ac9b48687d8034606150213ba8c7e4cdc96e8f1d3a64294c35d55c0fc3fa18adbae900c78e57399c",
+          "sha256": "43b1181d60c5be890ed4dcb012ad7bf0e2659256eea142177a16cb8d8966af19",
+          "sha1": "d6b84da3337c86fcc2f45167a68ba6bb51c7714e",
+          "md5": "a948906cd3449e96d4328f62e09f2eef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "all",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.26.0"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.16.1"
+          }
+        },
+        {
+          "group": "org.sweble.wikitext",
+          "module": "swc-engine",
+          "version": {
+            "requires": "3.1.9"
+          }
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore-server",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wiki-0.3.jar",
+          "url": "wiki-0.3.jar",
+          "size": 160596,
+          "sha512": "da233be85f6ac072872c6dfe016ada22bbb3afc26132a8d7ac9b48687d8034606150213ba8c7e4cdc96e8f1d3a64294c35d55c0fc3fa18adbae900c78e57399c",
+          "sha256": "43b1181d60c5be890ed4dcb012ad7bf0e2659256eea142177a16cb8d8966af19",
+          "sha1": "d6b84da3337c86fcc2f45167a68ba6bb51c7714e",
+          "md5": "a948906cd3449e96d4328f62e09f2eef"
+        }
+      ]
+    }
+  ]
+}
