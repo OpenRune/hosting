@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "filestore-server",
+    "version": "0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-server-0.5.jar",
+          "url": "filestore-server-0.5.jar",
+          "size": 893479,
+          "sha512": "5cea6acea568526a761454734e35008708739c83765cf6c797fddcb81437a12e2ae07efc690a9d86fd52c7f7db8efe504018fd4edfc3f4bddb9397f89382d3cb",
+          "sha256": "7f58c2f449783af33f1ba7ae08728f9cf41d370ff47020c8096a2ba75176b29b",
+          "sha1": "7ea939ea59c6a30536b89b461270c618ab57c58e",
+          "md5": "68c8bda84d1c6b3225b39c5121e4cc57"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "all",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-server-0.5.jar",
+          "url": "filestore-server-0.5.jar",
+          "size": 893479,
+          "sha512": "5cea6acea568526a761454734e35008708739c83765cf6c797fddcb81437a12e2ae07efc690a9d86fd52c7f7db8efe504018fd4edfc3f4bddb9397f89382d3cb",
+          "sha256": "7f58c2f449783af33f1ba7ae08728f9cf41d370ff47020c8096a2ba75176b29b",
+          "sha1": "7ea939ea59c6a30536b89b461270c618ab57c58e",
+          "md5": "68c8bda84d1c6b3225b39c5121e4cc57"
+        }
+      ]
+    }
+  ]
+}
