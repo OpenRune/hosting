@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "definition",
+    "version": "2.2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "definition-2.2.4.jar",
+          "url": "definition-2.2.4.jar",
+          "size": 373264,
+          "sha512": "1fe5e24df99fa8c142f85d9623a200f540f995885c57920e8f2d722b5c5502c214608ceb6d34aae1a0df69d257ed23d386b46bb20f6b0b5eeaee3ad73e9ad4df",
+          "sha256": "55628ce1fee44bc3da413992c1682dea7f6fc159f8a61e2f223ea6c2568d23dd",
+          "sha1": "7c61ea39b79ed9a176baf2b2016d7028db1224e9",
+          "md5": "b8629f0db07e7ef83c7f25c673a20c00"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "definition-2.2.4.jar",
+          "url": "definition-2.2.4.jar",
+          "size": 373264,
+          "sha512": "1fe5e24df99fa8c142f85d9623a200f540f995885c57920e8f2d722b5c5502c214608ceb6d34aae1a0df69d257ed23d386b46bb20f6b0b5eeaee3ad73e9ad4df",
+          "sha256": "55628ce1fee44bc3da413992c1682dea7f6fc159f8a61e2f223ea6c2568d23dd",
+          "sha1": "7c61ea39b79ed9a176baf2b2016d7028db1224e9",
+          "md5": "b8629f0db07e7ef83c7f25c673a20c00"
+        }
+      ]
+    }
+  ]
+}

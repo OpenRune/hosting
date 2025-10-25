@@ -1,0 +1,185 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "tools",
+    "version": "2.2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "tools-2.2.4.jar",
+          "url": "tools-2.2.4.jar",
+          "size": 351102,
+          "sha512": "ab1930ba1b0bc3282646cf86a7d98f1e85ccc7251e9403e478aa6d3bba798f1fcdee6844e513b67ebd4b75ae1556aa8468554bb3dd7fd8b5ec14de369b56af24",
+          "sha256": "933da73d7ba9c675fd47fc6a6a175581a38e21de0ffb6f6429ef178c2c19f7f9",
+          "sha1": "b4b3192f1a0c5c9b0e1ea3e3a74885b12f7cc91d",
+          "md5": "e92b3cce676b88403994fdd8ad590970"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs-fs",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "2.11.5"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "displee",
+          "version": {
+            "requires": "2.2.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "cc.ekblad",
+          "module": "4koma",
+          "version": {
+            "requires": "1.2.2-openrune"
+          }
+        },
+        {
+          "group": "me.filby",
+          "module": "clientscript-compiler",
+          "version": {
+            "requires": "0.0.2-openrune"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-2.2.4.jar",
+          "url": "tools-2.2.4.jar",
+          "size": 351102,
+          "sha512": "ab1930ba1b0bc3282646cf86a7d98f1e85ccc7251e9403e478aa6d3bba798f1fcdee6844e513b67ebd4b75ae1556aa8468554bb3dd7fd8b5ec14de369b56af24",
+          "sha256": "933da73d7ba9c675fd47fc6a6a175581a38e21de0ffb6f6429ef178c2c19f7f9",
+          "sha1": "b4b3192f1a0c5c9b0e1ea3e3a74885b12f7cc91d",
+          "md5": "e92b3cce676b88403994fdd8ad590970"
+        }
+      ]
+    }
+  ]
+}
