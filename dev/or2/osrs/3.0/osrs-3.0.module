@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "osrs",
+    "version": "3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "osrs-3.0.jar",
+          "url": "osrs-3.0.jar",
+          "size": 87538,
+          "sha512": "ee1121bf28d9161efa1080c7173940f47883a6ae624b0b207716312dafc24f48f46330383d5595787d8f277ac96e36c31cc26fffc4152dca53c28dbf376b03a4",
+          "sha256": "93b2a81f9e2db89dd23ef49baf11ff7a3258b518356f4382de1741f29d127c57",
+          "sha1": "410e580f9e0104946d91fdd94bf69f4c10aace73",
+          "md5": "07f7cdc22df1d8d1fd08f5c7adc6be67"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-3.0.jar",
+          "url": "osrs-3.0.jar",
+          "size": 87538,
+          "sha512": "ee1121bf28d9161efa1080c7173940f47883a6ae624b0b207716312dafc24f48f46330383d5595787d8f277ac96e36c31cc26fffc4152dca53c28dbf376b03a4",
+          "sha256": "93b2a81f9e2db89dd23ef49baf11ff7a3258b518356f4382de1741f29d127c57",
+          "sha1": "410e580f9e0104946d91fdd94bf69f4c10aace73",
+          "md5": "07f7cdc22df1d8d1fd08f5c7adc6be67"
+        }
+      ]
+    }
+  ]
+}
