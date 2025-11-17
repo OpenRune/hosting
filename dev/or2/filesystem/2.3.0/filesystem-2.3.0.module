@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "filesystem",
+    "version": "2.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filesystem-2.3.0.jar",
+          "url": "filesystem-2.3.0.jar",
+          "size": 75565,
+          "sha512": "a6733fa4d2c21d88f3507c38406d093f0c3e9afc13717493b7206b01829b3d16cc4bdaa6a90657e64188d5baac4a3a335990489d0f2c4bb32217512811ffe0eb",
+          "sha256": "8240308e51e90ba1b08a00b901badf0aeb56327681003ad5a5b471c978a6968b",
+          "sha1": "54261155641495b18be86000dbcf466f5b49a210",
+          "md5": "156d88af5ce54f37dcbc82be746a0f13"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filesystem-2.3.0.jar",
+          "url": "filesystem-2.3.0.jar",
+          "size": 75565,
+          "sha512": "a6733fa4d2c21d88f3507c38406d093f0c3e9afc13717493b7206b01829b3d16cc4bdaa6a90657e64188d5baac4a3a335990489d0f2c4bb32217512811ffe0eb",
+          "sha256": "8240308e51e90ba1b08a00b901badf0aeb56327681003ad5a5b471c978a6968b",
+          "sha1": "54261155641495b18be86000dbcf466f5b49a210",
+          "md5": "156d88af5ce54f37dcbc82be746a0f13"
+        }
+      ]
+    }
+  ]
+}
