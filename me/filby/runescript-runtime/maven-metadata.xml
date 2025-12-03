@@ -3,11 +3,12 @@
   <groupId>me.filby</groupId>
   <artifactId>runescript-runtime</artifactId>
   <versioning>
-    <latest>0.0.1-openrune</latest>
-    <release>0.0.1-openrune</release>
+    <latest>0.0.3-openrune</latest>
+    <release>0.0.3-openrune</release>
     <versions>
       <version>0.0.1-openrune</version>
+      <version>0.0.3-openrune</version>
     </versions>
-    <lastUpdated>20250513171757</lastUpdated>
+    <lastUpdated>20251203182333</lastUpdated>
   </versioning>
 </metadata>

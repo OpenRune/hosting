@@ -3,12 +3,13 @@
   <groupId>me.filby</groupId>
   <artifactId>clientscript-compiler</artifactId>
   <versioning>
-    <latest>0.0.2-openrune</latest>
-    <release>0.0.2-openrune</release>
+    <latest>0.0.3-openrune</latest>
+    <release>0.0.3-openrune</release>
     <versions>
       <version>0.0.1-openrune</version>
       <version>0.0.2-openrune</version>
+      <version>0.0.3-openrune</version>
     </versions>
-    <lastUpdated>20250513171756</lastUpdated>
+    <lastUpdated>20251203182332</lastUpdated>
   </versioning>
 </metadata>
