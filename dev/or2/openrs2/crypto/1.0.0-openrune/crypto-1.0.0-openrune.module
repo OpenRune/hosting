@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2.openrs2",
+    "module": "crypto",
+    "version": "1.0.0-openrune",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "crypto-1.0.0-openrune.jar",
+          "url": "crypto-1.0.0-openrune.jar",
+          "size": 14621,
+          "sha512": "d61553401c7db4621618419f50b9c0009db92803f1f2523dba97b01009dbdbb335af37573ad98aa027aa5698e5a3de7d0316948729d13bb4ae1a26dd7636ec4e",
+          "sha256": "3d35fd02182001c2f602d05aef6c48cbe673207c48940f25f2f72266438baef6",
+          "sha1": "32666d74b2262adec1dcf2aa47102dd22e88d767",
+          "md5": "c673b8ac99207c42376a9702e4cd1f9b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2.openrs2",
+          "module": "util",
+          "version": {
+            "requires": "1.0.0-openrune"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-1.0.0-openrune.jar",
+          "url": "crypto-1.0.0-openrune.jar",
+          "size": 14621,
+          "sha512": "d61553401c7db4621618419f50b9c0009db92803f1f2523dba97b01009dbdbb335af37573ad98aa027aa5698e5a3de7d0316948729d13bb4ae1a26dd7636ec4e",
+          "sha256": "3d35fd02182001c2f602d05aef6c48cbe673207c48940f25f2f72266438baef6",
+          "sha1": "32666d74b2262adec1dcf2aa47102dd22e88d767",
+          "md5": "c673b8ac99207c42376a9702e4cd1f9b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2.openrs2",
+    "module": "compress",
+    "version": "1.0.0-openrune",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "compress-1.0.0-openrune.jar",
+          "url": "compress-1.0.0-openrune.jar",
+          "size": 11821,
+          "sha512": "109681e8e1c249ce5b12c0e0e7322d07ffdd865a212940fc8f4b4d7b22894d8c3afdad260de1f6fe908b559bcad5ef00cf75adb85a459d3e0d48461cc35f05a1",
+          "sha256": "d9da713d41f9136870bc6b6b4c1127e14a4be242151ee61ea6b3d0775bf3b565",
+          "sha1": "aa94d802a08050b09e6dbaf4fc835bdd8b81e971",
+          "md5": "301b2b40c45addb79695b1644f90d2a6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.10"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.1"
+          }
+        },
+        {
+          "group": "dev.or2.openrs2",
+          "module": "util",
+          "version": {
+            "requires": "1.0.0-openrune"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compress-1.0.0-openrune.jar",
+          "url": "compress-1.0.0-openrune.jar",
+          "size": 11821,
+          "sha512": "109681e8e1c249ce5b12c0e0e7322d07ffdd865a212940fc8f4b4d7b22894d8c3afdad260de1f6fe908b559bcad5ef00cf75adb85a459d3e0d48461cc35f05a1",
+          "sha256": "d9da713d41f9136870bc6b6b4c1127e14a4be242151ee61ea6b3d0775bf3b565",
+          "sha1": "aa94d802a08050b09e6dbaf4fc835bdd8b81e971",
+          "md5": "301b2b40c45addb79695b1644f90d2a6"
+        }
+      ]
+    }
+  ]
+}

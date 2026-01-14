@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2.openrs2",
+    "module": "buffer",
+    "version": "1.0.0-openrune",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "buffer-1.0.0-openrune.jar",
+          "url": "buffer-1.0.0-openrune.jar",
+          "size": 6133,
+          "sha512": "b4eeee122dad0c4e71a1b0869a4b57be67ca2a6727897b8afe46b9703a2087b62cbc6bbe525528d3f1b14dd9c9f8902a53d03ae0af3468e4be809d510d0f7d47",
+          "sha256": "c9d22ce9ae4c2c8dd0d09edce8b6c270b05a266f969557f163f59086fa95d7ff",
+          "sha1": "1dc67fe883e04b1bd1d6eafedf3a3c8bfd767408",
+          "md5": "bcdf45b1029ae6d04fd6f8c51016c6a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2.openrs2",
+          "module": "util",
+          "version": {
+            "requires": "1.0.0-openrune"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "buffer-1.0.0-openrune.jar",
+          "url": "buffer-1.0.0-openrune.jar",
+          "size": 6133,
+          "sha512": "b4eeee122dad0c4e71a1b0869a4b57be67ca2a6727897b8afe46b9703a2087b62cbc6bbe525528d3f1b14dd9c9f8902a53d03ae0af3468e4be809d510d0f7d47",
+          "sha256": "c9d22ce9ae4c2c8dd0d09edce8b6c270b05a266f969557f163f59086fa95d7ff",
+          "sha1": "1dc67fe883e04b1bd1d6eafedf3a3c8bfd767408",
+          "md5": "bcdf45b1029ae6d04fd6f8c51016c6a0"
+        }
+      ]
+    }
+  ]
+}

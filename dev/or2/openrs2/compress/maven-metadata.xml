@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.or2.openrs2</groupId>
+  <artifactId>compress</artifactId>
+  <versioning>
+    <latest>1.0.0-openrune</latest>
+    <release>1.0.0-openrune</release>
+    <versions>
+      <version>1.0.0-openrune</version>
+    </versions>
+    <lastUpdated>20260114201626</lastUpdated>
+  </versioning>
+</metadata>
