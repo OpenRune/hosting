@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "filestore",
+    "version": "2.3.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filestore-2.3.6.jar",
+          "url": "filestore-2.3.6.jar",
+          "size": 94248,
+          "sha512": "8952523bacfb0066f7a7af628b6f4ac793304f31809d1a617ef61e6ca7d8cd62fcee88f23d9a13cff338dc1edaebfbc8f7e0b23bdc3460be7c020797f06b94f9",
+          "sha256": "e82127ecdd4a41678e0ef8a2c3951b7f9a08abfcf7d71a2b1c4430a944face06",
+          "sha1": "314be9b06d8a728737255557947d6a14554d3584",
+          "md5": "10534ddbfd7af3d7f4347d948e8cda5f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.3.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-2.3.6.jar",
+          "url": "filestore-2.3.6.jar",
+          "size": 94248,
+          "sha512": "8952523bacfb0066f7a7af628b6f4ac793304f31809d1a617ef61e6ca7d8cd62fcee88f23d9a13cff338dc1edaebfbc8f7e0b23bdc3460be7c020797f06b94f9",
+          "sha256": "e82127ecdd4a41678e0ef8a2c3951b7f9a08abfcf7d71a2b1c4430a944face06",
+          "sha1": "314be9b06d8a728737255557947d6a14554d3584",
+          "md5": "10534ddbfd7af3d7f4347d948e8cda5f"
+        }
+      ]
+    }
+  ]
+}
