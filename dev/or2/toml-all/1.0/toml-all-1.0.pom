@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.or2</groupId>
+  <artifactId>toml-all</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  <name>OpenRune - toml-all</name>
+  <description>Aggregate module including toml-core and toml-rsconfig dependencies.</description>
+  <url>https://github.com/OpenRune</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>openrune</id>
+      <name>OpenRune Team</name>
+      <email>contact@openrune.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/OpenRune.git</connection>
+    <developerConnection>scm:git:ssh://github.com/OpenRune.git</developerConnection>
+    <url>https://github.com/OpenRune</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>dev.or2</groupId>
+      <artifactId>toml-core</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.or2</groupId>
+      <artifactId>toml-rsconfig</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
