@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "definition",
+    "version": "2.4.2-cache",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "definition-2.4.2-cache.jar",
+          "url": "definition-2.4.2-cache.jar",
+          "size": 513118,
+          "sha512": "6f8c49195cfc6a701800c04229a2622cd83b0fda755ea714010e1214492f92eb80460f66bdf3b2b66120c96a62adce32149dae3b7777e3de9c477afce47e72e3",
+          "sha256": "5cd379f4e816bbd6d6bd144f5342ef61e126bec7fb32452dae8acf48cb7b60c5",
+          "sha1": "6a2f439313ab1b30965e86249461c8e5834f0929",
+          "md5": "365cdd05b5267acd012f689490607c4c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "toml-core",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "definition-2.4.2-cache.jar",
+          "url": "definition-2.4.2-cache.jar",
+          "size": 513118,
+          "sha512": "6f8c49195cfc6a701800c04229a2622cd83b0fda755ea714010e1214492f92eb80460f66bdf3b2b66120c96a62adce32149dae3b7777e3de9c477afce47e72e3",
+          "sha256": "5cd379f4e816bbd6d6bd144f5342ef61e126bec7fb32452dae8acf48cb7b60c5",
+          "sha1": "6a2f439313ab1b30965e86249461c8e5834f0929",
+          "md5": "365cdd05b5267acd012f689490607c4c"
+        }
+      ]
+    }
+  ]
+}

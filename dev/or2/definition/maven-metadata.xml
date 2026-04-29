@@ -3,8 +3,8 @@
   <groupId>dev.or2</groupId>
   <artifactId>definition</artifactId>
   <versioning>
-    <latest>2.4.2</latest>
-    <release>2.4.2</release>
+    <latest>2.4.2-cache</latest>
+    <release>2.4.2-cache</release>
     <versions>
       <version>2.0.12</version>
       <version>2.0.13</version>
@@ -41,7 +41,8 @@
       <version>2.4.0</version>
       <version>2.4.1</version>
       <version>2.4.2</version>
+      <version>2.4.2-cache</version>
     </versions>
-    <lastUpdated>20260422225656</lastUpdated>
+    <lastUpdated>20260429154614</lastUpdated>
   </versioning>
 </metadata>
