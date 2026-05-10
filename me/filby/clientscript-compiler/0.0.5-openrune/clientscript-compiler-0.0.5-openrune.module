@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.filby",
+    "module": "clientscript-compiler",
+    "version": "0.0.5-openrune",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.filby",
+          "module": "runescript-compiler",
+          "version": {
+            "requires": "0.0.5-openrune"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientscript-compiler-0.0.5-openrune.jar",
+          "url": "clientscript-compiler-0.0.5-openrune.jar",
+          "size": 1558026,
+          "sha512": "3c9ce1daa3c2e54cd2f1602866b2cb6dfb4a4cfe987bfc77166505ecd435620979aa830fd85e69eb7f64e90820041988a8f0986f3030bfdf5d19705542ee009d",
+          "sha256": "1fb5b4bb51381969d2cd0dd5c170d9d4ed663581ac43769dfd59e0b855de9b91",
+          "sha1": "3036ef9386c66ad34432573c43481d3b9d0c19e9",
+          "md5": "46a9b29f7b7d9d5df0739262949529db"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.0-jre"
+          },
+          "excludes": [
+            {
+              "group": "com.google.j2objc",
+              "module": "j2objc-annotations"
+            },
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "org.codehaus.mojo",
+              "module": "animal-sniffer-annotations"
+            },
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.116.Final"
+          }
+        },
+        {
+          "group": "cc.ekblad",
+          "module": "4koma",
+          "version": {
+            "requires": "1.2.0-openrune"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.11"
+          }
+        },
+        {
+          "group": "me.filby",
+          "module": "runescript-compiler",
+          "version": {
+            "requires": "0.0.5-openrune"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientscript-compiler-0.0.5-openrune.jar",
+          "url": "clientscript-compiler-0.0.5-openrune.jar",
+          "size": 1558026,
+          "sha512": "3c9ce1daa3c2e54cd2f1602866b2cb6dfb4a4cfe987bfc77166505ecd435620979aa830fd85e69eb7f64e90820041988a8f0986f3030bfdf5d19705542ee009d",
+          "sha256": "1fb5b4bb51381969d2cd0dd5c170d9d4ed663581ac43769dfd59e0b855de9b91",
+          "sha1": "3036ef9386c66ad34432573c43481d3b9d0c19e9",
+          "md5": "46a9b29f7b7d9d5df0739262949529db"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "clientscript-compiler-0.0.5-openrune-sources.jar",
+          "url": "clientscript-compiler-0.0.5-openrune-sources.jar",
+          "size": 1410213,
+          "sha512": "8a16512905bf236824f5cb4fcc1f9abcfa0e36a5bca8c43783a2e304529e2babf562300d6a8dfc7fc0e3480fde0e2d9c8f4ccd4c89fd300f1ad36fc425ce6168",
+          "sha256": "e73ec4c5a31fa09bda04072882bfb9cfd4f77e473d182aa52785f769fe0c5a68",
+          "sha1": "f8bf48d1a52aa070918d4739251e29b97d7d1339",
+          "md5": "eb77321d012aca6296e08343c0fa6da6"
+        },
+        {
+          "name": "clientscript-compiler-0.0.5-openrune-sources.jar",
+          "url": "clientscript-compiler-0.0.5-openrune-sources.jar",
+          "size": 1410213,
+          "sha512": "8a16512905bf236824f5cb4fcc1f9abcfa0e36a5bca8c43783a2e304529e2babf562300d6a8dfc7fc0e3480fde0e2d9c8f4ccd4c89fd300f1ad36fc425ce6168",
+          "sha256": "e73ec4c5a31fa09bda04072882bfb9cfd4f77e473d182aa52785f769fe0c5a68",
+          "sha1": "f8bf48d1a52aa070918d4739251e29b97d7d1339",
+          "md5": "eb77321d012aca6296e08343c0fa6da6"
+        }
+      ]
+    }
+  ]
+}
