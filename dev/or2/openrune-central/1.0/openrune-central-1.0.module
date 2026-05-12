@@ -1,0 +1,206 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "openrune-central",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-1.0.jar",
+          "url": "openrune-central-1.0.jar",
+          "size": 374004,
+          "sha512": "6ca6a7a3dbf7acbad526a15659f11016f442648242a4843c1b18288a56534d5a665594ac55bf2a0662ccfe1c8c5ca74e0f5bca85c4a0bdc4fbe54304f0c6c6db",
+          "sha256": "6702ea9b9d931e2cebc542dceb59c9303a435ca5e9c0b2ee9f62237d2cc362d3",
+          "sha1": "c29c8b05df19085d669541d93656e2e6f6e7f021",
+          "md5": "6867b2e41af7b0a7f4f5a2f373676738"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "3.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "io.zonky.test",
+          "module": "embedded-postgres",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "de.mkammerer",
+          "module": "argon2-jvm",
+          "version": {
+            "requires": "2.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-1.0.jar",
+          "url": "openrune-central-1.0.jar",
+          "size": 374004,
+          "sha512": "6ca6a7a3dbf7acbad526a15659f11016f442648242a4843c1b18288a56534d5a665594ac55bf2a0662ccfe1c8c5ca74e0f5bca85c4a0bdc4fbe54304f0c6c6db",
+          "sha256": "6702ea9b9d931e2cebc542dceb59c9303a435ca5e9c0b2ee9f62237d2cc362d3",
+          "sha1": "c29c8b05df19085d669541d93656e2e6f6e7f021",
+          "md5": "6867b2e41af7b0a7f4f5a2f373676738"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-1.0-all.jar",
+          "url": "openrune-central-1.0-all.jar",
+          "size": 100943272,
+          "sha512": "18d56d10c51c192e34cbe3300c959c58939287b97010cb2267b21c44f6fcb93508e27c3d47cbcc33fd2190518be46f20e64e81d1d07d00311f28dbe7532f38db",
+          "sha256": "83fd2d0ee2469d365970fb04c7d139f15915430ce896c2f9bbc9b8fa0a9bc873",
+          "sha1": "3d77b158b2b371308cac7fb9984045a77f15ebfc",
+          "md5": "d4347b88b14af806bd629adf3801300c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-1.0-sources.jar",
+          "url": "openrune-central-1.0-sources.jar",
+          "size": 50644,
+          "sha512": "93b0607e525f5cf2508a418bafc74326174306b2a3b1d919f5bbf82a54db7f5d37bab3dd95e9afe9372bd5ac094df067ac95bfeac4da565d3c35260febd8dee1",
+          "sha256": "c0ab65f25c431e486b82db7a77320577ae9c693a84303ea2561634558576dba7",
+          "sha1": "26934b35a790e0c3e335af755a1bf8c6bbeb31f6",
+          "md5": "68a969b15ff6ebf251fe42dc0f98ce02"
+        }
+      ]
+    }
+  ]
+}

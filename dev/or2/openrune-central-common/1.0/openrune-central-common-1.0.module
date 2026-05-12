@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "openrune-central-common",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-common-1.0.jar",
+          "url": "openrune-central-common-1.0.jar",
+          "size": 152637,
+          "sha512": "b644cbe649e321f3c6346de0886db21794019a8c84929bacd363f36e770538548ee244e46ea0848a4eada77da49591fabfa5de91e5c812385cd1bccbfefdc05c",
+          "sha256": "1be86cd3cebc72d33afd8974f8fd021e9f951f75a38dc268c847f85d1cc17228",
+          "sha1": "da409d55e37c16fb98775cd65dde07ab0cda21f4",
+          "md5": "69c272fe86d035c64104fa2ef4911738"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-common-1.0.jar",
+          "url": "openrune-central-common-1.0.jar",
+          "size": 152637,
+          "sha512": "b644cbe649e321f3c6346de0886db21794019a8c84929bacd363f36e770538548ee244e46ea0848a4eada77da49591fabfa5de91e5c812385cd1bccbfefdc05c",
+          "sha256": "1be86cd3cebc72d33afd8974f8fd021e9f951f75a38dc268c847f85d1cc17228",
+          "sha1": "da409d55e37c16fb98775cd65dde07ab0cda21f4",
+          "md5": "69c272fe86d035c64104fa2ef4911738"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-common-1.0-sources.jar",
+          "url": "openrune-central-common-1.0-sources.jar",
+          "size": 39599,
+          "sha512": "4e946ea06f0013d0e92f5cfa32c7463571fe3f9c0b00a8ae2dd0834de0c0aa0216fa39dd6e4ea3a65d8f905f406b69601280dfd23df8ea69badc39c0ad411bff",
+          "sha256": "aa729178e652397d80636c9752b69dca21d48439ad98d7cd99fe7722a9fa2455",
+          "sha1": "4fa3f38fffedaebb9d8c12aa0f699fabcd687da3",
+          "md5": "3f6e3d186aedcadad84bafb87f2d3873"
+        }
+      ]
+    }
+  ]
+}

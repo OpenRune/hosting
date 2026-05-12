@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "central-common",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-1.0.jar",
+          "url": "central-common-1.0.jar",
+          "size": 152641,
+          "sha512": "12467b218160baadf53370bfee6171525f9f2d7b72a64d58acf0502cd142bd32aaf459f842125d26e433812bdc037b76f91eae891be860b9679501bfbaa71cd3",
+          "sha256": "2ac07aea3735c8660b17e05ead73938a9864449bd4eb6d9f508db9605ef56939",
+          "sha1": "b158dd890ded49694c549adf69d96b570f5697d3",
+          "md5": "820a34e43029d3dcfe103c7281d04694"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-1.0.jar",
+          "url": "central-common-1.0.jar",
+          "size": 152641,
+          "sha512": "12467b218160baadf53370bfee6171525f9f2d7b72a64d58acf0502cd142bd32aaf459f842125d26e433812bdc037b76f91eae891be860b9679501bfbaa71cd3",
+          "sha256": "2ac07aea3735c8660b17e05ead73938a9864449bd4eb6d9f508db9605ef56939",
+          "sha1": "b158dd890ded49694c549adf69d96b570f5697d3",
+          "md5": "820a34e43029d3dcfe103c7281d04694"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-common-1.0-sources.jar",
+          "url": "central-common-1.0-sources.jar",
+          "size": 39628,
+          "sha512": "2bf3d892b1e6a57cf7ff336d27104da948fba353dd609e04a0ff670aacd69e03d077243b2cabcad7ed6c9498b490107537c75eac0424ba1ca844b87c983e8a67",
+          "sha256": "74a0acb90bcc2f367d94abcfaf6adbc84e3a20315e5022ad6813eccc6d1c5188",
+          "sha1": "5942e4d4f4cc878c2bc84ea8c53cdd0663589fad",
+          "md5": "8bde2ad7d079dc0122f63aa1f56c8c2c"
+        }
+      ]
+    }
+  ]
+}
