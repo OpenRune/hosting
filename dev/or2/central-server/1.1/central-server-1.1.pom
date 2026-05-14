@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.or2</groupId>
+  <artifactId>central-server</artifactId>
+  <version>1.1</version>
+  <name>central-server</name>
+  <description>Runnable OpenRune Central fat JAR for Maven: bundles third-party libraries but not dev.or2:central-common (declared as a runtime dependency). For a single self-contained JAR (e.g. Docker), use :openrune-central:shadowJar → openrune-central-server.jar.</description>
+  <packaging>jar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>dev.or2</groupId>
+      <artifactId>central-common</artifactId>
+      <version>1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

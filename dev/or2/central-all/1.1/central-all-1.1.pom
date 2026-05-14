@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.or2</groupId>
+  <artifactId>central-all</artifactId>
+  <version>1.1</version>
+  <packaging>pom</packaging>
+  <name>OpenRune Central - central-all</name>
+  <description>Aggregate POM: depend on dev.or2:central-all to pull dev.or2:central-common + dev.or2:openrune-central at the same version.</description>
+  <url>https://github.com/OpenRune/OpenRune-Central-Server</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://opensource.org/licenses/Apache-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>openrune</id>
+      <name>OpenRune Team</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/OpenRune/OpenRune-Central-Server.git</connection>
+    <developerConnection>scm:git:ssh://github.com/OpenRune/OpenRune-Central-Server.git</developerConnection>
+    <url>https://github.com/OpenRune/OpenRune-Central-Server</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>dev.or2</groupId>
+      <artifactId>central-common</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.or2</groupId>
+      <artifactId>openrune-central</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
