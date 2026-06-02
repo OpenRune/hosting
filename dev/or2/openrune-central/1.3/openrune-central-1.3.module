@@ -38,11 +38,11 @@
         {
           "name": "openrune-central-1.3.jar",
           "url": "openrune-central-1.3.jar",
-          "size": 433246,
-          "sha512": "bb099c585b1e0d4a1d9e3232e1b96a8a8ef058da4517099f794faca704e9af90991175106f7bd2475e213bb39e868045bc2c12b7954df9bfeaa95c4614ea5abb",
-          "sha256": "a6deb8eeb9f1e101ba4e12ee63972e0f7fb7cb331890a86e2721368530ae5428",
-          "sha1": "05b86874dcc30eda19f5cacf085b206017fecabc",
-          "md5": "d62f3c02c62f08700410884afe5bd29e"
+          "size": 480550,
+          "sha512": "72e14ac40c9a927ad8e3afab71867bc270ea607aea0a4ad7a82769c5c4317c84daa56b4a694797f45f9f364a95e6801ff0bae945acc6f6dcad7c524a1da05518",
+          "sha256": "b8323642a695434fe4530b21a8c093a66b44b2bf4d97f599128a6ee2238ad75f",
+          "sha1": "ee08c62ef946e1b2ca3dfea8804089a199743563",
+          "md5": "a0f4c5628f25c2f18375f2d54c7069de"
         }
       ]
     },
@@ -98,6 +98,10 @@
         },
         {
           "group": "io.ktor",
+          "module": "ktor-server-forwarded-header"
+        },
+        {
+          "group": "io.ktor",
           "module": "ktor-server-config-yaml"
         },
         {
@@ -129,6 +133,13 @@
           }
         },
         {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
           "group": "io.netty",
           "module": "netty-handler",
           "version": {
@@ -154,11 +165,11 @@
         {
           "name": "openrune-central-1.3.jar",
           "url": "openrune-central-1.3.jar",
-          "size": 433246,
-          "sha512": "bb099c585b1e0d4a1d9e3232e1b96a8a8ef058da4517099f794faca704e9af90991175106f7bd2475e213bb39e868045bc2c12b7954df9bfeaa95c4614ea5abb",
-          "sha256": "a6deb8eeb9f1e101ba4e12ee63972e0f7fb7cb331890a86e2721368530ae5428",
-          "sha1": "05b86874dcc30eda19f5cacf085b206017fecabc",
-          "md5": "d62f3c02c62f08700410884afe5bd29e"
+          "size": 480550,
+          "sha512": "72e14ac40c9a927ad8e3afab71867bc270ea607aea0a4ad7a82769c5c4317c84daa56b4a694797f45f9f364a95e6801ff0bae945acc6f6dcad7c524a1da05518",
+          "sha256": "b8323642a695434fe4530b21a8c093a66b44b2bf4d97f599128a6ee2238ad75f",
+          "sha1": "ee08c62ef946e1b2ca3dfea8804089a199743563",
+          "md5": "a0f4c5628f25c2f18375f2d54c7069de"
         }
       ]
     },
@@ -174,11 +185,11 @@
         {
           "name": "openrune-central-1.3-all.jar",
           "url": "openrune-central-1.3-all.jar",
-          "size": 101056233,
-          "sha512": "6d7bf9d96bc7e8b0dfa70e1d111bea56601b45cb26805b2ca157ed86375b7309834040109fb34587df286f243d7d31dcd8b379296b5ad767f76d40f8a31fd95f",
-          "sha256": "2d07022dc732c2a6a0225052fa5b39df56deebedcfdcb4ec84a6eb0199e241c9",
-          "sha1": "19f4f91b6644d65b5e380a42a364816ceea9830e",
-          "md5": "cd0db5f9c244eafa418cb553f23d0d51"
+          "size": 101466992,
+          "sha512": "1587ab9c44fe11084fa063a02369a6656dee3a1f094144485d98eee5867e38a2d3383aab9c891404ee96bb926c993f3f814a6ce048a866788d25487eaa9a4024",
+          "sha256": "ccd5a1624ee8927bc59ea1ec5078b7d67bc020dcf350123f6579952fddbd442f",
+          "sha1": "ec3bedff1420812cc6e0d14615212384466c3e2d",
+          "md5": "6c206ea7ef772a63a8ded61667267936"
         }
       ]
     },
@@ -194,11 +205,11 @@
         {
           "name": "openrune-central-1.3-sources.jar",
           "url": "openrune-central-1.3-sources.jar",
-          "size": 62818,
-          "sha512": "baa9097161b5fe59a15daf0d340639d3f48f5dc86a1e69c6b47742c79fbdae4c1bf918891ff3f6e84b1e3093df67dfac1bf7c42638516437c479acfaad147afa",
-          "sha256": "670388f2753a7e297b0f9a97b75eba43f35d1ebf07b5cd9cf15dc6b0256ec7ce",
-          "sha1": "df700f1567a4808dee7c090acbc76688d2a1ae0f",
-          "md5": "94e2f40c6ad05bb46932314949e31d92"
+          "size": 71905,
+          "sha512": "69dc85c5d79a385096c0f70c6ac940b83c93a44651c33d02007212cc6fe7dd236e225d51d823cd52273f715f012651d10d2f8c08e08175edbe3a72bf2982a9a5",
+          "sha256": "434a7d6236fe68ff139fa88835e126cb9c185c3b50a0a747a81b396c287a287b",
+          "sha1": "1a77d6e16ceb6be67aa9a89526e93b6756595965",
+          "md5": "accfe89ed0a0cd8a729a88f459116bbe"
         }
       ]
     }

@@ -62,6 +62,11 @@
     </dependency>
     <dependency>
       <groupId>io.ktor</groupId>
+      <artifactId>ktor-server-forwarded-header</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
       <artifactId>ktor-server-config-yaml</artifactId>
       <scope>runtime</scope>
     </dependency>
@@ -87,6 +92,12 @@
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <version>1.5.16</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>2.3</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

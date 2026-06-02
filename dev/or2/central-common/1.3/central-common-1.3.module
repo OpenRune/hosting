@@ -39,10 +39,10 @@
           "name": "central-common-1.3.jar",
           "url": "central-common-1.3.jar",
           "size": 206132,
-          "sha512": "780dd47e49e09947677dccf2b012cee5dd4c9ffa7bf87866b4e573127c3c6f074597c793444f10a7370aef5bb49d328a9df4afa9160d3c7eb39cbd3f17702e39",
-          "sha256": "95027f7d3dbb83f187586ea98f446c935abef9bac5a25b67b72cd85bc78d4996",
-          "sha1": "2b5049cda8222721c6f9d6f1f9a9b156acc2909a",
-          "md5": "fac7c1b609d2591e66b284cadcde876c"
+          "sha512": "7774f33fbc6e5c14b60037033e9cbc53105f026274f08cae28607504905f52d218537b89810382f47ffa357efc579721363b7060737d2ee636c7d9733d860fb7",
+          "sha256": "e40fc2427177a046ac05020594db3687efe32203196345dc18d5475a29789edf",
+          "sha1": "000022c60f9d3d640b6bb52b053bab88569f86d0",
+          "md5": "8e2ff84a552d625f45c1aa735bfef975"
         }
       ]
     },
@@ -78,10 +78,10 @@
           "name": "central-common-1.3.jar",
           "url": "central-common-1.3.jar",
           "size": 206132,
-          "sha512": "780dd47e49e09947677dccf2b012cee5dd4c9ffa7bf87866b4e573127c3c6f074597c793444f10a7370aef5bb49d328a9df4afa9160d3c7eb39cbd3f17702e39",
-          "sha256": "95027f7d3dbb83f187586ea98f446c935abef9bac5a25b67b72cd85bc78d4996",
-          "sha1": "2b5049cda8222721c6f9d6f1f9a9b156acc2909a",
-          "md5": "fac7c1b609d2591e66b284cadcde876c"
+          "sha512": "7774f33fbc6e5c14b60037033e9cbc53105f026274f08cae28607504905f52d218537b89810382f47ffa357efc579721363b7060737d2ee636c7d9733d860fb7",
+          "sha256": "e40fc2427177a046ac05020594db3687efe32203196345dc18d5475a29789edf",
+          "sha1": "000022c60f9d3d640b6bb52b053bab88569f86d0",
+          "md5": "8e2ff84a552d625f45c1aa735bfef975"
         }
       ]
     },
