@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "rs3",
+    "version": "2.4.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "rs3-2.4.9.jar",
+          "url": "rs3-2.4.9.jar",
+          "size": 8901,
+          "sha512": "730b291249cf9679861bb5d26a0a8013371a274e86ce767365b5494771e71beeb69b5f827100d1fbad5f54e1f8158238699d487255b481dc5eae512ad760d0b7",
+          "sha256": "556e32f93abd26713ff7aaee2087c7dd943a6a35d17c0ddd005d4fc2c7da78d3",
+          "sha1": "e4977dfbde1de75d3c84f0f1c39e3f30708a1380",
+          "md5": "e3a8ba5a2b01d877d661430321374798"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.4.9"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rs3-2.4.9.jar",
+          "url": "rs3-2.4.9.jar",
+          "size": 8901,
+          "sha512": "730b291249cf9679861bb5d26a0a8013371a274e86ce767365b5494771e71beeb69b5f827100d1fbad5f54e1f8158238699d487255b481dc5eae512ad760d0b7",
+          "sha256": "556e32f93abd26713ff7aaee2087c7dd943a6a35d17c0ddd005d4fc2c7da78d3",
+          "sha1": "e4977dfbde1de75d3c84f0f1c39e3f30708a1380",
+          "md5": "e3a8ba5a2b01d877d661430321374798"
+        }
+      ]
+    }
+  ]
+}

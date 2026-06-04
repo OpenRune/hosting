@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "filestore",
+    "version": "2.4.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filestore-2.4.9.jar",
+          "url": "filestore-2.4.9.jar",
+          "size": 92928,
+          "sha512": "1063edcf7b82e0efaa46cc9ce5fa42e15f5cd5baa459ee1c892feab9d89c0d0036ca407b6a60a23e9aa3a213709c0d079f2b92d1993b139613472ead1ef48091",
+          "sha256": "3855440b043806503fcb06001a355956284de767aab49288b53be0e7ddde10dc",
+          "sha1": "d4c14ec44e7f9e1f6f180d30f332d22da5ce8a5a",
+          "md5": "68d36d717477def70328e363e97f39d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.4.9"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.4.9"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filestore-2.4.9.jar",
+          "url": "filestore-2.4.9.jar",
+          "size": 92928,
+          "sha512": "1063edcf7b82e0efaa46cc9ce5fa42e15f5cd5baa459ee1c892feab9d89c0d0036ca407b6a60a23e9aa3a213709c0d079f2b92d1993b139613472ead1ef48091",
+          "sha256": "3855440b043806503fcb06001a355956284de767aab49288b53be0e7ddde10dc",
+          "sha1": "d4c14ec44e7f9e1f6f180d30f332d22da5ce8a5a",
+          "md5": "68d36d717477def70328e363e97f39d2"
+        }
+      ]
+    }
+  ]
+}

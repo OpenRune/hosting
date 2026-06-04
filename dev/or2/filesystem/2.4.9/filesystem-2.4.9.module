@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "filesystem",
+    "version": "2.4.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "filesystem-2.4.9.jar",
+          "url": "filesystem-2.4.9.jar",
+          "size": 50717,
+          "sha512": "8cb46da48d2aab742df14fcf29d4ce822e9748caf2e7518c0d40ef069195051767a3a04ef61dfed44808040a28b8a43d09ce9c9a9d5f6af99fb13d8d39d47cc4",
+          "sha256": "b48d10b82ff89365c9caba41b8243b455a2cd8ec9b7a6bbbe2c8795437e25e6c",
+          "sha1": "719b7cb5476c10262ee6f055cc16d959bad13806",
+          "md5": "7f90d5475a61f1c92c0fcc07f9f1ddbe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filesystem-2.4.9.jar",
+          "url": "filesystem-2.4.9.jar",
+          "size": 50717,
+          "sha512": "8cb46da48d2aab742df14fcf29d4ce822e9748caf2e7518c0d40ef069195051767a3a04ef61dfed44808040a28b8a43d09ce9c9a9d5f6af99fb13d8d39d47cc4",
+          "sha256": "b48d10b82ff89365c9caba41b8243b455a2cd8ec9b7a6bbbe2c8795437e25e6c",
+          "sha1": "719b7cb5476c10262ee6f055cc16d959bad13806",
+          "md5": "7f90d5475a61f1c92c0fcc07f9f1ddbe"
+        }
+      ]
+    }
+  ]
+}

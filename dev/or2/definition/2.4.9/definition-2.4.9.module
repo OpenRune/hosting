@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "definition",
+    "version": "2.4.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "definition-2.4.9.jar",
+          "url": "definition-2.4.9.jar",
+          "size": 517828,
+          "sha512": "523cfeb490f63fb8cfa2b4af45223e314dbc9ddeb305ece8cfc90e82888a7e3ba29c20c1605a14da70cb3ab734df34e5d14c74254d1a4c6da389705b5e74f438",
+          "sha256": "6e27d6b9bfa0595d3c0a14379b44d9762f8de668749e08412ae8fa9e29914761",
+          "sha1": "3d6a286cf901e2c70d7e5b44def9741680283bbd",
+          "md5": "e5e349bc64b2b08b099c7688150ee01b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "toml-core",
+          "version": {
+            "requires": "1.1"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "definition-2.4.9.jar",
+          "url": "definition-2.4.9.jar",
+          "size": 517828,
+          "sha512": "523cfeb490f63fb8cfa2b4af45223e314dbc9ddeb305ece8cfc90e82888a7e3ba29c20c1605a14da70cb3ab734df34e5d14c74254d1a4c6da389705b5e74f438",
+          "sha256": "6e27d6b9bfa0595d3c0a14379b44d9762f8de668749e08412ae8fa9e29914761",
+          "sha1": "3d6a286cf901e2c70d7e5b44def9741680283bbd",
+          "md5": "e5e349bc64b2b08b099c7688150ee01b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "r718",
+    "version": "2.4.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "r718-2.4.9.jar",
+          "url": "r718-2.4.9.jar",
+          "size": 14441,
+          "sha512": "4d6f8b6bdb7e880b7a69d46bc1b294e4aada9d35a671f733feef27fe0f1440a6a3e3e4c4725dc7b81b801bcada39c1760b5bae8206828fb7b41bd51becbacbdb",
+          "sha256": "0c96caaab1f56931141629c20fef3fce80d187a067891dbc8e341c99a9440de5",
+          "sha1": "bbacedd627e0634f88339dec8846693d9ad06062",
+          "md5": "80c99ba98e7723583944f4aa4f28834d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.4.9"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "r718-2.4.9.jar",
+          "url": "r718-2.4.9.jar",
+          "size": 14441,
+          "sha512": "4d6f8b6bdb7e880b7a69d46bc1b294e4aada9d35a671f733feef27fe0f1440a6a3e3e4c4725dc7b81b801bcada39c1760b5bae8206828fb7b41bd51becbacbdb",
+          "sha256": "0c96caaab1f56931141629c20fef3fce80d187a067891dbc8e341c99a9440de5",
+          "sha1": "bbacedd627e0634f88339dec8846693d9ad06062",
+          "md5": "80c99ba98e7723583944f4aa4f28834d"
+        }
+      ]
+    }
+  ]
+}

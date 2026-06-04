@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "opcode",
+    "version": "2.4.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "opcode-2.4.9.jar",
+          "url": "opcode-2.4.9.jar",
+          "size": 82093,
+          "sha512": "bb846e8047fe490a9b7bb63c4331db0f79258131964f04b2597d746feb87162822f2b8d37fb5fcd63c870fd53b25bb4cedbc3416e0b5d179b75af82c77bad468",
+          "sha256": "e2667e59fc5af2145cc45ac173a775ab8c4e1e186da4dd3adc11f001f2c8e84f",
+          "sha1": "546326eedd615b612fac3280c1f9f8b893965c5d",
+          "md5": "ac18bdf17a09e3dd3118d9fda0efc2aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.4.9"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opcode-2.4.9.jar",
+          "url": "opcode-2.4.9.jar",
+          "size": 82093,
+          "sha512": "bb846e8047fe490a9b7bb63c4331db0f79258131964f04b2597d746feb87162822f2b8d37fb5fcd63c870fd53b25bb4cedbc3416e0b5d179b75af82c77bad468",
+          "sha256": "e2667e59fc5af2145cc45ac173a775ab8c4e1e186da4dd3adc11f001f2c8e84f",
+          "sha1": "546326eedd615b612fac3280c1f9f8b893965c5d",
+          "md5": "ac18bdf17a09e3dd3118d9fda0efc2aa"
+        }
+      ]
+    }
+  ]
+}
