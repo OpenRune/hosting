@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "wiki",
+    "version": "0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "server-utils",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wiki-0.8.jar",
+          "url": "wiki-0.8.jar",
+          "size": 160783,
+          "sha512": "a76a54eacbb7b26068f4976ab13e4802116f64fc13100527a3577e953f286651dda16ec13d11aa5e24fc9368a0feffc5f54f27ad78497d03f7a0bcad309f82f7",
+          "sha256": "5819d8bad6d59ab9a18d3073afc519d42629d0dc0378e6b196ac134c67b8d5be",
+          "sha1": "cd002bdafc84b22cbcb0ae635af7ab3718c5aec6",
+          "md5": "a00d4871e487a464c48c07dafb25c40f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "all",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.26.0"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.16.1"
+          }
+        },
+        {
+          "group": "org.sweble.wikitext",
+          "module": "swc-engine",
+          "version": {
+            "requires": "3.1.9"
+          }
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "server-utils",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wiki-0.8.jar",
+          "url": "wiki-0.8.jar",
+          "size": 160783,
+          "sha512": "a76a54eacbb7b26068f4976ab13e4802116f64fc13100527a3577e953f286651dda16ec13d11aa5e24fc9368a0feffc5f54f27ad78497d03f7a0bcad309f82f7",
+          "sha256": "5819d8bad6d59ab9a18d3073afc519d42629d0dc0378e6b196ac134c67b8d5be",
+          "sha1": "cd002bdafc84b22cbcb0ae635af7ab3718c5aec6",
+          "md5": "a00d4871e487a464c48c07dafb25c40f"
+        }
+      ]
+    }
+  ]
+}

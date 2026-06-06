@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "server-utils",
+    "version": "0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "server-utils-0.8.jar",
+          "url": "server-utils-0.8.jar",
+          "size": 329726,
+          "sha512": "2300141474db133f0d19e166e6239d84462487adcb021eded848d1bf84496f76b7151f7fab9a5581f9972f736f5d1ec0a03cdc81bb8f24825902556357ede854",
+          "sha256": "e71f1b7587d3a0d8a5b202f77f3ecf7207b0e6361f501d6800e7f0534ada02ed",
+          "sha1": "897c3fdbea4d17fa72ea0df258dfd87e9d73c45e",
+          "md5": "7b291c96ec3ce193bf147374431ac844"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "all",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "server-utils-0.8.jar",
+          "url": "server-utils-0.8.jar",
+          "size": 329726,
+          "sha512": "2300141474db133f0d19e166e6239d84462487adcb021eded848d1bf84496f76b7151f7fab9a5581f9972f736f5d1ec0a03cdc81bb8f24825902556357ede854",
+          "sha256": "e71f1b7587d3a0d8a5b202f77f3ecf7207b0e6361f501d6800e7f0534ada02ed",
+          "sha1": "897c3fdbea4d17fa72ea0df258dfd87e9d73c45e",
+          "md5": "7b291c96ec3ce193bf147374431ac844"
+        }
+      ]
+    }
+  ]
+}
