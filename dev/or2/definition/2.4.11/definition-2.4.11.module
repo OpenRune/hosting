@@ -30,10 +30,10 @@
           "name": "definition-2.4.11.jar",
           "url": "definition-2.4.11.jar",
           "size": 531679,
-          "sha512": "208016862c71c5cd53f643ab398676ac810c3067b68ca3688716cfce859e8409936ccab740808ff8e2a71a97f9d83c2ec2ecd7283d1a6a2e71ada833c4204b6e",
-          "sha256": "200006847d968daf963d66fab21eb57ff722a041c78e94ee7dd03c1a8aa43d54",
-          "sha1": "53fbfca68a5aba83e60aa3db64ed1dd4fcad0670",
-          "md5": "1472ee06870fcbbec71c4c49732f8d83"
+          "sha512": "45eabfed5bd35b2d90f47b04d3adcfd68a1fd7d474e1fb2ae0da089eab9d9532e9aadff4a5e2d766c819e8d26b7a2e97291b904df24a5ea2301fecbbbad56e32",
+          "sha256": "fd3f8b828c3be255f2b18b3d777c6df143ad991a3718b0e0fadbacf0d04351fe",
+          "sha1": "7126ccaf0308e1bb19e91b78bcf0eee8b14e0bb9",
+          "md5": "5651780f508759cc7c806ab3cf3c4077"
         }
       ]
     },
@@ -83,10 +83,10 @@
           "name": "definition-2.4.11.jar",
           "url": "definition-2.4.11.jar",
           "size": 531679,
-          "sha512": "208016862c71c5cd53f643ab398676ac810c3067b68ca3688716cfce859e8409936ccab740808ff8e2a71a97f9d83c2ec2ecd7283d1a6a2e71ada833c4204b6e",
-          "sha256": "200006847d968daf963d66fab21eb57ff722a041c78e94ee7dd03c1a8aa43d54",
-          "sha1": "53fbfca68a5aba83e60aa3db64ed1dd4fcad0670",
-          "md5": "1472ee06870fcbbec71c4c49732f8d83"
+          "sha512": "45eabfed5bd35b2d90f47b04d3adcfd68a1fd7d474e1fb2ae0da089eab9d9532e9aadff4a5e2d766c819e8d26b7a2e97291b904df24a5ea2301fecbbbad56e32",
+          "sha256": "fd3f8b828c3be255f2b18b3d777c6df143ad991a3718b0e0fadbacf0d04351fe",
+          "sha1": "7126ccaf0308e1bb19e91b78bcf0eee8b14e0bb9",
+          "md5": "5651780f508759cc7c806ab3cf3c4077"
         }
       ]
     }

@@ -30,10 +30,10 @@
           "name": "displee-2.4.11.jar",
           "url": "displee-2.4.11.jar",
           "size": 111913,
-          "sha512": "88bac04c3b2620daf679d03cd085d456a4e69b9d636d9e1d6f0197ae77845302dc95dd6391541fe7512b4e41a8e6ce5bea4fd22ec2c15e778fe32d69f717413b",
-          "sha256": "2ad6800c3565d295dee936e38fdb3fdbca373fea950109e98c3f924b04bc869d",
-          "sha1": "b83251ebd07fbfe1c8a7a36310b880a66a0a78d0",
-          "md5": "e4780ae76d1185a02d90d4c506467db9"
+          "sha512": "7e1ebbd650e4bd3dc2c9fe6e668fe0dff9e6275b267fa1c920394d740056c3e0529944382430a377ed7820a1fccd9d1f1d087512c2269e2a768c08452a884ee8",
+          "sha256": "4886404645cd45fc5eb3a76456eb9c2505dd3205b2c9e2e0bcaba75cfea32efd",
+          "sha1": "72b9be8565cd1d06e6ee93f980d372d75cd3aaf1",
+          "md5": "82d96e0af87b3e9429405cbb2e06f3e9"
         }
       ]
     },
@@ -90,10 +90,10 @@
           "name": "displee-2.4.11.jar",
           "url": "displee-2.4.11.jar",
           "size": 111913,
-          "sha512": "88bac04c3b2620daf679d03cd085d456a4e69b9d636d9e1d6f0197ae77845302dc95dd6391541fe7512b4e41a8e6ce5bea4fd22ec2c15e778fe32d69f717413b",
-          "sha256": "2ad6800c3565d295dee936e38fdb3fdbca373fea950109e98c3f924b04bc869d",
-          "sha1": "b83251ebd07fbfe1c8a7a36310b880a66a0a78d0",
-          "md5": "e4780ae76d1185a02d90d4c506467db9"
+          "sha512": "7e1ebbd650e4bd3dc2c9fe6e668fe0dff9e6275b267fa1c920394d740056c3e0529944382430a377ed7820a1fccd9d1f1d087512c2269e2a768c08452a884ee8",
+          "sha256": "4886404645cd45fc5eb3a76456eb9c2505dd3205b2c9e2e0bcaba75cfea32efd",
+          "sha1": "72b9be8565cd1d06e6ee93f980d372d75cd3aaf1",
+          "md5": "82d96e0af87b3e9429405cbb2e06f3e9"
         }
       ]
     }

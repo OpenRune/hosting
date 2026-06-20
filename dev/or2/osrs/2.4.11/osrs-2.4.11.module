@@ -30,10 +30,10 @@
           "name": "osrs-2.4.11.jar",
           "url": "osrs-2.4.11.jar",
           "size": 92710,
-          "sha512": "a3e2ed1e22b45f80651707393f039f5018674d02e34954266360135cbe0570b51756559364eeee1842b2dcaff4c36de8f6eac124ebd2904b9f9a6b01fe8e45ed",
-          "sha256": "e742af876f6fcafd39114a47c9bd9cb0a0091f6632ff2647cb68061e32f91abe",
-          "sha1": "f599c769502f8e85bd3e1cd7a54bad41a2ce3f43",
-          "md5": "6ea1af5e07dc217e36ee7367032e93b4"
+          "sha512": "7b5d99dbd24c3d0a232f8131042915e722d32bd1ebd6c9448fe202ff570186bcf5e4b2602b782c5ca3b02280fa51758cf7b525c5b2ec662f1e61df45bc535de3",
+          "sha256": "ef0d5aa9f46d0b23e48131c389ceb6b4526b99de494341adab10b6701dc0b5c6",
+          "sha1": "8d0d77c9d86e36897e5060346c5d0a8547f8283a",
+          "md5": "c1e07c76e1bcb5aa52e8e8c7e94330fd"
         }
       ]
     },
@@ -83,10 +83,10 @@
           "name": "osrs-2.4.11.jar",
           "url": "osrs-2.4.11.jar",
           "size": 92710,
-          "sha512": "a3e2ed1e22b45f80651707393f039f5018674d02e34954266360135cbe0570b51756559364eeee1842b2dcaff4c36de8f6eac124ebd2904b9f9a6b01fe8e45ed",
-          "sha256": "e742af876f6fcafd39114a47c9bd9cb0a0091f6632ff2647cb68061e32f91abe",
-          "sha1": "f599c769502f8e85bd3e1cd7a54bad41a2ce3f43",
-          "md5": "6ea1af5e07dc217e36ee7367032e93b4"
+          "sha512": "7b5d99dbd24c3d0a232f8131042915e722d32bd1ebd6c9448fe202ff570186bcf5e4b2602b782c5ca3b02280fa51758cf7b525c5b2ec662f1e61df45bc535de3",
+          "sha256": "ef0d5aa9f46d0b23e48131c389ceb6b4526b99de494341adab10b6701dc0b5c6",
+          "sha1": "8d0d77c9d86e36897e5060346c5d0a8547f8283a",
+          "md5": "c1e07c76e1bcb5aa52e8e8c7e94330fd"
         }
       ]
     }

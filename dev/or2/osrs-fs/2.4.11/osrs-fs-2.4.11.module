@@ -30,10 +30,10 @@
           "name": "osrs-fs-2.4.11.jar",
           "url": "osrs-fs-2.4.11.jar",
           "size": 27384,
-          "sha512": "5da8899285bd6d5a3007c526b1a223f206ee421e1c051c91b9c9ec28e47b3ba03c1c9a6a7a51201cd928696ff8dea96af20433e2628abb6643d9dab590bb57e3",
-          "sha256": "88b70c87bd8c99c743fe02ae4abf39077bf21acf8e63841d6c1d6d19432415bf",
-          "sha1": "c3efbe33fbe9a8239c75234708b47f650d31aa6d",
-          "md5": "1ed530b3e1f4b5c397b3078389ecec25"
+          "sha512": "ba7194310a38d36be1744afd31b5aae225a90cc03dc11fadf5595e1676f30de86470fb84f567097e9e61fbb3e7434debff96e9fb7993372d4f8f423926e1775b",
+          "sha256": "1e4d80536679cee6132f03870b8a85c1a044bb59cc4d314b48f46e1d5c5266a5",
+          "sha1": "7b1e74ec97d831cfd0ca440c9a16c50db2e62d74",
+          "md5": "6cf201ece7fb221641546c5e79959cd3"
         }
       ]
     },
@@ -97,10 +97,10 @@
           "name": "osrs-fs-2.4.11.jar",
           "url": "osrs-fs-2.4.11.jar",
           "size": 27384,
-          "sha512": "5da8899285bd6d5a3007c526b1a223f206ee421e1c051c91b9c9ec28e47b3ba03c1c9a6a7a51201cd928696ff8dea96af20433e2628abb6643d9dab590bb57e3",
-          "sha256": "88b70c87bd8c99c743fe02ae4abf39077bf21acf8e63841d6c1d6d19432415bf",
-          "sha1": "c3efbe33fbe9a8239c75234708b47f650d31aa6d",
-          "md5": "1ed530b3e1f4b5c397b3078389ecec25"
+          "sha512": "ba7194310a38d36be1744afd31b5aae225a90cc03dc11fadf5595e1676f30de86470fb84f567097e9e61fbb3e7434debff96e9fb7993372d4f8f423926e1775b",
+          "sha256": "1e4d80536679cee6132f03870b8a85c1a044bb59cc4d314b48f46e1d5c5266a5",
+          "sha1": "7b1e74ec97d831cfd0ca440c9a16c50db2e62d74",
+          "md5": "6cf201ece7fb221641546c5e79959cd3"
         }
       ]
     }
