@@ -3,11 +3,12 @@
   <groupId>dev.or2</groupId>
   <artifactId>cache</artifactId>
   <versioning>
-    <latest>2.4.2-cache</latest>
-    <release>2.4.2-cache</release>
+    <latest>2.4.11-nc</latest>
+    <release>2.4.11-nc</release>
     <versions>
       <version>2.4.2-cache</version>
+      <version>2.4.11-nc</version>
     </versions>
-    <lastUpdated>20260429154614</lastUpdated>
+    <lastUpdated>20260622200036</lastUpdated>
   </versioning>
 </metadata>

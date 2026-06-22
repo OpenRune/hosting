@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "cache",
+    "version": "2.4.11-nc",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "cache-2.4.11-nc.jar",
+          "url": "cache-2.4.11-nc.jar",
+          "size": 56868,
+          "sha512": "19c205a1922bab4051b5e00a4d10f1aada8a8e1ee4f31a239e7dee67495dcbf1dddbc629f2ca6f54abaeba973aa10284ce962aaf8ee43fe741288637b43bc723",
+          "sha256": "db6e59f57390ea15ae4cf8e5d04c93ee4e9b2e8a23e2cfbc4e8bbf228ed2a224",
+          "sha1": "a39df0fae26ccf1e469cee3fd0e77e21ee1a9142",
+          "md5": "f885c24f7009d4d51e7ac032ee3af3f2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2.openrs2",
+          "module": "buffer",
+          "version": {
+            "requires": "1.0.0-openrune"
+          }
+        },
+        {
+          "group": "dev.or2.openrs2",
+          "module": "cache",
+          "version": {
+            "requires": "1.0.0-openrune"
+          }
+        },
+        {
+          "group": "dev.or2.openrs2",
+          "module": "crypto",
+          "version": {
+            "requires": "1.0.0-openrune"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache-2.4.11-nc.jar",
+          "url": "cache-2.4.11-nc.jar",
+          "size": 56868,
+          "sha512": "19c205a1922bab4051b5e00a4d10f1aada8a8e1ee4f31a239e7dee67495dcbf1dddbc629f2ca6f54abaeba973aa10284ce962aaf8ee43fe741288637b43bc723",
+          "sha256": "db6e59f57390ea15ae4cf8e5d04c93ee4e9b2e8a23e2cfbc4e8bbf228ed2a224",
+          "sha1": "a39df0fae26ccf1e469cee3fd0e77e21ee1a9142",
+          "md5": "f885c24f7009d4d51e7ac032ee3af3f2"
+        }
+      ]
+    }
+  ]
+}
