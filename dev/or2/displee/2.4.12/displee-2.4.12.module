@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "displee",
+    "version": "2.4.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "displee-2.4.12.jar",
+          "url": "displee-2.4.12.jar",
+          "size": 111913,
+          "sha512": "a57a61dd609d72458cb2d985ad78aa5f2bfa6c317ef3e48d819ccaf7d8b5eaf5ca13f8c101f80c8a5f2f73353fdf2b4a7dcbe8b8ef9a94b075b82152b548dad5",
+          "sha256": "6a2a6766fa14ac351d6bd963bc1ef7603f77ed20f30b39e30348530d983c7473",
+          "sha1": "3f8cb345864e4e5e68d7018016033f7a58b8129d",
+          "md5": "d6cf4275b991066e2274385259f0aebb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.github.jponge",
+          "module": "lzma-java",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.14"
+          }
+        },
+        {
+          "group": "com.displee",
+          "module": "disio",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "displee-2.4.12.jar",
+          "url": "displee-2.4.12.jar",
+          "size": 111913,
+          "sha512": "a57a61dd609d72458cb2d985ad78aa5f2bfa6c317ef3e48d819ccaf7d8b5eaf5ca13f8c101f80c8a5f2f73353fdf2b4a7dcbe8b8ef9a94b075b82152b548dad5",
+          "sha256": "6a2a6766fa14ac351d6bd963bc1ef7603f77ed20f30b39e30348530d983c7473",
+          "sha1": "3f8cb345864e4e5e68d7018016033f7a58b8129d",
+          "md5": "d6cf4275b991066e2274385259f0aebb"
+        }
+      ]
+    }
+  ]
+}
