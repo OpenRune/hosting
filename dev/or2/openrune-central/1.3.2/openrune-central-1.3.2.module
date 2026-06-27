@@ -1,0 +1,217 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "openrune-central",
+    "version": "1.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-1.3.2.jar",
+          "url": "openrune-central-1.3.2.jar",
+          "size": 514215,
+          "sha512": "5ef9efb5839b11173274062e7d32c00bc4e77eb0b14ec07dafae6281849cb3a0129003b8778e80805037233fac9c8d3b2683f9784299c834833f6344a29c1fa7",
+          "sha256": "4febbf44095c768d5a7beec5da914851f488c6ee71d56075bf55bee545e9ac8b",
+          "sha1": "6196afbded404aeddcd8b654f6935a743c702bfb",
+          "md5": "85524237f4ac923bb0ed9df9ba658724"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "3.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "io.zonky.test",
+          "module": "embedded-postgres",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "de.mkammerer",
+          "module": "argon2-jvm",
+          "version": {
+            "requires": "2.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-1.3.2.jar",
+          "url": "openrune-central-1.3.2.jar",
+          "size": 514215,
+          "sha512": "5ef9efb5839b11173274062e7d32c00bc4e77eb0b14ec07dafae6281849cb3a0129003b8778e80805037233fac9c8d3b2683f9784299c834833f6344a29c1fa7",
+          "sha256": "4febbf44095c768d5a7beec5da914851f488c6ee71d56075bf55bee545e9ac8b",
+          "sha1": "6196afbded404aeddcd8b654f6935a743c702bfb",
+          "md5": "85524237f4ac923bb0ed9df9ba658724"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-1.3.2-all.jar",
+          "url": "openrune-central-1.3.2-all.jar",
+          "size": 101501121,
+          "sha512": "e8e99558a332511418a5c5cdd6b153866e4c711a918da0e76306dd32be7e369c20e8b0333219bd0fe1241204b1745a26d7e5d670b7d90a4e2e2e92095dc8185b",
+          "sha256": "5fa8d560c589935b8ff60433cf11d5afb60c94af199a045add212aec517afb9d",
+          "sha1": "fa401e03e5123e0e3e7fa11e64a71917291ce29c",
+          "md5": "903e7f866169445cc7a0304916cec3be"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-1.3.2-sources.jar",
+          "url": "openrune-central-1.3.2-sources.jar",
+          "size": 78468,
+          "sha512": "85cabf8ae00f2855f0465561e33068135d0f0608b804455f61a2e0835089ba14389621292287250e4f3512d4eb4dff560481c72fd847e2eabbe54b54e97f21ca",
+          "sha256": "58e0de570041b19414399e4d6ba7800373b558676dc7876508408ff95f78b8d7",
+          "sha1": "34a4d09396fcf0513c2c1f43de13977f7bd936d2",
+          "md5": "f20fc56cafd7ad2c6cbbd3b01b64afaf"
+        }
+      ]
+    }
+  ]
+}
