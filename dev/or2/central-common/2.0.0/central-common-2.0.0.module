@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "central-common",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-2.0.0.jar",
+          "url": "central-common-2.0.0.jar",
+          "size": 272110,
+          "sha512": "75206c58b51e3174e995135353803f9e360112810917fe16e7aeb6cec10a18376300d8bb0e5f8dd73c533846fea5d26efe3fb1f97f6d7d9bb22acc572158506a",
+          "sha256": "0e846774b8f5c8f49395410c5f5635ab9fa4405af8196b9376fec04c160e22a7",
+          "sha1": "a06efed395b968d08fda4e6ae744cc4c335e9054",
+          "md5": "550c21bb4ab7dc505a6fa08f23c3e7ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.mkammerer",
+          "module": "argon2-jvm",
+          "version": {
+            "requires": "2.12"
+          }
+        },
+        {
+          "group": "at.favre.lib",
+          "module": "bcrypt",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-2.0.0.jar",
+          "url": "central-common-2.0.0.jar",
+          "size": 272110,
+          "sha512": "75206c58b51e3174e995135353803f9e360112810917fe16e7aeb6cec10a18376300d8bb0e5f8dd73c533846fea5d26efe3fb1f97f6d7d9bb22acc572158506a",
+          "sha256": "0e846774b8f5c8f49395410c5f5635ab9fa4405af8196b9376fec04c160e22a7",
+          "sha1": "a06efed395b968d08fda4e6ae744cc4c335e9054",
+          "md5": "550c21bb4ab7dc505a6fa08f23c3e7ab"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-common-2.0.0-sources.jar",
+          "url": "central-common-2.0.0-sources.jar",
+          "size": 63678,
+          "sha512": "eb20c1ba610eecdbcb134246dfe89ccd834692280c5d2431a0f80e29fb92ac57cf299d01fa2e0503ca5937872a6a0117ec0ab5d1e93b5542644c76f889e0ea1e",
+          "sha256": "5cd6c57fbe59d464c62849eed815a6c60107f56c86ffd44c1a9c00b358f4db80",
+          "sha1": "e3b973ede873f19cc570509b6e2d2bf777102d90",
+          "md5": "c09237adb20f497f9ebd802ace5dcb90"
+        }
+      ]
+    }
+  ]
+}
