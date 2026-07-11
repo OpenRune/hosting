@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "central-worldlink",
+    "version": "2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-worldlink-2.0.1.jar",
+          "url": "central-worldlink-2.0.1.jar",
+          "size": 187755,
+          "sha512": "3c73e2ecfaa860f745ba333a55e9a9688abf6c787d8b2f21e9c6bcc66a90f770ad8ff7a5a5801b581d68dfa823386a25813a7b4d3e5e070f0737ccd9470681d3",
+          "sha256": "845681f005000ef1f9fefc6f6de7d4466f7734de0af766112e47698e9b359508",
+          "sha1": "9aaf5e7f7f3e2f2ccde2a49ef7b129b67d9696f4",
+          "md5": "13ea55c4a1be19384e8d758df87442b3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-worldlink-2.0.1.jar",
+          "url": "central-worldlink-2.0.1.jar",
+          "size": 187755,
+          "sha512": "3c73e2ecfaa860f745ba333a55e9a9688abf6c787d8b2f21e9c6bcc66a90f770ad8ff7a5a5801b581d68dfa823386a25813a7b4d3e5e070f0737ccd9470681d3",
+          "sha256": "845681f005000ef1f9fefc6f6de7d4466f7734de0af766112e47698e9b359508",
+          "sha1": "9aaf5e7f7f3e2f2ccde2a49ef7b129b67d9696f4",
+          "md5": "13ea55c4a1be19384e8d758df87442b3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-worldlink-2.0.1-sources.jar",
+          "url": "central-worldlink-2.0.1-sources.jar",
+          "size": 30166,
+          "sha512": "a470cb8ac7b59b6aa1821e42d9acfe09947799e86f922c8ab781021ce24fbf04cc904d2667142bceedf21aeba2e9cd334b26ca2459ae09b7d1b81e1e1b9d0c68",
+          "sha256": "55d9dea87cca225334dc409b70d2178c046038515b4382610ca2807450fa2f96",
+          "sha1": "e26eb0e9152d4fe6e1a4a031aaf5af560c991539",
+          "md5": "97a811d7aed2cd0e38cc0f42c5b2a8bd"
+        }
+      ]
+    }
+  ]
+}
