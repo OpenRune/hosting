@@ -1,0 +1,185 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "tools",
+    "version": "2.4.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "tools-2.4.16.jar",
+          "url": "tools-2.4.16.jar",
+          "size": 25222899,
+          "sha512": "6e2afe3dfa92c0f48c2f38454c17b57c52f93d4622f8898b88a3dadd6d72a4e72054b24a073ef519e8d12783231b965a706a1c4feb4d1f0bbe7019411857cf9b",
+          "sha256": "558f0839aacf62e92b3f53cf5c4a70dfcca133a68a64361a368cf042bc13d031",
+          "sha1": "c4a9c567d832ae42cd6a00cbb73c41e578b50bef",
+          "md5": "c77c4a174cc87bea8241bc18593c5eac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "2.4.16"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.4.16"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.4.16"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs",
+          "version": {
+            "requires": "2.4.16"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs-fs",
+          "version": {
+            "requires": "2.4.16"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "2.11.5"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "displee",
+          "version": {
+            "requires": "2.4.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "toml-rsconfig",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "me.filby",
+          "module": "clientscript-compiler",
+          "version": {
+            "requires": "0.0.6-openrune"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-2.4.16.jar",
+          "url": "tools-2.4.16.jar",
+          "size": 25222899,
+          "sha512": "6e2afe3dfa92c0f48c2f38454c17b57c52f93d4622f8898b88a3dadd6d72a4e72054b24a073ef519e8d12783231b965a706a1c4feb4d1f0bbe7019411857cf9b",
+          "sha256": "558f0839aacf62e92b3f53cf5c4a70dfcca133a68a64361a368cf042bc13d031",
+          "sha1": "c4a9c567d832ae42cd6a00cbb73c41e578b50bef",
+          "md5": "c77c4a174cc87bea8241bc18593c5eac"
+        }
+      ]
+    }
+  ]
+}
