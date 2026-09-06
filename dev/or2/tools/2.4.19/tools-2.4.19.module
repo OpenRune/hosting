@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "tools",
+    "version": "2.4.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.45.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-2.4.19.jar",
+          "url": "tools-2.4.19.jar",
+          "size": 25414349,
+          "sha512": "0a8eed236ee1f1a98da32d85529501618847bfdf28d0aa67079ef8518c83120da65db84ffe8e8d06c1f22ea50e7ec60ce45d01d7eb6a87c0a05b4ff5d59dfd5f",
+          "sha256": "d2965a832a6508fbbc204d72ff3588726454fd3dd18a0ef270687977914df188",
+          "sha1": "ebf4b727941d75f7b2dcff69474b6f7683b618a0",
+          "md5": "d5e8a73d0b3e06c87c6b3ade8f92f987"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "2.4.19"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "2.4.19"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "2.4.19"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs",
+          "version": {
+            "requires": "2.4.19"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs-fs",
+          "version": {
+            "requires": "2.4.19"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "2.11.5"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "displee",
+          "version": {
+            "requires": "2.4.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "toml-rsconfig",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "me.filby",
+          "module": "clientscript-compiler",
+          "version": {
+            "requires": "0.0.6-openrune"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.45.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-2.4.19.jar",
+          "url": "tools-2.4.19.jar",
+          "size": 25414349,
+          "sha512": "0a8eed236ee1f1a98da32d85529501618847bfdf28d0aa67079ef8518c83120da65db84ffe8e8d06c1f22ea50e7ec60ce45d01d7eb6a87c0a05b4ff5d59dfd5f",
+          "sha256": "d2965a832a6508fbbc204d72ff3588726454fd3dd18a0ef270687977914df188",
+          "sha1": "ebf4b727941d75f7b2dcff69474b6f7683b618a0",
+          "md5": "d5e8a73d0b3e06c87c6b3ade8f92f987"
+        }
+      ]
+    }
+  ]
+}
