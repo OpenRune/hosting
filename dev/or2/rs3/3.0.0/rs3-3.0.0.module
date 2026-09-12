@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "rs3",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "rs3-3.0.0.jar",
+          "url": "rs3-3.0.0.jar",
+          "size": 9395,
+          "sha512": "ce9909022cbc437f975c8eb7d264ed79d60a626d94ab81f4cf0d7ae77b3377ebd60a4ac99c9abeb584de2b05a8813f00cecaf71163b7f3137ad391ce9276cd57",
+          "sha256": "a38ec2e347b256a2a79c9f15ff63d964f381c2681b30c3158d8f4226ede7304d",
+          "sha1": "e371ee852256e581166dc16011dc42334a143f14",
+          "md5": "2b8476fd3911d73edbc31bbcce227ed3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rs3-3.0.0.jar",
+          "url": "rs3-3.0.0.jar",
+          "size": 9395,
+          "sha512": "ce9909022cbc437f975c8eb7d264ed79d60a626d94ab81f4cf0d7ae77b3377ebd60a4ac99c9abeb584de2b05a8813f00cecaf71163b7f3137ad391ce9276cd57",
+          "sha256": "a38ec2e347b256a2a79c9f15ff63d964f381c2681b30c3158d8f4226ede7304d",
+          "sha1": "e371ee852256e581166dc16011dc42334a143f14",
+          "md5": "2b8476fd3911d73edbc31bbcce227ed3"
+        }
+      ]
+    }
+  ]
+}
