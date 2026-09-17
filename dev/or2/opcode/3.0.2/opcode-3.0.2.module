@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "opcode",
+    "version": "3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "opcode-3.0.2.jar",
+          "url": "opcode-3.0.2.jar",
+          "size": 126654,
+          "sha512": "a468e8f1f872064ed72af3b01572219f22d547b604a5ad49a0674774dbc3398780457509ecc16d0f7329f6a8d5dd36f5c82f5f254f12bb4bc4de57dad763a0b9",
+          "sha256": "1f0c8a15e8de7207de2868b5d6b8cf7ded4375db9290f6c099c406d810e1a8da",
+          "sha1": "0e1de5241f99a8b6e0023af9d299a5370c9f5ac9",
+          "md5": "16a325aac3349f843895fcfe9c7d58f6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opcode-3.0.2.jar",
+          "url": "opcode-3.0.2.jar",
+          "size": 126654,
+          "sha512": "a468e8f1f872064ed72af3b01572219f22d547b604a5ad49a0674774dbc3398780457509ecc16d0f7329f6a8d5dd36f5c82f5f254f12bb4bc4de57dad763a0b9",
+          "sha256": "1f0c8a15e8de7207de2868b5d6b8cf7ded4375db9290f6c099c406d810e1a8da",
+          "sha1": "0e1de5241f99a8b6e0023af9d299a5370c9f5ac9",
+          "md5": "16a325aac3349f843895fcfe9c7d58f6"
+        }
+      ]
+    }
+  ]
+}

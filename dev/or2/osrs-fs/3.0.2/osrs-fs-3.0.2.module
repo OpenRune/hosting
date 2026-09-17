@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "osrs-fs",
+    "version": "3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "osrs-fs-3.0.2.jar",
+          "url": "osrs-fs-3.0.2.jar",
+          "size": 27057,
+          "sha512": "60219c431b382aec65859453d5d9c4e81589ddc3a4271b0b6afde29bdbdf79f0c63516ab8a0a29530b656c6d77d0cf985bd86618768b7ccaa9a8e96b3e815ec7",
+          "sha256": "502062bf2a101ccab61e7216a8f8a57a1fe564c0d96d904a221e08d51b85d44b",
+          "sha1": "0574aae5a64b7bbc9b5b7d7103c06bc5b2f7c3ef",
+          "md5": "19214c2e21fe10729918e5be486ab0bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "osrs",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-fs-3.0.2.jar",
+          "url": "osrs-fs-3.0.2.jar",
+          "size": 27057,
+          "sha512": "60219c431b382aec65859453d5d9c4e81589ddc3a4271b0b6afde29bdbdf79f0c63516ab8a0a29530b656c6d77d0cf985bd86618768b7ccaa9a8e96b3e815ec7",
+          "sha256": "502062bf2a101ccab61e7216a8f8a57a1fe564c0d96d904a221e08d51b85d44b",
+          "sha1": "0574aae5a64b7bbc9b5b7d7103c06bc5b2f7c3ef",
+          "md5": "19214c2e21fe10729918e5be486ab0bb"
+        }
+      ]
+    }
+  ]
+}

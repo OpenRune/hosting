@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "r718-fs",
+    "version": "3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "r718-fs-3.0.2.jar",
+          "url": "r718-fs-3.0.2.jar",
+          "size": 7584,
+          "sha512": "43744d97db79ade1d0648d5fdf73e1ef86dcb05ec9c5a9bad54e7435daa00bb8d5c74e0471474245772d1d05eb26722752800ecd20459386708989940be55daa",
+          "sha256": "e5484f6a20a9917ad2f3a2d9d3a06ddb3b3275617309bafc8d9625d0013ac3cb",
+          "sha1": "d4ae4895c22b5fc937fe1e3aa4faca02e1611744",
+          "md5": "6c8bb83bcc973fa0964322989fffba9e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filestore",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "r718",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "filesystem",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "r718-fs-3.0.2.jar",
+          "url": "r718-fs-3.0.2.jar",
+          "size": 7584,
+          "sha512": "43744d97db79ade1d0648d5fdf73e1ef86dcb05ec9c5a9bad54e7435daa00bb8d5c74e0471474245772d1d05eb26722752800ecd20459386708989940be55daa",
+          "sha256": "e5484f6a20a9917ad2f3a2d9d3a06ddb3b3275617309bafc8d9625d0013ac3cb",
+          "sha1": "d4ae4895c22b5fc937fe1e3aa4faca02e1611744",
+          "md5": "6c8bb83bcc973fa0964322989fffba9e"
+        }
+      ]
+    }
+  ]
+}
