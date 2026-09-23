@@ -45,11 +45,11 @@
         {
           "name": "clientscript-compiler-0.0.7-openrune.jar",
           "url": "clientscript-compiler-0.0.7-openrune.jar",
-          "size": 1576534,
-          "sha512": "21c5c993532ae18b30a57f9a7356a843a7ba9cc682048293c24f7ececdbe0729f4ed211695f9bb2155c497d4a6891de5580e1917d78c23d2c174e1919f140572",
-          "sha256": "d3c203d8d0e241aefd7e490b8c01e5482a06291eb0cbaaca70192e8f9e8ee4c6",
-          "sha1": "eda8b19a5ad07abaff3d11c727a263fe25efed8c",
-          "md5": "653ba547e774c639a977ee3ec451b348"
+          "size": 1577914,
+          "sha512": "87b6e944ea2e77b8f1b342f6e00d7c7e911090aaa5d7d18ae57556c21b795d308792d6ba81f76f5f1a7852b25ed294a5c2d76ad49367854261930b5c1fc0aad9",
+          "sha256": "e15c930ae092fc3aa2f2fca96d1c19fef2167174bf77920b0bce5e1d6d6cd166",
+          "sha1": "e51596cafbfa9b3b3a39a1413bf0b503fa874571",
+          "md5": "fc88cedb1584fb11005f17f6d6f18454"
         }
       ]
     },
@@ -157,11 +157,11 @@
         {
           "name": "clientscript-compiler-0.0.7-openrune.jar",
           "url": "clientscript-compiler-0.0.7-openrune.jar",
-          "size": 1576534,
-          "sha512": "21c5c993532ae18b30a57f9a7356a843a7ba9cc682048293c24f7ececdbe0729f4ed211695f9bb2155c497d4a6891de5580e1917d78c23d2c174e1919f140572",
-          "sha256": "d3c203d8d0e241aefd7e490b8c01e5482a06291eb0cbaaca70192e8f9e8ee4c6",
-          "sha1": "eda8b19a5ad07abaff3d11c727a263fe25efed8c",
-          "md5": "653ba547e774c639a977ee3ec451b348"
+          "size": 1577914,
+          "sha512": "87b6e944ea2e77b8f1b342f6e00d7c7e911090aaa5d7d18ae57556c21b795d308792d6ba81f76f5f1a7852b25ed294a5c2d76ad49367854261930b5c1fc0aad9",
+          "sha256": "e15c930ae092fc3aa2f2fca96d1c19fef2167174bf77920b0bce5e1d6d6cd166",
+          "sha1": "e51596cafbfa9b3b3a39a1413bf0b503fa874571",
+          "md5": "fc88cedb1584fb11005f17f6d6f18454"
         }
       ]
     },
@@ -177,20 +177,20 @@
         {
           "name": "clientscript-compiler-0.0.7-openrune-sources.jar",
           "url": "clientscript-compiler-0.0.7-openrune-sources.jar",
-          "size": 1413637,
-          "sha512": "acc76886c888bc489bba06998136a9882eda0fff4fc21f1be20506d8b7558e2ca642d2e0a9c2afbc3f1263ea489ef4d8bd767b3c4504a2f16b44bdb64f8fc4a5",
-          "sha256": "e358c7a21a6606984e6a6ddc27b49ec622289e5f5e151057d9d296db053d11f9",
-          "sha1": "c7ae050842c91b03dd250d8b6040e217909c46ba",
-          "md5": "4da1f5f6ad97255a5d634e74bfdff16e"
+          "size": 1414015,
+          "sha512": "997b82cd95dbeeae39d2682d85cd327aae226c511c55b014397125a7342fdac9ad0a9f20da4948189311e16d77f336c0b1a3bafa7f7a8639221be72f12dd53dd",
+          "sha256": "14e6d7d6d9b045ba6592b7deedd073a54361ae26cc170d4a7aed3665ecd68cb3",
+          "sha1": "3606f5225df16aae44bc11737ee49c84c2ab71f4",
+          "md5": "fd2a0e1b90c1f95d03cd1ce59395b0f6"
         },
         {
           "name": "clientscript-compiler-0.0.7-openrune-sources.jar",
           "url": "clientscript-compiler-0.0.7-openrune-sources.jar",
-          "size": 1413637,
-          "sha512": "acc76886c888bc489bba06998136a9882eda0fff4fc21f1be20506d8b7558e2ca642d2e0a9c2afbc3f1263ea489ef4d8bd767b3c4504a2f16b44bdb64f8fc4a5",
-          "sha256": "e358c7a21a6606984e6a6ddc27b49ec622289e5f5e151057d9d296db053d11f9",
-          "sha1": "c7ae050842c91b03dd250d8b6040e217909c46ba",
-          "md5": "4da1f5f6ad97255a5d634e74bfdff16e"
+          "size": 1414015,
+          "sha512": "997b82cd95dbeeae39d2682d85cd327aae226c511c55b014397125a7342fdac9ad0a9f20da4948189311e16d77f336c0b1a3bafa7f7a8639221be72f12dd53dd",
+          "sha256": "14e6d7d6d9b045ba6592b7deedd073a54361ae26cc170d4a7aed3665ecd68cb3",
+          "sha1": "3606f5225df16aae44bc11737ee49c84c2ab71f4",
+          "md5": "fd2a0e1b90c1f95d03cd1ce59395b0f6"
         }
       ]
     }
