@@ -1,0 +1,253 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "openrune-central",
+    "version": "2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-2.0.2.jar",
+          "url": "openrune-central-2.0.2.jar",
+          "size": 350388,
+          "sha512": "08816685f0d58ccf0ea5d293d62671d6a85f799ac7aba3af6456126efe79da356a7e23d3480923e2388bcaf22a97e2578223d1608bc14878696f7af7ab1a8727",
+          "sha256": "3c6dc616ca418750f96307265be32672d34c2f088f1a842ba468af34cf7deee3",
+          "sha1": "02538ca14f39344c66bd36a7294e80be1dc99171",
+          "md5": "7e93c63adb848b9f00762259a11f43d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "central-worldlink",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "3.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "com.sksamuel.hoplite",
+          "module": "hoplite-core",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.sksamuel.hoplite",
+          "module": "hoplite-yaml",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-ktor",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-logger-slf4j",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "io.zonky.test",
+          "module": "embedded-postgres",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-2.0.2.jar",
+          "url": "openrune-central-2.0.2.jar",
+          "size": 350388,
+          "sha512": "08816685f0d58ccf0ea5d293d62671d6a85f799ac7aba3af6456126efe79da356a7e23d3480923e2388bcaf22a97e2578223d1608bc14878696f7af7ab1a8727",
+          "sha256": "3c6dc616ca418750f96307265be32672d34c2f088f1a842ba468af34cf7deee3",
+          "sha1": "02538ca14f39344c66bd36a7294e80be1dc99171",
+          "md5": "7e93c63adb848b9f00762259a11f43d3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-2.0.2-sources.jar",
+          "url": "openrune-central-2.0.2-sources.jar",
+          "size": 68845,
+          "sha512": "135830bb84cca59731f1c2936ad8feffc63be17cccc8bf5cf352e67810ec24d2e0eb69449e251fe7bd522436b07a6ffb5d53539b74dc394f631b83314a2a8408",
+          "sha256": "c84887f2a837dee851671d4ce431df194d290af602bcd2efa10ef0385743dcae",
+          "sha1": "a47e5bd99fb5dcc64e86cda0b2c1dd9e0a4d895a",
+          "md5": "b5c313aaf35e2bce695a229588be38a0"
+        }
+      ]
+    }
+  ]
+}
