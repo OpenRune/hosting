@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "r718",
+    "version": "3.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "r718-3.0.5.jar",
+          "url": "r718-3.0.5.jar",
+          "size": 15441,
+          "sha512": "441316d492e530519fd5b7c7ed0180e87049a193bf87695bfceff920f2e85a71360d8916c4e20e5c94f094cecb67cb314edaad96d89168d10ef8214cd4b50e19",
+          "sha256": "83bd686d80c04e6b17d954113f3c62b3de939f6f618cf6f3e6bb47d8a2ed3e25",
+          "sha1": "8295aa0bacfeccf9b3d235d99b2988ef11ad60c2",
+          "md5": "9f39931e0cef99ddaa1881a5f59e788e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.107.Final"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "definition",
+          "version": {
+            "requires": "3.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "r718-3.0.5.jar",
+          "url": "r718-3.0.5.jar",
+          "size": 15441,
+          "sha512": "441316d492e530519fd5b7c7ed0180e87049a193bf87695bfceff920f2e85a71360d8916c4e20e5c94f094cecb67cb314edaad96d89168d10ef8214cd4b50e19",
+          "sha256": "83bd686d80c04e6b17d954113f3c62b3de939f6f618cf6f3e6bb47d8a2ed3e25",
+          "sha1": "8295aa0bacfeccf9b3d235d99b2988ef11ad60c2",
+          "md5": "9f39931e0cef99ddaa1881a5f59e788e"
+        }
+      ]
+    }
+  ]
+}
